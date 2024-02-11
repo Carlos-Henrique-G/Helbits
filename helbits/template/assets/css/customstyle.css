@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 
 .navbar{
-    background-color: #fd6b43;
+    background-color: #682cd8;
+   
 }
 .sidebar .sidebar-brand-wrapper{
-    background-color: #fd6b43;
+    background-color: #682cd8;
 }
 .sidebar {
-    background-color: #fd6b43;
+    background-color: #682cd8;
 }
 .sidebar .nav .nav-item.active > .nav-link {
     background: #ffffff;
@@ -37,3 +38,22 @@ h1 {
     
 }
 
+.content-wrapper{
+    background-color:#ffffff;
+}
+
+.sidebar .nav .nav-item .nav-link {
+    color:#ffffff;
+}
+
+.sidebar .nav.sub-menu .nav-item .nav-link{
+    color:#ffffff;
+}
+
+.sidebar .nav .nav-item.nav-category .nav-link{
+    color:#ffffff;
+}
+
+.sidebar .nav .nav-item.profile .profile-desc .profile-name span {
+    color:#ffffff;
+}

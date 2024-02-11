@@ -16,3 +16,10 @@
 .forminput{
     background-color: white;
 }
+
+.auth.login-bg{
+    background-image: url("./PixelCaveBGsVol1_28.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
