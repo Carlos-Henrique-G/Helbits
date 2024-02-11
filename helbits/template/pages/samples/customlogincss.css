@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap');
+
 .loginformdiv{
-    background-color: #fd6b43;
-    border: 1px solid black;
+    background-color: #682cd8;
+    border: 2px solid black;
+    color: white;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.logintitulo{
+    font-family: 'Honk', system-ui;
+    font-size: 4em;
+}
+
+.forminput{
+    background-color: white;
 }
