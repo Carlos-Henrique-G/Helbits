@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 
 .navbar{
-    background-color: lightgray;
+    background-color: #fd6b43;
 }
 .sidebar .sidebar-brand-wrapper{
-    background-color: lightgray;
+    background-color: #fd6b43;
 }
 .sidebar {
-    background-color: lightgray;
+    background-color: #fd6b43;
 }
 .sidebar .nav .nav-item.active > .nav-link {
     background: #ffffff;
