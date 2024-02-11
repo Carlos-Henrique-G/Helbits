@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+.navbar{
+    background-color: lightgray;
+}
+.sidebar .sidebar-brand-wrapper{
+    background-color: lightgray;
+}
+.sidebar {
+    background-color: lightgray;
+}
+.sidebar .nav .nav-item.active > .nav-link {
+    background: #ffffff;
+    position: relative;
+    
+}
+.sidebar .nav .nav-item.active > .nav-link .menu-title {
+    color: #000000;
+
+}
+.sidebar .nav .nav-item .nav-link {
+   color:#000000;
+}
+h1 {
+    color: #000000;
+   
+}
+
+
+.sidebar .nav:not(.sub-menu) > .nav-item:hover:not(.nav-category):not(.account-dropdown) > .nav-link {
+        background: #ffffff;
+        color: #000000;
+}
+
+.titulo{
+    font-family: 'Honk', system-ui;
+    
+}
+
