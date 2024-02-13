@@ -57,3 +57,21 @@ h1 {
 .sidebar .nav .nav-item.profile .profile-desc .profile-name span {
     color:#ffffff
 }
+
+.footer{
+    background-color: lightgray;
+}
+.navbar .navbar-menu-wrapper .navbar-toggler {
+    color:#ffffff;
+
+}
+
+.sidebar .nav .nav-item.profile .profile-desc .mdi-dots-vertical {
+    color:#ffffff;
+}
+.navbar .navbar-menu-wrapper .search input {
+    background: #ffffff;
+}
+a:hover{
+    text-decoration: none;
+}
