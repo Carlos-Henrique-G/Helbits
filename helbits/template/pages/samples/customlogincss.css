@@ -17,9 +17,18 @@
     background-color: white;
 }
 
+.forgot-pass{
+    color: white;
+}
+
+.forgot-pass:hover{
+    color: white;
+    text-decoration: none;
+}
+
 .auth.login-bg{
-    background-image: url("./PixelCaveBGsVol1_28.png");
+    background-image: url("Mockup2x.png");
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
+    background-size: cover;
+    background-position: center;
 }
