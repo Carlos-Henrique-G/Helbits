@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap');
 
 .auth.login-bg{
-    background-image: url("./Mockup2x_resized.png");
+    background-image: url("../Mockup2x_resized.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
