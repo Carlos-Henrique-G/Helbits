@@ -28,18 +28,18 @@
             <div class="card col-lg-4 mx-auto registroformdiv">
               <div class="card-body px-5 py-5">
                 <h3 class="card-title text-center mb-3 registrotitulo">Helbits</h3>
-                <form>
+                <form name="f1" method="POST" action="salvar.php">
                   <div class="form-group">
                     <label>Nome do Usuário:</label>
-                    <input type="text" class="form-control p_input forminput">
+                    <input type="text" class="form-control p_input forminput" name="nome" id="nome">
                   </div>
                   <div class="form-group">
                     <label>Email:</label>
-                    <input type="email" class="form-control p_input forminput">
+                    <input type="email" class="form-control p_input forminput" name="email" id="nome">
                   </div>
                   <div class="form-group">
                     <label>Senha:</label>
-                    <input type="password" class="form-control p_input forminput">
+                    <input type="password" class="form-control p_input forminput" name="senha" id="senha">
                   </div>
                   <div class="form-group d-flex align-items-center justify-content-between">
                     <div class="form-check">
