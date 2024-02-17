@@ -7,6 +7,11 @@
       
     }
   }
+  if(isset($_GET['login'])) {
+    if($_GET['login'] == 'ok') {
+      
+    }
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en">

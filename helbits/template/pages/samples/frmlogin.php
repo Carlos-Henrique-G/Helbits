@@ -1,3 +1,10 @@
+<?php
+  if(isset($_GET['login'])) {
+    if($_GET['login'] == 'erro') {
+      
+    }
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
