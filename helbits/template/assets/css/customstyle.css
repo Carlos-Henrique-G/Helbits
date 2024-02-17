@@ -84,3 +84,12 @@ a:hover{
 .navbar .navbar-brand-wrapper{
     background-color: #5f13ec;
 }   
+
+.card{
+    background-color: lightgrey;
+}
+
+.card .card-title {
+    color: #000000;
+    
+}
