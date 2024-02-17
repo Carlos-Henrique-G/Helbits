@@ -93,3 +93,11 @@ a:hover{
     color: #000000;
     
 }
+
+.text-secondary, .list-wrapper .remove {
+    color: #000000 !important;
+}
+
+.form-check .form-check-label {
+    color: #000000;
+}
