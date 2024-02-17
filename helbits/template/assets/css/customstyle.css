@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 
 .navbar{
-    background-color: #682cd8;
+    background-color: #5f13ec;
    
 }
 .sidebar .sidebar-brand-wrapper{
-    background-color: #682cd8;
+    background-color: #5f13ec;
 }
 .sidebar {
-    background-color: #682cd8;
+    background-color: #5f13ec;
 }
 .sidebar .nav .nav-item.active > .nav-link {
     background: #ffffff;
@@ -29,7 +29,7 @@ h1 {
 
 
 .sidebar .nav:not(.sub-menu) > .nav-item:hover:not(.nav-category):not(.account-dropdown) > .nav-link {
-        background: #ffffff;
+        background: rgb(230, 229, 229);
         color: #000000;
 }
 
@@ -55,5 +55,32 @@ h1 {
 }
 
 .sidebar .nav .nav-item.profile .profile-desc .profile-name span {
+    color:#ffffff
+}
+
+.footer{
+    background-color: lightgray;
+    
+}
+.navbar .navbar-menu-wrapper .navbar-toggler {
+    color:#ffffff;
+
+}
+
+.sidebar .nav .nav-item.profile .profile-desc .mdi-dots-vertical {
     color:#ffffff;
 }
+.navbar .navbar-menu-wrapper .search input {
+    background: #ffffff;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.sidebar .nav .menu-items:nth-child(5n+3) .nav-link .menu-icon i {
+    color: #00AC4A;
+}
+
+.navbar .navbar-brand-wrapper{
+    background-color: #5f13ec;
+}   
