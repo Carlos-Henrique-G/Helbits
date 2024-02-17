@@ -80,3 +80,7 @@ a:hover{
 .sidebar .nav .menu-items:nth-child(5n+3) .nav-link .menu-icon i {
     color: #00AC4A;
 }
+
+.navbar .navbar-brand-wrapper{
+    background-color: #5f13ec;
+}   

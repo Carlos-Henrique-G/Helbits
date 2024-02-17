@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap');
+
+.auth.login-bg{
+    background-image: url("../Mockup2x_resized.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.registrotitulo{
+    font-family: 'Honk', system-ui;
+    font-size: 4em;
+}
+
+.linkcontaexistente:hover{
+    text-decoration: none;
+}
+
+.registroformdiv{
+    background-color: #682cd8;
+    border: 2px solid black;
+    color: white;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.forgot-pass{
+    color: white;
+}
+
+.forgot-pass:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.forminput{
+    background-color: white;
+}
+
+.forminput:focus{
+    background-color: white;
+}
