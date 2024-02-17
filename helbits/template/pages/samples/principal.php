@@ -1,3 +1,13 @@
+<?php
+  if(isset($_GET['insert'])) {
+    if($_GET['insert'] == 'ok') {
+      
+    }
+    if($_GET['erro'] == 'erro'){
+      
+    }
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>

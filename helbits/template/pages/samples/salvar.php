@@ -11,8 +11,8 @@
     $insert = $conexao->query($sql);
 
     if($insert==true) {
-        echo 'Insert realizado com sucesso';
+        header('Location: principal.php?insert=ok');
     } else {
-        echo 'Erro ao inserir';
+        header('Location: register.php?insert=erro');
     }
 ?>
