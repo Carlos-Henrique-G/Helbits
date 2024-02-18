@@ -12,7 +12,7 @@
 
     $usuarioconectado = "select * from tbusuarios where email='$email' and senha='$senha'";
 
-    $consulta = $conexao->query($usuarioconectado)
+    $consulta = $conexao->query($usuarioconectado);
 
     if($insert==true && $consulta-> num_rows > 0) {
         session_start();
