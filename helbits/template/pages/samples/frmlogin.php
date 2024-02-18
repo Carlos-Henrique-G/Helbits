@@ -4,7 +4,7 @@
       
     }
     
-    if($_GET['login'] == 'semssao') {
+    if($_GET['login'] == 'semsessao') {
 
     }
 

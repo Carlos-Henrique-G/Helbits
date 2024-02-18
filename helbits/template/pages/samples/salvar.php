@@ -16,9 +16,9 @@
 
     if($insert==true && $consulta-> num_rows > 0) {
         session_start();
-        $_SESSION['login'] == 'ok';
+        $_SESSION['login'] = 'ok';
         header('Location: principal.php?insert=ok');
     } else {
-        header('Location: register.php?insert=erro');
+        header('Location: frmregister.php?insert=erro');
     }
 ?>
