@@ -331,7 +331,7 @@
                       </div>
                     </div>
                     <div class="preview-item-content">
-                      <a class="btn btn-success">Sair</a>
+                      <a class="btn btn-success text-center">Sair</a>
                     </div>
                   </a>
                   <div class="dropdown-divider"></div>
