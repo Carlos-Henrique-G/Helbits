@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="../../assets/css/style.css">
     <!-- End layout styles -->
     <link rel="shortcut icon" href="../../assets/images/favicon.png" />
-    <link rel="stylesheet" href="../../assets/css/customstyle.css">
+    <link rel="stylesheet" href="css/customstyle.css">
   </head>
   <body>
     <div class="container-scroller">
@@ -353,8 +353,8 @@
               <div class="col-md-12 col-md-4 grid-margin stretch-card">
                 <div class="card"> 
                     <div class="card-body">
-                      <div class="jogo">
-
+                      <div class="jogo col-3 col-sm-2 col-xl-2 pl-0">
+                      
                     </div>
                 </div>
                 </div>

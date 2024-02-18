@@ -101,8 +101,10 @@ a:hover{
 .form-check .form-check-label {
     color: #000000;
 }
-.card.jogo{
-    background-image: url("../gamebackground_resized.jpg");
+.jogo{
+    border: solid 1px #000000;
+    padding:20%;
+    background-image: url(../gamebackground_resized.jpg);
 }
 
 .linkparasair{
