@@ -7,6 +7,10 @@
     if($_GET['login'] == 'semssao') {
 
     }
+
+    if($_GET['login'] == 'saiu') {
+      
+    }
   }
 ?>
 <!DOCTYPE html>
