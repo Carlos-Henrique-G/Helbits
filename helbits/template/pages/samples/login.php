@@ -1,12 +1,12 @@
 <?php
     include('./conexaocombanco/banco.php');
 
-    $usuario = $_POST['email'];
+    $email = $_POST['email'];
     $senha = $_POST['senha'];
 
-    $sql = "select * from tbusuarios where email='$usuario' and senha='$senha'";
+    $usuarioconectado = "select * from tbusuarios where email='$email' and senha='$senha'";
 
-    $consulta = $conexao->query($sql);
+    $consulta = $conexao->query($usuarioconectado);
 
     if($consulta->num_rows > 0) {
         session_start();

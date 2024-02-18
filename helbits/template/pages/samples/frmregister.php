@@ -41,15 +41,8 @@
                     <label>Senha:</label>
                     <input type="password" class="form-control p_input forminput" name="senha" id="senha">
                   </div>
-                  <div class="form-group d-flex align-items-center justify-content-between">
-                    <div class="form-check">
-                      <label>
-                        <input type="checkbox" class="form-check-int"> Lembre-me </label>
-                    </div>
-                    <a href="#" class="forgot-pass">Esqueci a senha</a>
-                  </div>
                   <div class="text-center">
-                    <button type="submit" class="btn btn-primary btn-block enter-btn">Login</button>
+                    <button type="submit" class="btn btn-primary btn-block enter-btn">Criar conta</button>
                   </div>
                   <div class="d-flex">
                     <button class="btn btn-facebook col mr-2">
@@ -57,7 +50,7 @@
                     <button class="btn btn-google col">
                       <i class="mdi mdi-google-plus"></i> Google plus </button>
                   </div>
-                  <p class="sign-up text-center">Já tem uma conta?<a href="#" class="linkcontaexistente"> Entre nela</a></p>
+                  <p class="sign-up text-center">Já tem uma conta?<a href="frmlogin.php" class="linkcontaexistente"> Entre nela</a></p>
                 </form>
               </div>
             </div>
