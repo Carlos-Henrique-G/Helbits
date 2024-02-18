@@ -103,6 +103,6 @@ a:hover{
 }
 .jogo{
     border: solid 1px #000000;
-    padding:20%;
-    background-image: url(../gamebackground_resized.jpg);
+    padding:10%;
+    background-image: url(../gamebackground_resized_resized_resized.jpg);
 }

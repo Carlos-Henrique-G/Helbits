@@ -353,7 +353,7 @@
               <div class="col-md-12 col-md-4 grid-margin stretch-card">
                 <div class="card"> 
                     <div class="card-body">
-                      <div class="jogo col-3 col-sm-2 col-xl-2 pl-0">
+                      <div class="jogo col-3 col-sm-3 col-xl-2 pl-0">
                       
                     </div>
                 </div>
