@@ -3,6 +3,10 @@
     if($_GET['login'] == 'erro') {
       
     }
+    
+    if($_GET['login'] == 'semssao') {
+
+    }
   }
 ?>
 <!DOCTYPE html>

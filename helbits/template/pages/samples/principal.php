@@ -1,4 +1,9 @@
 <?php
+  session_start();
+  if(!isset($_SESSION['login'])) {
+    header('Location: frmlogin.php?login=semsessao');
+  }
+
   if(isset($_GET['insert'])) {
     if($_GET['insert'] == 'ok') {
       

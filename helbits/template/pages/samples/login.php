@@ -9,6 +9,8 @@
     $consulta = $conexao->query($sql);
 
     if($consulta->num_rows > 0) {
+        session_start();
+        $_SESSION['login']='ok';
         header('Location: principal.php?login=ok');
     } else {
         header('Location: frmlogin.php?login=erro');
