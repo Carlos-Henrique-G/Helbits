@@ -101,6 +101,6 @@ a:hover{
 .form-check .form-check-label {
     color: #000000;
 }
-.jogo{
-    background-image: url("");
+.card .jogo{
+    background-image: url("../gamebackground_resized.jpg");
 }
