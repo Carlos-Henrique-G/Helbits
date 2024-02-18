@@ -104,3 +104,7 @@ a:hover{
 .card .jogo{
     background-image: url("../gamebackground_resized.jpg");
 }
+
+.linkparasair{
+    text-align: center;
+}
