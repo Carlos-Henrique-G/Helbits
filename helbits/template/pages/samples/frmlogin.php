@@ -68,7 +68,7 @@
                     <button class="btn btn-google col">
                       <i class="mdi mdi-google-plus"></i> Google plus </button>
                   </div>
-                  <p class="sign-up">Não tem uma conta?<a href="#" class="linknovaconta">Crie uma</a></p>
+                  <p class="sign-up">Não tem uma conta?<a href="frmregister.php" class="linknovaconta">Crie uma</a></p>
                 </form>
               </div>
             </div>
