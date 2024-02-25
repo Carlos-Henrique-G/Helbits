@@ -4,13 +4,24 @@
     $nome = $_POST['nome'];
     $email = $_POST['email'];
     $senha = $_POST['senha'];
+    $utilizador = "";
+    $dominio = "";
 
-    $novousuario = "insert into tbusuarios (cod_usu,nome,senha,email)
-                                    values (null,'$nome','$senha','$email')";
+    for($i = 0;$i < strlen($email); $i++) {
+        $char = $email[$i];
+        if($char == "@") {
+            $array = explode("@",$email);
+            $utilizador = $array[0];
+            $dominio = "@" . $array[1];
+        }
+    }
+
+    $novousuario = "insert into tbusuarios (cod_usu,nome,utilizador,dominio,senha)
+                                    values (null,'$nome','$utilizador','$dominio','$senha')";
 
     $insert = $conexao->query($novousuario);
 
-    $usuarioconectado = "select * from tbusuarios where email='$email' and senha='$senha'";
+    $usuarioconectado = "select * from tbusuarios where utilizador='$utilizador' and dominio='$dominio' and senha='$senha'";
 
     $consulta = $conexao->query($usuarioconectado);
 

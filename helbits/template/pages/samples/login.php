@@ -3,8 +3,19 @@
 
     $email = $_POST['email'];
     $senha = $_POST['senha'];
+    $utilizador = "";
+    $dominio = "";
+    
+    for($i = 0;$i < strlen($email); $i++) {
+        $char = $email[$i];
+        if($char == "@") {
+            $array = explode("@",$email);
+            $utlizador = $array[0];
+            $dominio = "@" . $array[1];
+        }
+    }
 
-    $usuarioconectado = "select * from tbusuarios where email='$email' and senha='$senha'";
+    $usuarioconectado = "select * from tbusuarios where utilizador='$utilizador' and dominio='$dominio' and senha='$senha'";
 
     $consulta = $conexao->query($usuarioconectado);
 

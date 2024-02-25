@@ -349,14 +349,37 @@
           <div class="content-wrapper">
 
             <div class="row">
-              
-              <div class="col-md-12 col-md-4 grid-margin stretch-card">
+              <div class="col-md-12 grid-margin stretch-card">
                 <div class="card"> 
                     <div class="card-body">
-                      <div class="jogo col-3 col-sm-3 col-xl-2 pl-0">
-                      
+                    <div class="row align-items-center">
+                      <div class="jogo col-3 col-sm-3 col-xl-2">
+
+                      </div>
+                        <div class="info col-9 col-1 col-xl-2 pl-0">
+                        <div class = "status">
+                         
+                          <span class="menu-icon">
+                             <i class="mdi mdi-coin icon-item"></i>
+                          </span>
+                          <span class="card-title">Money</span>
+                        </div>
+                        <div class = "status">
+                          <span class="menu-icon">
+                             <i class="mdi mdi-coin"></i>
+                          </span>
+                          <span class="card-title">HP</span>
+                        </div>
+                        <div class = "status">
+                          <span class="menu-icon">
+                             <i class="mdi mdi-coin"></i>
+                          </span>
+                          <span class="card-title">XP</span>
+                        </div>
+                    
+                        </div>
                     </div>
-                </div>
+                  </div>
                 </div>
               </div>
             </div>
