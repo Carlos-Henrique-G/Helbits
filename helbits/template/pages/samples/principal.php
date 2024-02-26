@@ -38,8 +38,30 @@
     <!-- End layout styles -->
     <link rel="shortcut icon" href="../../assets/images/favicon.png" />
     <link rel="stylesheet" href="css/customstyle.css">
+    
   </head>
   <body>
+  
+  <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Salvar mudanças</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     <div class="container-scroller">
       <!-- partial:../../partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
@@ -175,29 +197,22 @@
               <li class="nav-item dropdown d-none d-lg-block">
                 <a class="nav-link btn btn-success create-new-button" id="createbuttonDropdown" data-toggle="dropdown" aria-expanded="false" href="#">+ Criar Novo Hábito</a>
                 <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="createbuttonDropdown">
-                  <h6 class="p-3 mb-0">Projects</h6>
+                  <h6 class="p-3 mb-0">Hábitos</h6>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item">
-                    <div class="preview-thumbnail">
-                      <div class="preview-icon bg-dark rounded-circle">
-                        <i class="mdi mdi-file-outline text-primary"></i>
-                      </div>
-                    </div>
-                    <div class="preview-item-content">
-                      <p class="preview-subject ellipsis mb-1">Software Development</p>
-                    </div>
-                  </a>
+                  
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item">
+                  
+                  <a class="dropdown-item preview-item" data-toggle="modal" data-target="#modalExemplo" >
                     <div class="preview-thumbnail">
                       <div class="preview-icon bg-dark rounded-circle">
                         <i class="mdi mdi-web text-info"></i>
                       </div>
                     </div>
                     <div class="preview-item-content">
-                      <p class="preview-subject ellipsis mb-1">UI Development</p>
+                      <p class="preview-subject ellipsis mb-1">Criar bom hábito
                     </div>
                   </a>
+                  
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item preview-item">
                     <div class="preview-thumbnail">
@@ -206,12 +221,10 @@
                       </div>
                     </div>
                     <div class="preview-item-content">
-                      <p class="preview-subject ellipsis mb-1">Software Testing</p>
+                      <p class="preview-subject ellipsis mb-1">Quebrar mal hábito</p>
                     </div>
                   </a>
-                  <div class="dropdown-divider"></div>
-                  <p class="p-3 mb-0 text-center">See all projects</p>
-                </div>
+                  
               </li>
               
               <li class="nav-item dropdown border-left">
@@ -410,7 +423,10 @@
               </div>
             </div>
           </div>
+          
         
+          
+          
           <!-- content-wrapper ends -->
           <!-- partial:../../partials/_footer.html -->
           <footer class="footer">
@@ -437,6 +453,8 @@
     <script src="../../assets/js/misc.js"></script>
     <script src="../../assets/js/settings.js"></script>
     <script src="../../assets/js/todolist.js"></script>
+    <!-- custom JS -->
+    
     <!-- endinject -->
     <!-- Custom js for this page -->
     <!-- End custom js for this page -->
