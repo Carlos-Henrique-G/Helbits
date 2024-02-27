@@ -24,7 +24,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Corona Admin</title>
+    <title>Helbits</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
@@ -131,13 +131,14 @@
             </a>
           </li>
           <li class="nav-item menu-items">
-          <a class="nav-link" href="#">
+            <a class="nav-link" href="#">
               <span class="menu-icon">
                 <i class="mdi mdi-chart-line"></i>
               </span>
               <span class="menu-title">Gerenciar Hábitos</span>
               
             </a>
+            
           </li>
           <li class="nav-item menu-items">
           <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
@@ -365,67 +366,15 @@
               <div class="col-md-12 grid-margin stretch-card">
                 <div class="card"> 
                     <div class="card-body">
-                    <div class="row align-items-center">
-                      <div class="jogo col-3 col-sm-3 col-xl-2">
-
-                      </div>
-                        <div class="info col-9 col-1 col-xl-2 pl-0">
-                        <div class = "status">
-                         
-                          <span class="menu-icon">
-                             <i class="mdi mdi-coin icon-item"></i>
-                          </span>
-                          <span class="card-title">Money</span>
-                        </div>
-                        <div class = "status">
-                          <span class="menu-icon">
-                             <i class="mdi mdi-coin"></i>
-                          </span>
-                          <span class="card-title">HP</span>
-                        </div>
-                        <div class = "status">
-                          <span class="menu-icon">
-                             <i class="mdi mdi-coin"></i>
-                          </span>
-                          <span class="card-title">XP</span>
-                        </div>
+                    <h3 class="card-title">Skins</h3>
                     
-                        </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-md-12 col-md-4 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Atividades</h4>
-                    <div class="add-items d-flex">
-                      <input type="text" class="form-control todo-list-input" placeholder="Adicione tarefas">
-                      <button class="add btn btn-primary todo-list-add-btn">Add</button>
-                    </div>
-                    <div class="list-wrapper">
-                      <ul class="d-flex flex-column-reverse text-white todo-list todo-list-custom">
-                        <li>
-                          <div class="form-check form-check-primary">
-                            <label class="form-check-label">
-                              <input class="checkbox" type="checkbox"> Atacar a Argentina </label>
-                          </div>
-                          <i class="remove mdi mdi-close-box"></i>
-                        </li>
-                       
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-        
-          
+            
           
           <!-- content-wrapper ends -->
           <!-- partial:../../partials/_footer.html -->

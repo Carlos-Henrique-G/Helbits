@@ -131,28 +131,29 @@
             </a>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+            <a class="nav-link" href="#">
               <span class="menu-icon">
                 <i class="mdi mdi-chart-line"></i>
               </span>
               <span class="menu-title">Gerenciar Hábitos</span>
-              <i class="menu-arrow"></i>
+              
             </a>
-            <div class="collapse" id="ui-basic">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/buttons.html">Buttons</a></li>
-                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Dropdowns</a></li>
-                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Typography</a></li>
-              </ul>
-            </div>
+            
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" href="loja.php">
+          <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <span class="menu-icon">
                 <i class="mdi mdi-cart"></i>
               </span>
               <span class="menu-title">Loja</span>
+              <i class="menu-arrow"></i>
             </a>
+            <div class="collapse" id="ui-basic">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="personagem.php">Personagens</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pets.php">Pets</a></li>
+                
+              </ul>
           </li>
           <li class="nav-item menu-items">
             <a class="nav-link" href="../../pages/tables/basic-table.html">
