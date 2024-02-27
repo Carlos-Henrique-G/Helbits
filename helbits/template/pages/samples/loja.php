@@ -365,67 +365,15 @@
               <div class="col-md-12 grid-margin stretch-card">
                 <div class="card"> 
                     <div class="card-body">
-                    <div class="row align-items-center">
-                      <div class="jogo col-3 col-sm-3 col-xl-2">
-
-                      </div>
-                        <div class="info col-9 col-1 col-xl-2 pl-0">
-                        <div class = "status">
-                         
-                          <span class="menu-icon">
-                             <i class="mdi mdi-coin icon-item"></i>
-                          </span>
-                          <span class="card-title">Money</span>
-                        </div>
-                        <div class = "status">
-                          <span class="menu-icon">
-                             <i class="mdi mdi-coin"></i>
-                          </span>
-                          <span class="card-title">HP</span>
-                        </div>
-                        <div class = "status">
-                          <span class="menu-icon">
-                             <i class="mdi mdi-coin"></i>
-                          </span>
-                          <span class="card-title">XP</span>
-                        </div>
+                    <h3 class="card-title">Skins</h3>
                     
-                        </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-md-12 col-md-4 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Atividades</h4>
-                    <div class="add-items d-flex">
-                      <input type="text" class="form-control todo-list-input" placeholder="Adicione tarefas">
-                      <button class="add btn btn-primary todo-list-add-btn">Add</button>
-                    </div>
-                    <div class="list-wrapper">
-                      <ul class="d-flex flex-column-reverse text-white todo-list todo-list-custom">
-                        <li>
-                          <div class="form-check form-check-primary">
-                            <label class="form-check-label">
-                              <input class="checkbox" type="checkbox"> Atacar a Argentina </label>
-                          </div>
-                          <i class="remove mdi mdi-close-box"></i>
-                        </li>
-                       
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-        
-          
+            
           
           <!-- content-wrapper ends -->
           <!-- partial:../../partials/_footer.html -->
