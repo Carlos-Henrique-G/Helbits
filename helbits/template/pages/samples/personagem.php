@@ -28,6 +28,7 @@
     <!-- plugins:css -->
     <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="css/custompersonagem.css">
     <!-- endinject -->
     <!-- Plugin css for this page -->
     <!-- End Plugin css for this page -->
@@ -74,7 +75,7 @@
             <div class="profile-desc">
               <div class="profile-pic">
                 <div class="count-indicator">
-                  <img class="img-xs rounded-circle " src="../../assets/images/faces/face15.jpg" alt="">
+                  <img class="img-xs rounded-circle " src="../../assets/images/faces/face15.jpg" >
                   <span class="count bg-success"></span>
                 </div>
                 <div class="profile-name">
@@ -150,7 +151,7 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="personagem.php">Personagens</a></li>
+                <li class="nav-item"> <a class="nav-link" href="personagem.php"><i class="mdi mdi-"></i> Personagens</a></li>
                 <li class="nav-item"> <a class="nav-link" href="pets.php">Pets</a></li>
                 
               </ul>
@@ -319,7 +320,7 @@
               <li class="nav-item dropdown">
                 <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
                   <div class="navbar-profile">
-                    <img class="img-xs rounded-circle" src="../../assets/images/faces/face15.jpg" alt="">
+                    <img class="img-xs rounded-circle" src="../../assets/images/faces/face15.jpg" >
                     <p class="mb-0 d-none d-sm-block navbar-profile-name">chzin do grau</p>
                     <i class="mdi mdi-menu-down d-none d-sm-block"></i>
                   </div>
@@ -363,10 +364,164 @@
           <div class="content-wrapper">
 
             <div class="row">
-              <div class="col-md-12 grid-margin stretch-card">
+              <div class=" grid-margin stretch-card">
                 <div class="card"> 
                     <div class="card-body">
                     <h3 class="card-title">Skins</h3>
+                    <div class="grid-container">
+                      <div class="item">
+                         <div class="card" style="width: 18rem;">
+                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Chzin</h5>
+                            <p class="card-text">0 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card" style="width: 18rem;">
+                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Chzin</h5>
+                            <p class="card-text">0 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card" style="width: 18rem;">
+                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Chzin</h5>
+                            <p class="card-text">0 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card" style="width: 18rem;">
+                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Chzin</h5>
+                            <p class="card-text">0 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card" style="width: 18rem;">
+                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Chzin</h5>
+                            <p class="card-text">0 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card" style="width: 18rem;">
+                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Chzin</h5>
+                            <p class="card-text">0 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card" style="width: 18rem;">
+                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Chzin</h5>
+                            <p class="card-text">0 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card" style="width: 18rem;">
+                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Chzin</h5>
+                            <p class="card-text">0 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card" style="width: 18rem;">
+                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Chzin</h5>
+                            <p class="card-text">0 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card" style="width: 18rem;">
+                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Chzin</h5>
+                            <p class="card-text">0 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                         <div class="card" style="width: 18rem;">
+                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Chzin</h5>
+                            <p class="card-text">0 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card" style="width: 18rem;">
+                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Chzin</h5>
+                            <p class="card-text">0 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card" style="width: 18rem;">
+                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Chzin</h5>
+                            <p class="card-text">0 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card" style="width: 18rem;">
+                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Chzin</h5>
+                            <p class="card-text">0 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card" style="width: 18rem;">
+                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Chzin</h5>
+                            <p class="card-text">0 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+    </div>
+    </div>
+
                     
                     </div>
                   </div>
