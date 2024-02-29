@@ -371,7 +371,7 @@
                     <div class="grid-container">
                       <div class="item">
                          <div class="card" style="width: 18rem;">
-                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                           <img class="card-img-top" src="../../img/skin/s1.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Chzin</h5>
                             <p class="card-text">0 moedas</p>
@@ -381,7 +381,7 @@
                       </div>
                       <div class="item">
                       <div class="card" style="width: 18rem;">
-                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                           <img class="card-img-top" src="../../img/skin/s2.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Chzin</h5>
                             <p class="card-text">0 moedas</p>
@@ -391,7 +391,7 @@
                       </div>
                       <div class="item">
                       <div class="card" style="width: 18rem;">
-                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                           <img class="card-img-top" src="../../img/skin/s3.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Chzin</h5>
                             <p class="card-text">0 moedas</p>
@@ -401,7 +401,7 @@
                       </div>
                       <div class="item">
                       <div class="card" style="width: 18rem;">
-                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                           <img class="card-img-top" src="../../img/skin/s4.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Chzin</h5>
                             <p class="card-text">0 moedas</p>
