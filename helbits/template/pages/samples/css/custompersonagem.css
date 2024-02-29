@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, ); /* 4 linhas de altura fixa */
+    gap: 20px; /* Espaçamento entre os itens */
+    padding: 5px; /* Espaçamento interno do container */
+}
+
+.item {
+    background-color: #ddd;
+    border: 1px solid #999;
+    padding: 20px;
+    text-align: center;
+}
