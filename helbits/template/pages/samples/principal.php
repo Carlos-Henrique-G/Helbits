@@ -38,28 +38,52 @@
     <!-- End layout styles -->
     <link rel="shortcut icon" href="../../assets/images/favicon.png" />
     <link rel="stylesheet" href="css/customstyle.css">
-    
+    <style>
+    /* CSS personalizado para mudar a cor do fundo do modal */
+    .custom-modal .modal-content {
+      background-color:  whitesmoke; /* Cor de fundo desejada */
+    }
+    .add-items input[type="text"] {
+      background:#ffffff;
+    }
+    .modal-title{
+      color:black;
+    }
+    .desc-habit{
+      width:100%;
+      height:100%;
+      margin:auto;
+    }
+    .subtitle-modal{color:#000000}
+    .form-control{color:black}
+  </style>
   </head>
   <body>
-  
-  <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-background">
+  <div class="modal fade custom-modal" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
-    <div class="modal-content">
+    <div class="modal-content" id="fundo-modal">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Novo hábito</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+      <label class="subtitle-modal">Nome</label>
+      <div class="add-items d-flex">
+                      <input type="text" class="form-control todo-list-input" placeholder="Adicione tarefas">
+                      <button class="add btn btn-primary todo-list-add-btn">Add</button>
+                    </div>
+            <label class="subtitle-modal">Descrição</label>
+          <textarea class="desc-habit"name="desc" id="desc" cols="28" rows="5"></textarea>
+        
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-        <button type="button" class="btn btn-primary">Salvar mudanças</button>
-      </div>
+      
+
     </div>
   </div>
+</div>
 </div>
 
     <div class="container-scroller">
@@ -402,10 +426,7 @@
                 <div class="card">
                   <div class="card-body">
                     <h4 class="card-title">Atividades</h4>
-                    <div class="add-items d-flex">
-                      <input type="text" class="form-control todo-list-input" placeholder="Adicione tarefas">
-                      <button class="add btn btn-primary todo-list-add-btn">Add</button>
-                    </div>
+                    
                     <div class="list-wrapper">
                       <ul class="d-flex flex-column-reverse text-white todo-list todo-list-custom">
                         <li>
