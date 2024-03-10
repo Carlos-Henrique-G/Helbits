@@ -82,7 +82,7 @@ a:hover{
 }
 
 .navbar .navbar-brand-wrapper{
-    background-color: #6d2ae9;
+    background-color: #5f13ec;
 }   
 
 .card{
@@ -101,11 +101,8 @@ a:hover{
 .form-check .form-check-label {
     color: #000000;
 }
-.jogo{
-    border: solid 1px #000000;
-    padding:10%;
-    background-image: url(../gamebackground_resized_resized_resized.jpg);
-}
+
 .menu-title{
     color:#000000;
 }
+

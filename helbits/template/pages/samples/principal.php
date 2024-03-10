@@ -56,11 +56,66 @@
     }
     .subtitle-modal{color:#000000}
     .form-control{color:black}
+    
+   
+    @media screen and (max-width:500px) {
+      .jogo-img{
+        height:75px;
+        width:75px;
+        margin-bottom:10%;
+      }
+      .info{
+        margin-bottom:10%;
+        margin-left:10px;
+      }
+      .game-row{height:75px;}
+    }
+    @media screen and (min-width:501px ) {
+      .jogo-img{
+        height:100px;
+        width:100px;
+      }
+      .game-row{height:100px;}
+      .info{
+        
+        margin-left:10px;
+      }
+    }
+    @media screen and (min-width:1000px ) {
+      .jogo-img{
+        height:120px;
+        width:120px;
+        margin-bottom:10%;
+      }
+      .game-row{
+        height:170px;
+        
+      }
+      .info{
+        margin-bottom:10%;
+        margin-left:10px;
+      }
+      .game{height:80%;}
+      .atividades{margin-top:-5%;}
+    }
+    .drop-habits{
+      background-color:whitesmoke;
+      color:black;
+    }
+    .paragrafo{
+      color:black;
+    }
+    .div-do-paragrafo:hover{
+      background-color:lightgrey;
+    }
+    .sair{
+      margin-left:33%;
+    }
   </style>
   </head>
   <body>
   <div class="modal-background">
-  <div class="modal fade custom-modal" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade custom-modal" id="modal-bom" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content" id="fundo-modal">
       <div class="modal-header">
@@ -70,22 +125,49 @@
         </button>
       </div>
       <div class="modal-body">
+        <form action="" method="post">
       <label class="subtitle-modal">Nome</label>
       <div class="add-items d-flex">
                       <input type="text" class="form-control todo-list-input" placeholder="Adicione tarefas">
-                      <button class="add btn btn-primary todo-list-add-btn">Add</button>
+                      <button type="submit" class="add btn btn-primary todo-list-add-btn">Add</button>
                     </div>
             <label class="subtitle-modal">Descrição</label>
           <textarea class="desc-habit"name="desc" id="desc" cols="28" rows="5"></textarea>
         
       </div>
-      
+      </form>
 
     </div>
   </div>
 </div>
 </div>
+<div class="modal-background">
+  <div class="modal fade custom-modal" id="modal-mal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" id="fundo-modal">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Quebrar hábito</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="" method="post">
+      <label class="subtitle-modal">Nome</label>
+      <div class="add-items d-flex">
+                      <input type="text" class="form-control todo-list-input" placeholder="Adicione tarefas">
+                      <button type="submit" class="add btn btn-primary todo-list-add-btn">Add</button>
+                    </div>
+            <label class="subtitle-modal">Descrição</label>
+          <textarea class="desc-habit"name="desc" id="desc" cols="28" rows="5"></textarea>
+        
+      </div>
+      </form>
 
+    </div>
+  </div>
+</div>
+</div>
     <div class="container-scroller">
       <!-- partial:../../partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
@@ -220,32 +302,32 @@
             <ul class="navbar-nav navbar-nav-right">
               <li class="nav-item dropdown d-none d-lg-block">
                 <a class="nav-link btn btn-success create-new-button" id="createbuttonDropdown" data-toggle="dropdown" aria-expanded="false" href="#">+ Criar Novo Hábito</a>
-                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="createbuttonDropdown">
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list drop-habits" aria-labelledby="createbuttonDropdown">
                   <h6 class="p-3 mb-0">Hábitos</h6>
                   <div class="dropdown-divider"></div>
                   
                   <div class="dropdown-divider"></div>
                   
-                  <a class="dropdown-item preview-item" data-toggle="modal" data-target="#modalExemplo" >
+                  <a class="dropdown-item preview-item div-do-paragrafo" data-toggle="modal" data-target="#modal-bom" >
                     <div class="preview-thumbnail">
                       <div class="preview-icon bg-dark rounded-circle">
                         <i class="mdi mdi-web text-info"></i>
                       </div>
                     </div>
-                    <div class="preview-item-content">
-                      <p class="preview-subject ellipsis mb-1">Criar bom hábito
+                    <div class="preview-item-content ">
+                      <p class="preview-subject ellipsis mb-1 paragrafo">Criar bom hábito
                     </div>
                   </a>
                   
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item">
+                  <a class="dropdown-item preview-item div-do-paragrafo" data-toggle="modal" data-target="#modal-mal">
                     <div class="preview-thumbnail">
                       <div class="preview-icon bg-dark rounded-circle">
                         <i class="mdi mdi-layers text-danger"></i>
                       </div>
                     </div>
-                    <div class="preview-item-content">
-                      <p class="preview-subject ellipsis mb-1">Quebrar mal hábito</p>
+                    <div class="preview-item-content ">
+                      <p class="preview-subject ellipsis mb-1 paragrafo">Quebrar mal hábito</p>
                     </div>
                   </a>
                   
@@ -361,14 +443,14 @@
                     </div>
                   </a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item">
+                  <a class="dropdown-item preview-item" href="sair.php">
                     <div class="preview-thumbnail">
                       <div class="preview-icon bg-dark rounded-circle">
                         <i class="mdi mdi-logout text-danger"></i>
                       </div>
                     </div>
                     <div class="preview-item-content">
-                      <a class="btn btn-success" href="sair.php">Sair</a>
+                    <p class="preview-subject mb-1" >Sair</p>
                     </div>
                   </a>
                   <div class="dropdown-divider"></div>
@@ -386,13 +468,13 @@
           <div class="content-wrapper">
 
             <div class="row">
-              <div class="col-md-12 grid-margin stretch-card">
-                <div class="card"> 
+              <div class="col-md-12  grid-margin stretch-card">
+                <div class="card game"> 
                     <div class="card-body">
-                    <div class="row align-items-center">
-                      <div class="jogo col-3 col-sm-3 col-xl-2">
-
-                      </div>
+                    <div class="row game-row align-items-center">
+                      
+                          <img class="jogo-img "src="gamebackground_resized_resized_resized.jpg" alt="" srcset="">
+                     
                         <div class="info col-9 col-1 col-xl-2 pl-0">
                         <div class = "status">
                          
@@ -423,7 +505,7 @@
 
             <div class="row">
               <div class="col-md-12 col-md-4 grid-margin stretch-card">
-                <div class="card">
+                <div class="card atividades">
                   <div class="card-body">
                     <h4 class="card-title">Atividades</h4>
                     
