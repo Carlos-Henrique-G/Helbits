@@ -114,6 +114,7 @@
   </style>
   </head>
   <body>
+  <form action="habitos.php" method="POST">
   <div class="modal-background">
   <div class="modal fade custom-modal" id="modal-bom" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -125,22 +126,24 @@
         </button>
       </div>
       <div class="modal-body">
-        <form action="" method="post">
-      <label class="subtitle-modal">Nome</label>
-      <div class="add-items d-flex">
-                      <input type="text" class="form-control todo-list-input" placeholder="Adicione tarefas">
-                      <button type="submit" class="add btn btn-primary todo-list-add-btn">Add</button>
-                    </div>
-            <label class="subtitle-modal">Descrição</label>
-          <textarea class="desc-habit"name="desc" id="desc" cols="28" rows="5"></textarea>
         
+          <label class="subtitle-modal">Nome</label>
+                        <div class="add-items d-flex">
+                          <input type="text" class="form-control " name="nomehabito" id="nomehabito" placeholder="Adicione tarefas">
+                          <button type="submit" class="add btn btn-primary ">Add</button>
+                        </div>
+                <label class="subtitle-modal">Descrição</label>
+              <textarea class="desc-habit"name="habitodesc" id="habitodesc" cols="28" rows="5"></textarea>
+            
       </div>
-      </form>
+      
 
     </div>
   </div>
+  
 </div>
 </div>
+
 <div class="modal-background">
   <div class="modal fade custom-modal" id="modal-mal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -152,16 +155,16 @@
         </button>
       </div>
       <div class="modal-body">
-        <form action="" method="post">
-      <label class="subtitle-modal">Nome</label>
-      <div class="add-items d-flex">
-                      <input type="text" class="form-control todo-list-input" placeholder="Adicione tarefas">
-                      <button type="submit" class="add btn btn-primary todo-list-add-btn">Add</button>
-                    </div>
-            <label class="subtitle-modal">Descrição</label>
-          <textarea class="desc-habit"name="desc" id="desc" cols="28" rows="5"></textarea>
-        
-      </div>
+        <form action="" method="POST">
+            <label class="subtitle-modal">Nome</label>
+            <div class="add-items d-flex">
+                            <input type="text" class="form-control todo-list-input" placeholder="Adicione tarefas">
+                            <button type="submit" class="add btn btn-primary todo-list-add-btn">Add</button>
+                          </div>
+                  <label class="subtitle-modal">Descrição</label>
+                <textarea class="desc-habit" name="desc" id="desc" cols="28" rows="5"></textarea>
+              
+            </div>
       </form>
 
     </div>
@@ -453,7 +456,7 @@
                     <p class="preview-subject mb-1" >Sair</p>
                     </div>
                   </a>
-                    
+
               </li>
             </ul>
             <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
