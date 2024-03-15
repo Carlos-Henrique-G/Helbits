@@ -366,11 +366,11 @@
             <div class="row">
               <div class=" grid-margin stretch-card">
                 <div class="card"> 
-                    <div class="card-body">
+                  <div class="card-body">
                     <h3 class="card-title">Skins</h3>
                     <div class="grid-container">
                       <div class="item">
-                         <div class="card" style="width: 18rem;">
+                         <div class="card">
                            <img class="card-img-top" src="../../img/skin/s1.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Chzin</h5>
@@ -380,7 +380,7 @@
                          </div>
                       </div>
                       <div class="item">
-                      <div class="card" style="width: 18rem;">
+                      <div class="card">
                            <img class="card-img-top" src="../../img/skin/s2.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Chzin</h5>
@@ -390,7 +390,7 @@
                          </div>
                       </div>
                       <div class="item">
-                      <div class="card" style="width: 18rem;">
+                      <div class="card">
                            <img class="card-img-top" src="../../img/skin/s3.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Chzin</h5>
@@ -400,7 +400,7 @@
                          </div>
                       </div>
                       <div class="item">
-                      <div class="card" style="width: 18rem;">
+                      <div class="card">
                            <img class="card-img-top" src="../../img/skin/s4.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Chzin</h5>
@@ -410,8 +410,8 @@
                          </div>
                       </div>
                       <div class="item">
-                      <div class="card" style="width: 18rem;">
-                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/skin/s5.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Chzin</h5>
                             <p class="card-text">0 moedas</p>
@@ -420,8 +420,8 @@
                          </div>
                       </div>
                       <div class="item">
-                      <div class="card" style="width: 18rem;">
-                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/skin/s6.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Chzin</h5>
                             <p class="card-text">0 moedas</p>
@@ -430,8 +430,8 @@
                          </div>
                       </div>
                       <div class="item">
-                      <div class="card" style="width: 18rem;">
-                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/skin/s7.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Chzin</h5>
                             <p class="card-text">0 moedas</p>
@@ -440,8 +440,8 @@
                          </div>
                       </div>
                       <div class="item">
-                      <div class="card" style="width: 18rem;">
-                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/skin/s8.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Chzin</h5>
                             <p class="card-text">0 moedas</p>
@@ -450,8 +450,8 @@
                          </div>
                       </div>
                       <div class="item">
-                      <div class="card" style="width: 18rem;">
-                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/skin/s9.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Chzin</h5>
                             <p class="card-text">0 moedas</p>
@@ -460,8 +460,8 @@
                          </div>
                       </div>
                       <div class="item">
-                      <div class="card" style="width: 18rem;">
-                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/skin/s10.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Chzin</h5>
                             <p class="card-text">0 moedas</p>
@@ -470,8 +470,8 @@
                          </div>
                       </div>
                       <div class="item">
-                         <div class="card" style="width: 18rem;">
-                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                         <div class="card">
+                           <img class="card-img-top" src="../../img/skin/s11.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Chzin</h5>
                             <p class="card-text">0 moedas</p>
@@ -480,8 +480,8 @@
                          </div>
                       </div>
                       <div class="item">
-                      <div class="card" style="width: 18rem;">
-                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/skin/s12.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Chzin</h5>
                             <p class="card-text">0 moedas</p>
@@ -490,8 +490,18 @@
                          </div>
                       </div>
                       <div class="item">
-                      <div class="card" style="width: 18rem;">
-                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/skin/s13.jpeg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Irmãos vextre</h5>
+                            <p class="card-text">0 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/skin/s14.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Chzin</h5>
                             <p class="card-text">0 moedas</p>
@@ -500,18 +510,18 @@
                          </div>
                       </div>
                       <div class="item">
-                      <div class="card" style="width: 18rem;">
-                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/skin/s15.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Chzin</h5>
+                            <h5 class="card-title">Cantora</h5>
                             <p class="card-text">0 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
                       </div>
                       <div class="item">
-                      <div class="card" style="width: 18rem;">
-                           <img class="card-img-top" src="gamebackground_resized.jpg" >
+                      <div class="card">
+                           <img class="card-img-top" src="#" >
                            <div class="card-body">
                             <h5 class="card-title">Chzin</h5>
                             <p class="card-text">0 moedas</p>
@@ -519,19 +529,20 @@
                            </div>
                          </div>
                       </div>
-    </div>
-    </div>
+                    </div>
+                  </div>
 
                     
-                    </div>
+                  </div>
                   </div>
                 </div>
               </div>
             </div>
-            </div>
-            </div>
+          </div>
+        </div>   
+          
 
-            
+           
           
           <!-- content-wrapper ends -->
           <!-- partial:../../partials/_footer.html -->
