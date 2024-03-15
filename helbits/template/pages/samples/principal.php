@@ -96,7 +96,7 @@
         margin-left:10px;
       }
       .game{height:80%;}
-      .atividades{margin-top:-5%;}
+      .atividades{margin-top:-2%;}
     }
     .drop-habits{
       background-color:whitesmoke;
