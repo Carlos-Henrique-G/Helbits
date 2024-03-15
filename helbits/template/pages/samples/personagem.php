@@ -493,7 +493,7 @@
                       <div class="card" style="width: 18rem;">
                            <img class="card-img-top" src="../../img/skin/s13.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Chzin</h5>
+                            <h5 class="card-title">Irmãos vextre</h5>
                             <p class="card-text">0 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
