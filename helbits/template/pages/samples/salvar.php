@@ -21,7 +21,7 @@
 
     $insert = $conexao->query($novousuario);
 
-    $usuarioconectado = "select cod_usu from tbusuarios where utilizador='$utilizador' and dominio='$dominio' and senha='$senha'";
+    $usuarioconectado = "select cod_usu from tbusuarios where utilizador='$utilizador' and dominio='$dominio' and senha='$senha';";
 
     $consulta = $conexao->query($usuarioconectado);
 

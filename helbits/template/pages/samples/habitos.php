@@ -6,9 +6,9 @@
     $descricao = $_POST['habitodesc'];
     $codusu= $_SESSION['cod_usu'];
 
-    echo $codusu;
+    
     $novohabito = "insert into tbhabitos (cod_hab, cod_usu, descricao, tipo)
-                                         values (null,".$codusu.",".$descricao.",'BOM');";
+                                         values (null,".$codusu.",'".$descricao."','BOM');";
 
     $insert = $conexao->query($novohabito);
 

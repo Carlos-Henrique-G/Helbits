@@ -15,10 +15,10 @@
         }
     }
 
-    $usuarioconectado = "select cod_usu from tbusuarios where utilizador='$utilizador' and dominio='$dominio' and senha='$senha'";
+    $usuarioconectado = "select cod_usu from tbusuarios where utilizador='$utilizador' and dominio='$dominio' and senha='$senha';";
 
     $consulta = $conexao->query($usuarioconectado);
-
+        
     if($consulta->num_rows > 0) {
         $linha = $consulta->fetch_array(MYSQLI_ASSOC);
         session_start();
