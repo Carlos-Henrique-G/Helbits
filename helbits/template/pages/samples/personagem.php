@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
     <link rel="stylesheet" href="css/custompersonagem.css">
+    <link rel="stylesheet" href="css/custommodal.css">
     <!-- endinject -->
     <!-- Plugin css for this page -->
     <!-- End Plugin css for this page -->
@@ -373,9 +374,9 @@
                          <div class="card">
                            <img class="card-img-top" src="../../img/skin/s1.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Chzin</h5>
-                            <p class="card-text">0 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
+                            <h5 class="card-title">Angelisis</h5>
+                            <p class="card-text">1000 moedas</p>
+                            <button class="btn btn-success" id="visualizarBtn">Visualizar</button>
                            </div>
                          </div>
                       </div>
@@ -383,8 +384,8 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/skin/s2.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Chzin</h5>
-                            <p class="card-text">0 moedas</p>
+                            <h5 class="card-title">Kinaiti</h5>
+                            <p class="card-text">1000 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
@@ -393,8 +394,8 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/skin/s3.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Chzin</h5>
-                            <p class="card-text">0 moedas</p>
+                            <h5 class="card-title">Violonelo</h5>
+                            <p class="card-text">1100 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
@@ -403,8 +404,8 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/skin/s4.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Chzin</h5>
-                            <p class="card-text">0 moedas</p>
+                            <h5 class="card-title">Serventia</h5>
+                            <p class="card-text">1000 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
@@ -413,8 +414,8 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/skin/s5.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Chzin</h5>
-                            <p class="card-text">0 moedas</p>
+                            <h5 class="card-title">Dwleyer</h5>
+                            <p class="card-text">2100 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
@@ -423,8 +424,8 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/skin/s6.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Chzin</h5>
-                            <p class="card-text">0 moedas</p>
+                            <h5 class="card-title">Sheevah</h5>
+                            <p class="card-text">2200 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
@@ -433,8 +434,8 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/skin/s7.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Chzin</h5>
-                            <p class="card-text">0 moedas</p>
+                            <h5 class="card-title">Tarmiel Cap</h5>
+                            <p class="card-text">2200 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
@@ -443,8 +444,8 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/skin/s8.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Chzin</h5>
-                            <p class="card-text">0 moedas</p>
+                            <h5 class="card-title">Menin White</h5>
+                            <p class="card-text">2500 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
@@ -453,8 +454,8 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/skin/s9.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Chzin</h5>
-                            <p class="card-text">0 moedas</p>
+                            <h5 class="card-title">Fishit</h5>
+                            <p class="card-text">4000 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
@@ -463,8 +464,8 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/skin/s10.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Chzin</h5>
-                            <p class="card-text">0 moedas</p>
+                            <h5 class="card-title">Itenias</h5>
+                            <p class="card-text">5000 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
@@ -473,8 +474,8 @@
                          <div class="card">
                            <img class="card-img-top" src="../../img/skin/s11.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Chzin</h5>
-                            <p class="card-text">0 moedas</p>
+                            <h5 class="card-title">3Dwitch</h5>
+                            <p class="card-text">5100 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
@@ -483,8 +484,8 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/skin/s12.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Chzin</h5>
-                            <p class="card-text">0 moedas</p>
+                            <h5 class="card-title">You</h5>
+                            <p class="card-text">5000 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
@@ -494,7 +495,7 @@
                            <img class="card-img-top" src="../../img/skin/s13.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Irmãos vextre</h5>
-                            <p class="card-text">0 moedas</p>
+                            <p class="card-text">7000 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
@@ -503,8 +504,8 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/skin/s14.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Chzin</h5>
-                            <p class="card-text">0 moedas</p>
+                            <h5 class="card-title">Díodor</h5>
+                            <p class="card-text">7300 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
@@ -513,18 +514,38 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/skin/s15.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Cantora</h5>
-                            <p class="card-text">0 moedas</p>
+                            <h5 class="card-title">Virgin</h5>
+                            <p class="card-text">7400 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
                       </div>
                       <div class="item">
                       <div class="card">
-                           <img class="card-img-top" src="#" >
+                           <img class="card-img-top" src="../../img/skin/s16.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Chzin</h5>
-                            <p class="card-text">0 moedas</p>
+                            <h5 class="card-title">Samsara</h5>
+                            <p class="card-text">7000 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/skin/s17.jpeg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Hell's Dream</h5>
+                            <p class="card-text">8444 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/skin/s18.jpeg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Tramper</h5>
+                            <p class="card-text">8000 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
@@ -570,6 +591,7 @@
     <script src="../../assets/js/misc.js"></script>
     <script src="../../assets/js/settings.js"></script>
     <script src="../../assets/js/todolist.js"></script>
+    <script src="js2/popup.js"></script>
     <!-- custom JS -->
     
     <!-- endinject -->
