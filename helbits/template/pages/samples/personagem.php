@@ -152,8 +152,8 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="personagem.php"><i class="mdi mdi-"></i> Personagens</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pets.php">Pets</a></li>
+                <li class="nav-item"> <a class="nav-link" href="personagem.php"><i class="mdi mdi-account-switch"></i>Personagens</a></li>
+            <li class="nav-item"> <a class="nav-link" href="pets.php" ><i class="mdi mdi-cat"> </i>Pets</a></li>
                 
               </ul>
           </li>
