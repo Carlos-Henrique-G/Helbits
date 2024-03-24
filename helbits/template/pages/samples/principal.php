@@ -424,9 +424,9 @@
                           <span class="menu-icon">
                              <i class="mdi mdi-coin"></i>
                           </span>
-                          <span class="card-title">XP</span><div class="progress">
+                          <span class="card-title">XP<div class="progress">
                                 <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
+                              </div></span>
                         </div>
                     
                         </div>
