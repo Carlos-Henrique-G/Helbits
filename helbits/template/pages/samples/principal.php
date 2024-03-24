@@ -501,7 +501,22 @@
     var todoListItem = $('.todo-list');
     $('.todo-list-add-btn').on("click", function(event) {
       
-      var item = $(this).prevAll('.todo-list-input').val();
+      <?php
+         include('./conexaocombanco/banco.php');
+
+         $codusu = $_SESSION['codusu'];
+         $sql = "select  nome from tbhabitos where cod_usu = $codusu 
+                 order by cod_hab desc limit 1;";
+
+         $consulta = $conexao->query($sql);
+
+        if($consulta -> num_rows > 0) {
+          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+          $novohabito = $linha['nome']; 
+        }
+      ?>
+
+      var item = '<?php echo $novohabito; ?>';
 
       if (item) {
         todoListItem.append("<li><div class='form-check'><label class='form-check-label'><input class='checkbox' type='checkbox'/>" + item + "<i class='input-helper'></i></label></div><i class='remove mdi mdi-close-circle-outline'></i></li>");
