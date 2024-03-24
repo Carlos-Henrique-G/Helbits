@@ -569,17 +569,17 @@
         if(isset($_GET['insert_habito'])) {
           if($_GET['insert_habito'] == 'ok') {
             function adicionarUltimoHabito(){
-              $codusu = $_SESSION['codusu'];
-              $sql = "select  nome from tbhabitos where cod_usu = $codusu 
-                      order by cod_hab desc limit 1;";
-    
-              $consulta = $conexao->query($sql);
-    
-              if($consulta -> num_rows > 0) {
-                $linha = $consulta->fetch_array(MYSQLI_ASSOC);
-                $novohabito = $linha['nome']; 
-                return $novohabito;
-              }
+                $codusu = $_SESSION['codusu'];
+                $sql = "select  nome from tbhabitos where cod_usu = $codusu 
+                        order by cod_hab desc limit 1;";
+
+                $consulta = $conexao->query($sql);
+
+                if($consulta -> num_rows > 0) {
+                  $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                  $novohabito = $linha['nome']; 
+                  return $novohabito;
+                }
             }     
           }
         }
