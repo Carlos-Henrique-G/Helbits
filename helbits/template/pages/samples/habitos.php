@@ -13,8 +13,8 @@
     $insert = $conexao->query($novohabito);
 
     if($insert) {
-        header('Location: principal.php');
+        header('Location: principal.php?insert_habito=ok');
     } else {
-        header('Location: principal.php');
+        header('Location: principal.php?insert_habito=erro');
     }
 ?>
