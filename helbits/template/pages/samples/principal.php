@@ -569,8 +569,7 @@
     var todoListItem = $('.todo-list');
     var todoListInput = $('.todo-list-input');
     $('.todo-list-add-btn').on("click", function(event) {
-      event.preventDefault();
-
+      
       var item = $(this).prevAll('.todo-list-input').val();
 
       if (item) {

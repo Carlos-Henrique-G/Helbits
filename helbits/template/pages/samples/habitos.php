@@ -15,6 +15,6 @@
     if($insert) {
         header('Location: principal.php');
     } else {
-        header('Location: frmlogin.php');
+        header('Location: principal.php');
     }
 ?>
