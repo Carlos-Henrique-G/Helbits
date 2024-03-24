@@ -10,7 +10,7 @@
         $char = $email[$i];
         if($char == "@") {
             $array = explode("@",$email);
-            $utlizador = $array[0];
+            $utilizador = $array[0];
             $dominio = "@" . $array[1];
         }
     }

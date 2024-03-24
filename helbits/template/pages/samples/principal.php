@@ -129,7 +129,7 @@
         
           <label class="subtitle-modal">Nome</label>
                         <div class="add-items d-flex">
-                          <input type="text" class="form-control " name="nomehabito" id="nomehabito" placeholder="Adicione tarefas">
+                          <input type="text" class="form-control todo-list-input " name="nomehabito" id="nomehabito" placeholder="Adicione tarefas">
                           <button type="submit" class="add btn btn-primary ">Add</button>
                         </div>
                 <label class="subtitle-modal">Descrição</label>
@@ -519,7 +519,8 @@
                           </div>
                           <i class="remove mdi mdi-close-box"></i>
                         </li>
-                       
+                        
+                        
                       </ul>
                     </div>
                   </div>
@@ -561,6 +562,43 @@
     
     <!-- endinject -->
     <!-- Custom js for this page -->
+    <script>
+    (function($) {
+  'use strict';
+  $(function() {
+    var todoListItem = $('.todo-list');
+    var todoListInput = $('.todo-list-input');
+    $('.todo-list-add-btn').on("click", function(event) {
+      event.preventDefault();
+
+      var item = $(this).prevAll('.todo-list-input').val();
+
+      if (item) {
+        todoListItem.append("<li><div class='form-check'><label class='form-check-label'><input class='checkbox' type='checkbox'/>" + item + "<i class='input-helper'></i></label></div><i class='remove mdi mdi-close-circle-outline'></i></li>");
+        todoListInput.val("");
+      }
+
+    });
+
+    todoListItem.on('change', '.checkbox', function() {
+      if ($(this).attr('checked')) {
+        $(this).removeAttr('checked');
+      } else {
+        $(this).attr('checked', 'checked');
+      }
+
+      $(this).closest("li").toggleClass('completed');
+
+    });
+
+    todoListItem.on('click', '.remove', function() {
+      $(this).parent().remove();
+    });
+
+  });
+})(jQuery);
+</script>
     <!-- End custom js for this page -->
+    
   </body>
 </html>
