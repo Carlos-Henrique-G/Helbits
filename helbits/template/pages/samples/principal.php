@@ -20,21 +20,6 @@
    
   include('./conexaocombanco/banco.php');
 
-  if(isset($_GET['insert_habito'])) {
-    if($_GET['insert_habito'] == 'ok') {
-        $codusu_ultimo_habito = $_SESSION['cod_usu'];
-        $sql_ultimo_habito = "select  nome from tbhabitos where cod_usu = $codusu_ultimo_habito 
-                order by cod_hab desc limit 1;";
-
-        $consulta_ultimo_habito = $conexao->query($sql_ultimo_habito);
-
-        if($consulta_ultimo_habito -> num_rows > 0) {
-          $linha_ultimo_habito = $consulta_ultimo_habito->fetch_array(MYSQLI_ASSOC);
-          $novohabito = $linha_ultimo_habito['nome']; 
-        }
-
-    }
-  }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -469,14 +454,14 @@
                       <?php
                         $codusu_habitos = $_SESSION['cod_usu'];
                         $sql_habitos_usu = "select nome from tbhabitos
-                                            where codusu = $codusu_habitos and cod_hab != (select  cod_hab from tbhabitos where cod_usu = $codusu_usu_habito 
-                                            order by cod_hab desc limit 1;)
+                                            where cod_usu = $codusu_habitos
                                             order by cod_hab asc;";
+
                         $consulta_habitos = $conexao->query($sql_habitos_usu);                  
                         
-                        if($consulta -> num_rows > 0) {
-                          while($linha_habitos = $consulta->fetch_array(MYSQLI_ASSOC)){
-                            echo "<li><div class='form-check'><label class='form-check-label'><input class='checkbox' type='checkbox'/>" + $linha_habitos['nome'] + "<i class='input-helper'></i></label></div><i class='remove mdi mdi-close-circle-outline'></i></li>";
+                        if($consulta_habitos -> num_rows > 0) {
+                          while($linha_habitos = $consulta_habitos->fetch_array(MYSQLI_ASSOC)){
+                            echo "<li><div class='form-check'><label class='form-check-label'><input class='checkbox' type='checkbox'/>". $linha_habitos['nome'] ."<i class='input-helper'></i></label></div><i class='remove mdi mdi-close-circle-outline'></i></li>";
                           } 
                         }
                       ?>
