@@ -17,7 +17,6 @@
       
     }
   }
-   
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -39,141 +38,30 @@
     <!-- End layout styles -->
     <link rel="shortcut icon" href="../../assets/images/favicon.png" />
     <link rel="stylesheet" href="css/customstyle.css">
-    <style>
-    /* CSS personalizado para mudar a cor do fundo do modal */
-    .custom-modal .modal-content {
-      background-color:  whitesmoke; /* Cor de fundo desejada */
-    }
-    .add-items input[type="text"] {
-      background:#ffffff;
-    }
-    .modal-title{
-      color:black;
-    }
-    .desc-habit{
-      width:100%;
-      height:100%;
-      margin:auto;
-    }
-    .subtitle-modal{color:#000000}
-    .form-control{color:black}
     
-   
-    @media screen and (max-width:500px) {
-      .jogo-img{
-        height:75px;
-        width:75px;
-        margin-bottom:10%;
-      }
-      .info{
-        margin-bottom:10%;
-        margin-left:10px;
-      }
-      .game-row{height:75px;}
-    }
-    @media screen and (min-width:501px ) {
-      .jogo-img{
-        height:100px;
-        width:100px;
-      }
-      .game-row{height:100px;}
-      .info{
-        
-        margin-left:10px;
-      }
-    }
-    @media screen and (min-width:1000px ) {
-      .jogo-img{
-        height:120px;
-        width:120px;
-        margin-bottom:10%;
-      }
-      .game-row{
-        height:170px;
-        
-      }
-      .info{
-        margin-bottom:10%;
-        margin-left:10px;
-      }
-      .game{height:80%;}
-      .atividades{margin-top:-2%;}
-    }
-    .drop-habits{
-      background-color:whitesmoke;
-      color:black;
-    }
-    .paragrafo{
-      color:black;
-    }
-    .div-do-paragrafo:hover{
-      background-color:lightgrey;
-    }
-    .sair{
-      margin-left:33%;
-    }
-    
-  
-  </style>
   </head>
   <body>
-  <form action="habitos.php" method="POST">
-  <div class="modal-background">
-  <div class="modal fade custom-modal" id="modal-bom" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content" id="fundo-modal">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Novo hábito</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        
-          <label class="subtitle-modal">Nome</label>
-                        <div class="add-items d-flex">
-                          <input type="text" class="form-control" name="nomehabito" id="nomehabito" placeholder="Adicione tarefas">
-                          <button type="submit" class="add btn btn-primary todo-list-add-btn">Add</button>
-                        </div>
-                <label class="subtitle-modal">Descrição</label>
-              <textarea class="desc-habit"name="habitodesc" id="habitodesc" cols="28" rows="5"></textarea>
-            
-      </div>
-  </form>
-
-    </div>
-  </div>
   
-</div>
-</div>
-<form action="habitos.php" method="POST">
-<div class="modal-background">
-  <div class="modal fade custom-modal" id="modal-mal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
-    <div class="modal-content" id="fundo-modal">
+    <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Quebrar hábito</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <form action="" method="POST">
-            <label class="subtitle-modal">Nome</label>
-            <div class="add-items d-flex">
-                            <input type="text" class="form-control todo-list-input" placeholder="Adicione tarefas">
-                            <button type="submit" class="add btn btn-primary todo-list-add-btn">Add</button>
-                          </div>
-                  <label class="subtitle-modal">Descrição</label>
-                <textarea class="desc-habit" name="desc" id="desc" cols="28" rows="5"></textarea>
-              
-            </div>
-      </form>
-
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Salvar mudanças</button>
+      </div>
     </div>
   </div>
 </div>
-</div>
+
     <div class="container-scroller">
       <!-- partial:../../partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
@@ -181,7 +69,6 @@
           <a class="sidebar-brand brand-logo" href="principal.php"><h1 class="titulo">Helbits</h1></a>
           <a class="sidebar-brand brand-logo-mini" href="principal.php"><h1 class="titulo">H</h1></a>
         </div>
-        
         <ul class="nav">
           <li class="nav-item profile">
             <div class="profile-desc">
@@ -244,13 +131,14 @@
             </a>
           </li>
           <li class="nav-item menu-items">
-          <a class="nav-link" href="gerenciarhabitos.php">
+            <a class="nav-link" href="#">
               <span class="menu-icon">
                 <i class="mdi mdi-chart-line"></i>
               </span>
               <span class="menu-title">Gerenciar Hábitos</span>
               
             </a>
+            
           </li>
           <li class="nav-item menu-items">
           <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
@@ -299,36 +187,42 @@
             <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
               <span class="mdi mdi-menu"></span>
             </button>
-            
+            <ul class="navbar-nav w-100">
+              <li class="nav-item w-100">
+                <form class="nav-link mt-2 mt-md-0 d-none d-lg-flex search">
+                  <input type="text" class="form-control" placeholder="Pesquisar Hábitos">
+                </form>
+              </li>
+            </ul>
             <ul class="navbar-nav navbar-nav-right">
               <li class="nav-item dropdown d-none d-lg-block">
                 <a class="nav-link btn btn-success create-new-button" id="createbuttonDropdown" data-toggle="dropdown" aria-expanded="false" href="#">+ Criar Novo Hábito</a>
-                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list drop-habits" aria-labelledby="createbuttonDropdown">
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="createbuttonDropdown">
                   <h6 class="p-3 mb-0">Hábitos</h6>
                   <div class="dropdown-divider"></div>
                   
                   <div class="dropdown-divider"></div>
                   
-                  <a class="dropdown-item preview-item div-do-paragrafo" data-toggle="modal" data-target="#modal-bom" >
+                  <a class="dropdown-item preview-item" data-toggle="modal" data-target="#modalExemplo" >
                     <div class="preview-thumbnail">
                       <div class="preview-icon bg-dark rounded-circle">
                         <i class="mdi mdi-web text-info"></i>
                       </div>
                     </div>
-                    <div class="preview-item-content ">
-                      <p class="preview-subject ellipsis mb-1 paragrafo">Criar bom hábito
+                    <div class="preview-item-content">
+                      <p class="preview-subject ellipsis mb-1">Criar bom hábito
                     </div>
                   </a>
                   
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item div-do-paragrafo" data-toggle="modal" data-target="#modal-mal">
+                  <a class="dropdown-item preview-item">
                     <div class="preview-thumbnail">
                       <div class="preview-icon bg-dark rounded-circle">
                         <i class="mdi mdi-layers text-danger"></i>
                       </div>
                     </div>
-                    <div class="preview-item-content ">
-                      <p class="preview-subject ellipsis mb-1 paragrafo">Quebrar mal hábito</p>
+                    <div class="preview-item-content">
+                      <p class="preview-subject ellipsis mb-1">Quebrar mal hábito</p>
                     </div>
                   </a>
                   
@@ -339,22 +233,88 @@
                   <i class="mdi mdi-email"></i>
                   <span class="count bg-success"></span>
                 </a>
-               
-                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
                   <h6 class="p-3 mb-0">Notificações</h6>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item" href="#">
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <img src="../../assets/images/faces/face4.jpg" alt="image" class="rounded-circle profile-pic">
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject ellipsis mb-1">Mark send you a message</p>
+                      <p class="text-muted mb-0"> 1 Minutes ago </p>
+                    </div>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <img src="../../assets/images/faces/face2.jpg" alt="image" class="rounded-circle profile-pic">
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject ellipsis mb-1">Cregh send you a message</p>
+                      <p class="text-muted mb-0"> 15 Minutes ago </p>
+                    </div>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <img src="../../assets/images/faces/face3.jpg" alt="image" class="rounded-circle profile-pic">
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject ellipsis mb-1">Profile picture updated</p>
+                      <p class="text-muted mb-0"> 18 Minutes ago </p>
+                    </div>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <p class="p-3 mb-0 text-center">4 new messages</p>
+                </div>
+              </li>
+              <li class="nav-item dropdown border-left">
+                <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+                  <i class="mdi mdi-bell"></i>
+                  <span class="count bg-danger"></span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+                  <h6 class="p-3 mb-0">Notifications</h6>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
                     <div class="preview-thumbnail">
                       <div class="preview-icon bg-dark rounded-circle">
                         <i class="mdi mdi-calendar text-success"></i>
                       </div>
                     </div>
                     <div class="preview-item-content">
-                      <p class="preview-subject mb-1">Eventos de hoje</p>
-                      <p class="text-muted ellipsis mb-0"> Apenas lembrando das suas atividades</p>
+                      <p class="preview-subject mb-1">Event today</p>
+                      <p class="text-muted ellipsis mb-0"> Just a reminder that you have an event today </p>
                     </div>
                   </a>
-                  
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon bg-dark rounded-circle">
+                        <i class="mdi mdi-settings text-danger"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject mb-1">Settings</p>
+                      <p class="text-muted ellipsis mb-0"> Update dashboard </p>
+                    </div>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon bg-dark rounded-circle">
+                        <i class="mdi mdi-link-variant text-warning"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject mb-1">Launch Admin</p>
+                      <p class="text-muted ellipsis mb-0"> New admin wow! </p>
+                    </div>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <p class="p-3 mb-0 text-center">See all notifications</p>
+                </div>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
@@ -365,7 +325,7 @@
                   </div>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="profileDropdown">
-                  <h6 class="p-3 mb-0">Perfil</h6>
+                  <h6 class="p-3 mb-0">Profile</h6>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item preview-item">
                     <div class="preview-thumbnail">
@@ -374,21 +334,23 @@
                       </div>
                     </div>
                     <div class="preview-item-content">
-                      <p class="preview-subject mb-1">Configurações</p>
+                      <p class="preview-subject mb-1">Settings</p>
                     </div>
                   </a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item" href="sair.php">
+                  <a class="dropdown-item preview-item">
                     <div class="preview-thumbnail">
                       <div class="preview-icon bg-dark rounded-circle">
                         <i class="mdi mdi-logout text-danger"></i>
                       </div>
                     </div>
                     <div class="preview-item-content">
-                    <p class="preview-subject mb-1" >Sair</p>
+                      <a class="btn btn-success" href="sair.php">Sair</a>
                     </div>
                   </a>
-
+                  <div class="dropdown-divider"></div>
+                  <p class="p-3 mb-0 text-center">Advanced settings</p>
+                </div>
               </li>
             </ul>
             <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
@@ -401,66 +363,18 @@
           <div class="content-wrapper">
 
             <div class="row">
-              <div class="col-md-12  grid-margin stretch-card">
-                <div class="card game"> 
+              <div class="col-md-12 grid-margin stretch-card">
+                <div class="card"> 
                     <div class="card-body">
-                    <div class="row game-row align-items-center">
-                      
-                          <img class="jogo-img "src="gamebackground_resized_resized_resized.jpg" alt="" srcset="">
-                     
-                        <div class="info col-9 col-1 col-xl-2 pl-0">
-                        <div class = "status">
-                         
-                          <span class="menu-icon">
-                             <i class="mdi mdi-coin icon-item"></i>
-                          </span>
-                          <span class="card-title">Money</span>
-                        </div>
-                        <div class = "status">
-                          <span class="menu-icon">
-                             <i class="mdi mdi-coin"></i>
-                          </span>
-                          <span class="card-title">HP</span>
-                        </div>
-                        <div class = "status_xp">
-                          <span class="menu-icon">
-                             <i class="mdi mdi-coin"></i>
-                          </span>
-                          
-                            <span class="card-title">XP(0/100)<div class="progress">
-                                  <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div></span>
-                          </div>
-                        </div>
+                    <h3 class="card-title">Seus hábitos</h3>
                     
-                        
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-md-12 col-md-4 grid-margin stretch-card">
-                <div class="card atividades">
-                  <div class="card-body">
-                    <h4 class="card-title">Atividades</h4>
-                    
-                    <div class="list-wrapper">
-                      <ul class="d-flex flex-column-reverse text-white todo-list todo-list-custom">
-                        
-                        
-                        
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-        
-          
+            
           
           <!-- content-wrapper ends -->
           <!-- partial:../../partials/_footer.html -->
@@ -487,65 +401,11 @@
     <script src="../../assets/js/hoverable-collapse.js"></script>
     <script src="../../assets/js/misc.js"></script>
     <script src="../../assets/js/settings.js"></script>
-    
+    <script src="../../assets/js/todolist.js"></script>
     <!-- custom JS -->
     
     <!-- endinject -->
-    <!-- Custom js and php for this page -->
-
-    <?php
-        include('./conexaocombanco/banco.php');
-
-        if(isset($_GET['insert_habito'])) {
-          if($_GET['insert_habito'] == 'ok') {
-              $codusu = $_SESSION['cod_usu'];
-              $sql = "select  nome from tbhabitos where cod_usu = $codusu 
-                      order by cod_hab desc limit 1;";
-
-              $consulta = $conexao->query($sql);
-
-              if($consulta -> num_rows > 0) {
-                $linha = $consulta->fetch_array(MYSQLI_ASSOC);
-                $novohabito = $linha['nome']; 
-              }
-
-          }
-        }
-    ?>
-    
-    <script>
-    (function($) {
-  'use strict';
-  $(function() {
-    var todoListItem = $('.todo-list');
-    var todoListInput = $('.todo-list-input');
-
-    var item = '<?php echo $novohabito; ?>';
-
-    if (item) {
-      todoListItem.append("<li><div class='form-check'><label class='form-check-label'><input class='checkbox' type='checkbox'/>" + item + "<i class='input-helper'></i></label></div><i class='remove mdi mdi-close-circle-outline'></i></li>");
-      todoListInput.val("");
-    }
-
-    todoListItem.on('change', '.checkbox', function() {
-      if ($(this).attr('checked')) {
-        $(this).removeAttr('checked');
-      } else {
-        $(this).attr('checked', 'checked');
-      }
-
-      $(this).closest("li").toggleClass('completed');
-
-    });
-
-    todoListItem.on('click', '.remove', function() {
-      $(this).parent().remove();
-    });
-
-  });
-})(jQuery);
-</script>
+    <!-- Custom js for this page -->
     <!-- End custom js for this page -->
-    
   </body>
 </html>
