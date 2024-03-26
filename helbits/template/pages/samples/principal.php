@@ -128,7 +128,31 @@
     .list-wrapper a.remove:hover{
       color:black !important;
     }
+    @media (min-width: 992px){
+      .sidebar-icon-only .sidebar .nav .nav-item.hover-open .nav-link .menu-title {
+        background-color:#f5f5f5;
+      }
+      .sidebar-icon-only .sidebar .nav.sub-menu .nav-item .nav-link{
+        background-color:#ffffff;
+        color:black;
+      }
+      .sidebar-icon-only .sidebar .nav.sub-menu{
+        background-color:#ffffff;
+      }
+      .sidebar-icon-only .sidebar .nav .nav-item.hover-open .collapse{
+        background-color:#ffffff;
+      }
+      .sidebar-icon-only .sidebar .nav.sub-menu .nav-item .nav-link:before {
+        background-color:transparent;
+      }
+      
+      .sidebar-icon-only .sidebar .nav.sub-menu .nav-item .nav-link{
+        padding:10px;
+      }
+
+    }
   
+
   
   </style>
   </head>
