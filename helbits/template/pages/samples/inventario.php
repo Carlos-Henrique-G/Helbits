@@ -18,8 +18,6 @@
     }
   }
    
-  include('./conexaocombanco/banco.php');
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -102,24 +100,29 @@
       .atividades{margin-top:-2%;}
     }
     .drop-habits{
-      background-color:#f5f5f5;
+      background-color:whitesmoke;
       color:black;
     }
     .paragrafo{
       color:black;
     }
     .div-do-paragrafo:hover{
-      background-color:rgb(230, 230, 230);
+      background-color:lightgrey;
     }
     .sair{
       margin-left:33%;
     }
-    
+    .table{
+        color:#000000;
+    }
+    .table thead th{
+        color:#000000;
+    }
   
   </style>
   </head>
   <body>
-  <form action="bonshabitos.php" method="POST">
+  <form action="habitos.php" method="POST">
   <div class="modal-background">
   <div class="modal fade custom-modal" id="modal-bom" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -148,26 +151,26 @@
   
 </div>
 </div>
-      <form action="maushabitos.php" method="POST">
-        <div class="modal-background">
-          <div class="modal fade custom-modal" id="modal-mal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content" id="fundo-modal">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Quebrar hábito</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-        
+<form action="habitos.php" method="POST">
+<div class="modal-background">
+  <div class="modal fade custom-modal" id="modal-mal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" id="fundo-modal">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Quebrar hábito</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="" method="POST">
             <label class="subtitle-modal">Nome</label>
             <div class="add-items d-flex">
-                            <input type="text" class="form-control todo-list-input" placeholder="Adicione tarefas" name="nomehabito" id="nomehabito">
+                            <input type="text" class="form-control todo-list-input" placeholder="Adicione tarefas">
                             <button type="submit" class="add btn btn-primary todo-list-add-btn">Add</button>
                           </div>
                   <label class="subtitle-modal">Descrição</label>
-                <textarea class="desc-habit" name="habitodesc" id="habitodesc" cols="28" rows="5"></textarea>
+                <textarea class="desc-habit" name="desc" id="desc" cols="28" rows="5"></textarea>
               
             </div>
       </form>
@@ -197,7 +200,7 @@
                   <span>do grau</span>
                 </div>
               </div>
-              <a href="#" id="profile-dropdown" data-toggle="dropdown" ><i class="mdi mdi-dots-vertical"></i></a>
+              <a href="#" id="profile-dropdown" data-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
               <div class="dropdown-menu dropdown-menu-right sidebar-dropdown preview-list" aria-labelledby="profile-dropdown">
                 <a href="#" class="dropdown-item preview-item">
                   <div class="preview-thumbnail">
@@ -270,7 +273,7 @@
               </ul>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" href="inventario.php">
+            <a class="nav-link" href="../../pages/tables/basic-table.html">
               <span class="menu-icon">
                 <i class="mdi mdi-table-large"></i>
               </span>
@@ -278,7 +281,7 @@
             </a>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" href="configuracoes.php">
+            <a class="nav-link" href="../../pages/charts/chartjs.html">
               <span class="menu-icon">
                 <i class="mdi mdi-brightness-5"></i>
               </span>
@@ -402,76 +405,21 @@
         <div class="main-panel">
           <div class="content-wrapper">
 
+           
+
             <div class="row">
-              <div class="col-md-12  grid-margin stretch-card">
-                <div class="card game"> 
+              <div class="col-md-12 grid-margin stretch-card">
+                <div class="card"> 
                     <div class="card-body">
-                    <div class="row game-row align-items-center">
-                      
-                          <img class="jogo-img "src="gamebackground_resized_resized_resized.jpg" alt="" srcset="">
-                     
-                        <div class="info col-9 col-1 col-xl-2 pl-0">
-                        <div class = "status">
-                         
-                          <span class="menu-icon">
-                             <i class="mdi mdi-coin icon-item"></i>
-                          </span>
-                          <span class="card-title">Money</span>
-                        </div>
-                        <div class = "status">
-                          <span class="menu-icon">
-                             <i class="mdi mdi-coin"></i>
-                          </span>
-                          <span class="card-title">HP</span>
-                        </div>
-                        <div class = "status_xp">
-                          <span class="menu-icon">
-                             <i class="mdi mdi-coin"></i>
-                          </span>
-                          
-                            <span class="card-title">XP(0/100)<div class="progress">
-                                  <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div></span>
-                          </div>
-                        </div>
+                    <h3 class="card-title">Seu Inventário</h3>
+                   
                     
-                        
+                    
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div class="row">
-              <div class="col-md-12 col-md-4 grid-margin stretch-card">
-                <div class="card atividades">
-                  <div class="card-body">
-                    <h4 class="card-title">Atividades</h4>
-                    
-                    <div class="list-wrapper">
-                      <ul class="d-flex flex-column-reverse text-white todo-list todo-list-custom">
-                        
-                      <?php
-                        $codusu_habitos = $_SESSION['cod_usu'];
-                        $sql_habitos_usu = "select nome from tbhabitos
-                                            where cod_usu = $codusu_habitos
-                                            order by cod_hab asc;";
-
-                        $consulta_habitos = $conexao->query($sql_habitos_usu);                  
-                        
-                        if($consulta_habitos -> num_rows > 0) {
-                          while($linha_habitos = $consulta_habitos->fetch_array(MYSQLI_ASSOC)){
-                            echo "<li><div class='form-check'><label class='form-check-label'><input class='checkbox' type='checkbox'/>". $linha_habitos['nome'] ."<i class='input-helper'></i></label></div><i class='remove mdi mdi-close-circle-outline'></i></li>";
-                          } 
-                        }
-                      ?>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
           
         
           
@@ -506,6 +454,26 @@
     
     <!-- endinject -->
     <!-- Custom js and php for this page -->
+
+    <?php
+        include('./conexaocombanco/banco.php');
+
+        if(isset($_GET['insert_habito'])) {
+          if($_GET['insert_habito'] == 'ok') {
+              $codusu = $_SESSION['cod_usu'];
+              $sql = "select  nome from tbhabitos where cod_usu = $codusu 
+                      order by cod_hab desc limit 1;";
+
+              $consulta = $conexao->query($sql);
+
+              if($consulta -> num_rows > 0) {
+                $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                $novohabito = $linha['nome']; 
+              }
+
+          }
+        }
+    ?>
     
     <script>
     (function($) {
