@@ -167,7 +167,7 @@
                             <button type="submit" class="add btn btn-primary todo-list-add-btn">Add</button>
                           </div>
                   <label class="subtitle-modal">Descrição</label>
-                <textarea class="desc-habit" name="desc" id="desc" cols="28" rows="5"></textarea>
+                <textarea class="desc-habit" name="habitodesc" id="habitodesc" cols="28" rows="5"></textarea>
               
             </div>
       </form>
