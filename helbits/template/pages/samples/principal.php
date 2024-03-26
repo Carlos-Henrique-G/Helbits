@@ -20,6 +20,16 @@
    
   include('./conexaocombanco/banco.php');
 
+  $cod_usu = $_SESSION['cod_usu'];
+  $sql_nome_usuario = "select nome from tbusuarios
+                  where cod_usu = $cod_usu";
+
+  $consulta_nome = $conexao->query($sql_nome_usuario);
+
+  if($consulta_nome -> num_rows > 0) {
+    $linha = $consulta_nome -> fetch_array(MYSQLI_ASSOC);
+    $nome_usuario = $linha['nome'];
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -193,7 +203,7 @@
                   <span class="count bg-success"></span>
                 </div>
                 <div class="profile-name">
-                  <h5 class="mb-0 font-weight-normal">Chzin</h5>
+                  <h5 class="mb-0 font-weight-normal"><?php echo $nome_usuario ?></h5>
                   <span>do grau</span>
                 </div>
               </div>
@@ -322,7 +332,9 @@
                     </div>
                   </a>
                   
-                  <div class="dropdown-divider"></div>
+                  <div class="dropdown-divider">
+                    
+                  </div>
                   <a class="dropdown-item preview-item div-do-paragrafo" data-toggle="modal" data-target="#modal-mal">
                     <div class="preview-thumbnail">
                       <div class="preview-icon bg-dark rounded-circle">
@@ -353,7 +365,7 @@
                     </div>
                     <div class="preview-item-content">
                       <p class="preview-subject mb-1">Eventos de hoje</p>
-                      <p class="text-muted ellipsis mb-0"> Apenas lembrando das suas atividades</p>
+                      <p class="text-muted ellipsis mb-0">Apenas lembrando das suas atividades</p>
                     </div>
                   </a>
                   
@@ -362,7 +374,7 @@
                 <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
                   <div class="navbar-profile">
                     <img class="img-xs rounded-circle" src="../../assets/images/faces/face15.jpg" alt="">
-                    <p class="mb-0 d-none d-sm-block navbar-profile-name">chzin do grau</p>
+                    <p class="mb-0 d-none d-sm-block navbar-profile-name"><?php echo $nome_usuario ?></p>
                     <i class="mdi mdi-menu-down d-none d-sm-block"></i>
                   </div>
                 </a>
