@@ -119,7 +119,7 @@
   </style>
   </head>
   <body>
-  <form action="habitos.php" method="POST">
+  <form action="bonshabitos.php" method="POST">
   <div class="modal-background">
   <div class="modal fade custom-modal" id="modal-bom" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -148,22 +148,22 @@
   
 </div>
 </div>
-<form action="habitos.php" method="POST">
-<div class="modal-background">
-  <div class="modal fade custom-modal" id="modal-mal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content" id="fundo-modal">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Quebrar hábito</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form action="" method="POST">
+      <form action="maushabitos.php" method="POST">
+        <div class="modal-background">
+          <div class="modal fade custom-modal" id="modal-mal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content" id="fundo-modal">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Quebrar hábito</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+        
             <label class="subtitle-modal">Nome</label>
             <div class="add-items d-flex">
-                            <input type="text" class="form-control todo-list-input" placeholder="Adicione tarefas">
+                            <input type="text" class="form-control todo-list-input" placeholder="Adicione tarefas" name="nomehabito" id="nomehabito">
                             <button type="submit" class="add btn btn-primary todo-list-add-btn">Add</button>
                           </div>
                   <label class="subtitle-modal">Descrição</label>
