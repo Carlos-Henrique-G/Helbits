@@ -420,8 +420,8 @@
                         <thead>
                           <tr>
                             <th>Nome</th>
-                            <th>VatNo.</th>
-                            <th>Created</th>
+                            <th>Descrição</th>
+                            <th>Qtd. Feita</th>
                             <th>tipo</th>
                           </tr>
                         </thead>
