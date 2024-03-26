@@ -204,7 +204,6 @@
                 </div>
                 <div class="profile-name">
                   <h5 class="mb-0 font-weight-normal"><?php echo $nome_usuario ?></h5>
-                  <span>do grau</span>
                 </div>
               </div>
               <a href="#" id="profile-dropdown" data-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
