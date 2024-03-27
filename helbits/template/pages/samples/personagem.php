@@ -388,7 +388,7 @@
                                     <div class="card-body">
                                       <h5 class="card-title">Angelisis</h5>
                                       <p class="card-text">Angelisis sempre foi considerada no seu reino do céu, como uma verdadeira anja. Sua ações, atitudes e ideias levaram-na a ser conhecida como "Mãe dos anjos", aquela que sempre ajuda os mais fracos independente de tudo...</p>
-                                      <button class="btn btn-danger">Cancelar</button>
+                                      <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                       <button class="btn btn-success">Comprar</button>
                                     </div>
                                   </div>
@@ -405,16 +405,35 @@
                            <div class="card-body">
                             <h5 class="card-title">Kinaiti</h5>
                             <p class="card-text">1000 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target=".bd-example-modal-sm">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="item">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s2.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Kinaiti</h5>
+                                                        <p class="card-text">...</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>
                       <div class="item">
                       <div class="card">
-                           <img class="card-img-top" src="../../img/skin/s3.jpeg" >
+                           <img class="card-img-top" src="../../img/skin/s20.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Violonelo</h5>
-                            <p class="card-text">1100 moedas</p>
+                            <h5 class="card-title">Sokernaiti</h5>
+                            <p class="card-text">1000 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
@@ -425,6 +444,16 @@
                            <div class="card-body">
                             <h5 class="card-title">Serventia</h5>
                             <p class="card-text">1000 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/skin/s3.jpeg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Violonelo</h5>
+                            <p class="card-text">1100 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
@@ -461,6 +490,16 @@
                       </div>
                       <div class="item">
                       <div class="card">
+                           <img class="card-img-top" src="../../img/skin/s19.jpeg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Axelbolt</h5>
+                            <p class="card-text">2300 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card">
                            <img class="card-img-top" src="../../img/skin/s8.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Menin White</h5>
@@ -490,6 +529,16 @@
                          </div>
                       </div>
                       <div class="item">
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/skin/s12.jpeg" >
+                           <div class="card-body">
+                            <h5 class="card-title">You</h5>
+                            <p class="card-text">5000 moedas</p>
+                            <a class="btn btn-success">Visualizar</a>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
                          <div class="card">
                            <img class="card-img-top" src="../../img/skin/s11.jpeg" >
                            <div class="card-body">
@@ -501,19 +550,19 @@
                       </div>
                       <div class="item">
                       <div class="card">
-                           <img class="card-img-top" src="../../img/skin/s12.jpeg" >
+                           <img class="card-img-top" src="../../img/skin/s13.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">You</h5>
-                            <p class="card-text">5000 moedas</p>
+                            <h5 class="card-title">Irmãos vextre</h5>
+                            <p class="card-text">7000 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
                       </div>
                       <div class="item">
                       <div class="card">
-                           <img class="card-img-top" src="../../img/skin/s13.jpeg" >
+                           <img class="card-img-top" src="../../img/skin/s16.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Irmãos vextre</h5>
+                            <h5 class="card-title">Samsara</h5>
                             <p class="card-text">7000 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
@@ -541,10 +590,10 @@
                       </div>
                       <div class="item">
                       <div class="card">
-                           <img class="card-img-top" src="../../img/skin/s16.jpeg" >
+                           <img class="card-img-top" src="../../img/skin/s18.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Samsara</h5>
-                            <p class="card-text">7000 moedas</p>
+                            <h5 class="card-title">Tramper</h5>
+                            <p class="card-text">8000 moedas</p>
                             <a class="btn btn-success">Visualizar</a>
                            </div>
                          </div>
@@ -559,16 +608,8 @@
                            </div>
                          </div>
                       </div>
-                      <div class="item">
-                      <div class="card">
-                           <img class="card-img-top" src="../../img/skin/s18.jpeg" >
-                           <div class="card-body">
-                            <h5 class="card-title">Tramper</h5>
-                            <p class="card-text">8000 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
-                           </div>
-                         </div>
-                      </div>
+
+
                     </div>
                   </div>
 
