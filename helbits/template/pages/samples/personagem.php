@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="../../assets/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="../../assets/vendors/css/vendor.bundle.base.css">
     <link rel="stylesheet" href="css/custompersonagem.css">
-    <link rel="stylesheet" href="css/custommodal.css">
+    <link rel="stylesheet" href="css/custompersonagemmodal.css">
     <!-- endinject -->
     <!-- Plugin css for this page -->
     <!-- End Plugin css for this page -->
@@ -376,7 +376,26 @@
                            <div class="card-body">
                             <h5 class="card-title">Angelisis</h5>
                             <p class="card-text">1000 moedas</p>
-                            <button class="btn btn-success" id="visualizarBtn">Visualizar</button>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target=".bd-example-modal-sm">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                <div class="itemModal">
+                                  <div class="card">
+                                    <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                    <div class="card-body">
+                                      <h5 class="card-title">Angelisis</h5>
+                                      <p class="card-text">Angelisis sempre foi considerada no seu reino do céu, como uma verdadeira anja. Sua ações, atitudes e ideias levaram-na a ser conhecida como "Mãe dos anjos", aquela que sempre ajuda os mais fracos independente de tudo...</p>
+                                      <button class="btn btn-danger">Cancelar</button>
+                                      <button class="btn btn-success">Comprar</button>
+                                    </div>
+                                  </div>
+                      </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>

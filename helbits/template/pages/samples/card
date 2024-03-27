@@ -1,0 +1,10 @@
+                  <div class="item">
+                         <div class="card">
+                           <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Angelisis</h5>
+                            <p class="card-text">1000 moedas</p>
+                            <button class="btn btn-success" id="visualizarBtn">Visualizar</button>
+                           </div>
+                         </div>
+                      </div>
