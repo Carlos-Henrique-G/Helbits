@@ -100,14 +100,14 @@
       .atividades{margin-top:-2%;}
     }
     .drop-habits{
-      background-color:whitesmoke;
+      background-color:#f5f5f5;
       color:black;
     }
     .paragrafo{
       color:black;
     }
     .div-do-paragrafo:hover{
-      background-color:lightgrey;
+      background-color:rgb(230, 230, 230);
     }
     .sair{
       margin-left:33%;
@@ -118,7 +118,29 @@
     .table thead th{
         color:#000000;
     }
-  
+    @media (min-width: 992px){
+      .sidebar-icon-only .sidebar .nav .nav-item.hover-open .nav-link .menu-title {
+        background-color:#f5f5f5;
+      }
+      .sidebar-icon-only .sidebar .nav.sub-menu .nav-item .nav-link{
+        background-color:#ffffff;
+        color:black;
+      }
+      .sidebar-icon-only .sidebar .nav.sub-menu{
+        background-color:#ffffff;
+      }
+      .sidebar-icon-only .sidebar .nav .nav-item.hover-open .collapse{
+        background-color:#ffffff;
+      }
+      .sidebar-icon-only .sidebar .nav.sub-menu .nav-item .nav-link:before {
+        background-color:transparent;
+      }
+      
+      .sidebar-icon-only .sidebar .nav.sub-menu .nav-item .nav-link{
+        padding:10px;
+      }
+
+    }
   </style>
   </head>
   <body>
@@ -201,36 +223,36 @@
                 </div>
               </div>
               <a href="#" id="profile-dropdown" data-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
-              <div class="dropdown-menu dropdown-menu-right sidebar-dropdown preview-list" aria-labelledby="profile-dropdown">
-                <a href="#" class="dropdown-item preview-item">
+              <div class="dropdown-menu dropdown-menu-right sidebar-dropdown preview-list drop-habits" aria-labelledby="profile-dropdown">
+                <a href="#" class="dropdown-item preview-item div-do-paragrafo">
                   <div class="preview-thumbnail">
                     <div class="preview-icon bg-dark rounded-circle">
                       <i class="mdi mdi-settings text-primary"></i>
                     </div>
                   </div>
-                  <div class="preview-item-content">
+                  <div class="preview-item-content paragrafo">
                     <p class="preview-subject ellipsis mb-1 text-small">Account settings</p>
                   </div>
                 </a>
                 <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item preview-item">
+                <a href="#" class="dropdown-item preview-item div-do-paragrafo">
                   <div class="preview-thumbnail">
                     <div class="preview-icon bg-dark rounded-circle">
                       <i class="mdi mdi-onepassword  text-info"></i>
                     </div>
                   </div>
-                  <div class="preview-item-content">
+                  <div class="preview-item-content paragrafo">
                     <p class="preview-subject ellipsis mb-1 text-small">Change Password</p>
                   </div>
                 </a>
                 <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item preview-item">
+                <a href="#" class="dropdown-item preview-item div-do-paragrafo">
                   <div class="preview-thumbnail">
                     <div class="preview-icon bg-dark rounded-circle">
                       <i class="mdi mdi-calendar-today text-success"></i>
                     </div>
                   </div>
-                  <div class="preview-item-content">
+                  <div class="preview-item-content paragrafo">
                     <p class="preview-subject ellipsis mb-1 text-small">To-do list</p>
                   </div>
                 </a>
@@ -341,7 +363,7 @@
               
               <li class="nav-item dropdown border-left">
                 <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
-                  <i class="mdi mdi-email"></i>
+                  <i class="mdi mdi-bell"></i>
                   <span class="count bg-success"></span>
                 </a>
                
@@ -369,27 +391,27 @@
                     <i class="mdi mdi-menu-down d-none d-sm-block"></i>
                   </div>
                 </a>
-                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="profileDropdown">
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list drop-habits" aria-labelledby="profileDropdown">
                   <h6 class="p-3 mb-0">Perfil</h6>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item">
+                  <a class="dropdown-item preview-item div-do-paragrafo">
                     <div class="preview-thumbnail">
                       <div class="preview-icon bg-dark rounded-circle">
                         <i class="mdi mdi-settings text-success"></i>
                       </div>
                     </div>
-                    <div class="preview-item-content">
+                    <div class="preview-item-content paragrafo">
                       <p class="preview-subject mb-1">Configurações</p>
                     </div>
                   </a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item" href="sair.php">
+                  <a class="dropdown-item preview-item div-do-paragrafo" href="sair.php">
                     <div class="preview-thumbnail">
                       <div class="preview-icon bg-dark rounded-circle">
                         <i class="mdi mdi-logout text-danger"></i>
                       </div>
                     </div>
-                    <div class="preview-item-content">
+                    <div class="preview-item-content paragrafo">
                     <p class="preview-subject mb-1" >Sair</p>
                     </div>
                   </a>
