@@ -28,8 +28,8 @@
 
   if($consulta_nome -> num_rows > 0) {
     $linha = $consulta_nome -> fetch_array(MYSQLI_ASSOC);
-    $nome_usuario = $linha['nome'];
-    $_SESSION['nomeusuario'] = $linha['nome']
+    
+    $_SESSION['nomeusuario'] = $linha['nome'];
   }
 ?>
 <!DOCTYPE html>
@@ -232,7 +232,7 @@
                   <span class="count bg-success"></span>
                 </div>
                 <div class="profile-name">
-                  <h5 class="mb-0 font-weight-normal"><?php echo $nome_usuario ?></h5>
+                  <h5 class="mb-0 font-weight-normal"><?php echo $_SESSION['nomeusuario']; ?></h5>
                   
                 </div>
               </div>
@@ -403,7 +403,7 @@
                 <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
                   <div class="navbar-profile">
                     <img class="img-xs rounded-circle" src="../../assets/images/faces/face15.jpg" alt="">
-                    <p class="mb-0 d-none d-sm-block navbar-profile-name"><?php echo $nome_usuario ?></p>
+                    <p class="mb-0 d-none d-sm-block navbar-profile-name"><?php echo $_SESSION['nomeusuario']; ?></p>
                     <i class="mdi mdi-menu-down d-none d-sm-block"></i>
                   </div>
                 </a>

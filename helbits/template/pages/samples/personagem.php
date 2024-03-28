@@ -109,50 +109,50 @@
           <a class="sidebar-brand brand-logo-mini" href="principal.php"><h1 class="titulo">H</h1></a>
         </div>
         <ul class="nav">
-          <li class="nav-item profile">
+        <li class="nav-item profile">
             <div class="profile-desc">
               <div class="profile-pic">
                 <div class="count-indicator">
-                  <img class="img-xs rounded-circle " src="../../assets/images/faces/face15.jpg" >
+                  <img class="img-xs rounded-circle " src="../../assets/images/faces/face15.jpg" alt="">
                   <span class="count bg-success"></span>
                 </div>
                 <div class="profile-name">
-                  <h5 class="mb-0 font-weight-normal">Chzin</h5>
-                  <span>do grau</span>
+                  <h5 class="mb-0 font-weight-normal"><?php echo $_SESSION['nomeusuario']; ?></h5>
+                  
                 </div>
               </div>
-              <a href="#" id="profile-dropdown" data-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
-              <div class="dropdown-menu dropdown-menu-right sidebar-dropdown preview-list" aria-labelledby="profile-dropdown">
-                <a href="#" class="dropdown-item preview-item">
-                  <div class="preview-thumbnail">
+              <a href="#" id="profile-dropdown" data-toggle="dropdown" ><i class="mdi mdi-dots-vertical"></i></a>
+              <div class="dropdown-menu dropdown-menu-right sidebar-dropdown preview-list drop-habits" aria-labelledby="profile-dropdown">
+                <a href="#" class="dropdown-item preview-item div-do-paragrafo">
+                  <div class="preview-thumbnail ">
                     <div class="preview-icon bg-dark rounded-circle">
                       <i class="mdi mdi-settings text-primary"></i>
                     </div>
                   </div>
                   <div class="preview-item-content">
-                    <p class="preview-subject ellipsis mb-1 text-small">Account settings</p>
+                    <p class="preview-subject ellipsis mb-1 text-small paragrafo">Account settings</p>
                   </div>
                 </a>
                 <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item preview-item">
-                  <div class="preview-thumbnail">
+                <a href="#" class="dropdown-item preview-item div-do-paragrafo ">
+                  <div class="preview-thumbnail ">
                     <div class="preview-icon bg-dark rounded-circle">
                       <i class="mdi mdi-onepassword  text-info"></i>
                     </div>
                   </div>
-                  <div class="preview-item-content">
-                    <p class="preview-subject ellipsis mb-1 text-small">Change Password</p>
+                  <div class="preview-item-content ">
+                    <p class="preview-subject ellipsis mb-1 text-small paragrafo">Change Password</p>
                   </div>
                 </a>
                 <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item preview-item">
+                <a href="#" class="dropdown-item preview-item div-do-paragrafo">
                   <div class="preview-thumbnail">
                     <div class="preview-icon bg-dark rounded-circle">
                       <i class="mdi mdi-calendar-today text-success"></i>
                     </div>
                   </div>
                   <div class="preview-item-content">
-                    <p class="preview-subject ellipsis mb-1 text-small">To-do list</p>
+                    <p class="preview-subject ellipsis mb-1 text-small paragrafo">To-do list</p>
                   </div>
                 </a>
               </div>
@@ -257,7 +257,7 @@
                 <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
                   <div class="navbar-profile">
                     <img class="img-xs rounded-circle" src="../../assets/images/faces/face15.jpg" alt="">
-                    <p class="mb-0 d-none d-sm-block navbar-profile-name"><?php echo $nome_usuario ?></p>
+                    <p class="mb-0 d-none d-sm-block navbar-profile-name"><?php echo $_SESSION['nomeusuario']; ?></p>
                     <i class="mdi mdi-menu-down d-none d-sm-block"></i>
                   </div>
                 </a>
@@ -325,7 +325,7 @@
                                       <button class="btn btn-success">Comprar</button>
                                     </div>
                                   </div>
-                      </div>
+                                  </div>
                                 </div>
                               </div>
                             </div>
@@ -532,7 +532,7 @@
                          </div>
                       </div>
                       <div class="item">
-                      <div class="card">
+                        <div class="card">
                            <img class="card-img-top" src="../../img/skin/s17.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Hell's Dream</h5>
@@ -543,18 +543,14 @@
                       </div>
 
 
-                    </div>
-                  </div>
-
                     
-                  </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>   
-          
+          </div>   
+        
 
            
           

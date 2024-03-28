@@ -367,7 +367,7 @@
                 <div class="card"> 
                     <div class="card-body">
                     <h3 class="card-title">Skins</h3>
-                    
+                      
                     </div>
                   </div>
                 </div>
