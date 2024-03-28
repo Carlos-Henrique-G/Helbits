@@ -28,7 +28,7 @@
 
   if($consulta_nome -> num_rows > 0) {
     $linha = $consulta_nome -> fetch_array(MYSQLI_ASSOC);
-    $nome_usuario = $linha['nome'];
+    $nome_usuario =  $_SESSION['nome_usuario'] = $linha['nome'];
   }
 ?>
 <!DOCTYPE html>
@@ -493,14 +493,19 @@
                         
                       <?php
                         $codusu_habitos = $_SESSION['cod_usu'];
-                        $sql_habitos_usu = "select nome from tbhabitos
+                        $sql_habitos_usu = "select * from tbhabitos
                                             where cod_usu = $codusu_habitos
                                             order by cod_hab asc;";
 
                         $consulta_habitos = $conexao->query($sql_habitos_usu);                  
-                        
+
+                        $_SESSION['habitosids'] = [];
+
                         if($consulta_habitos -> num_rows > 0) {
                           while($linha_habitos = $consulta_habitos->fetch_array(MYSQLI_ASSOC)){
+                            
+                            array_push($_SESSION['habitosids'], $linha_habitos['cod_hab']);
+
                             echo "<li><div class='form-check'><label class='form-check-label'><input class='checkbox' type='checkbox'/>". $linha_habitos['nome'] ."<i class='input-helper'></i></label></div><a href='excluihabito.php'<i class='remove mdi mdi-close-circle-outline'></i></a></li>";
                           } 
                         }
