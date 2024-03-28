@@ -196,46 +196,11 @@
                   <span class="count bg-success"></span>
                 </div>
                 <div class="profile-name">
-                  <h5 class="mb-0 font-weight-normal">Chzin</h5>
-                  <span>do grau</span>
+                <h5 class="mb-0 font-weight-normal"><?php echo $_SESSION['nomeusuario']; ?></h5>
+                  
                 </div>
               </div>
-              <a href="#" id="profile-dropdown" data-toggle="dropdown"><i class="mdi mdi-dots-vertical"></i></a>
-              <div class="dropdown-menu dropdown-menu-right sidebar-dropdown preview-list" aria-labelledby="profile-dropdown">
-                <a href="#" class="dropdown-item preview-item">
-                  <div class="preview-thumbnail">
-                    <div class="preview-icon bg-dark rounded-circle">
-                      <i class="mdi mdi-settings text-primary"></i>
-                    </div>
-                  </div>
-                  <div class="preview-item-content">
-                    <p class="preview-subject ellipsis mb-1 text-small">Account settings</p>
-                  </div>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item preview-item">
-                  <div class="preview-thumbnail">
-                    <div class="preview-icon bg-dark rounded-circle">
-                      <i class="mdi mdi-onepassword  text-info"></i>
-                    </div>
-                  </div>
-                  <div class="preview-item-content">
-                    <p class="preview-subject ellipsis mb-1 text-small">Change Password</p>
-                  </div>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item preview-item">
-                  <div class="preview-thumbnail">
-                    <div class="preview-icon bg-dark rounded-circle">
-                      <i class="mdi mdi-calendar-today text-success"></i>
-                    </div>
-                  </div>
-                  <div class="preview-item-content">
-                    <p class="preview-subject ellipsis mb-1 text-small">To-do list</p>
-                  </div>
-                </a>
-              </div>
-            </div>
+              
           </li>
           <li class="nav-item nav-category">
             <span class="nav-link">Navegação</span>
@@ -306,42 +271,11 @@
             </button>
             
             <ul class="navbar-nav navbar-nav-right">
-              <li class="nav-item dropdown d-none d-lg-block">
-                <a class="nav-link btn btn-success create-new-button" id="createbuttonDropdown" data-toggle="dropdown" aria-expanded="false" href="#">+ Criar Novo Hábito</a>
-                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list drop-habits" aria-labelledby="createbuttonDropdown">
-                  <h6 class="p-3 mb-0">Hábitos</h6>
-                  <div class="dropdown-divider"></div>
-                  
-                  <div class="dropdown-divider"></div>
-                  
-                  <a class="dropdown-item preview-item div-do-paragrafo" data-toggle="modal" data-target="#modal-bom" >
-                    <div class="preview-thumbnail">
-                      <div class="preview-icon bg-dark rounded-circle">
-                        <i class="mdi mdi-web text-info"></i>
-                      </div>
-                    </div>
-                    <div class="preview-item-content ">
-                      <p class="preview-subject ellipsis mb-1 paragrafo">Criar bom hábito
-                    </div>
-                  </a>
-                  
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item div-do-paragrafo" data-toggle="modal" data-target="#modal-mal">
-                    <div class="preview-thumbnail">
-                      <div class="preview-icon bg-dark rounded-circle">
-                        <i class="mdi mdi-layers text-danger"></i>
-                      </div>
-                    </div>
-                    <div class="preview-item-content ">
-                      <p class="preview-subject ellipsis mb-1 paragrafo">Quebrar mal hábito</p>
-                    </div>
-                  </a>
-                  
-              </li>
               
-              <li class="nav-item dropdown border-left">
+              
+              <li class="nav-item dropdown ">
                 <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
-                  <i class="mdi mdi-email"></i>
+                  <i class="mdi mdi-bell"></i>
                   <span class="count bg-success"></span>
                 </a>
                
@@ -365,31 +299,31 @@
                 <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
                   <div class="navbar-profile">
                     <img class="img-xs rounded-circle" src="../../assets/images/faces/face15.jpg" alt="">
-                    <p class="mb-0 d-none d-sm-block navbar-profile-name">chzin do grau</p>
+                    <p class="mb-0 d-none d-sm-block navbar-profile-name"><?php echo $_SESSION['nomeusuario']; ?></p>
                     <i class="mdi mdi-menu-down d-none d-sm-block"></i>
                   </div>
                 </a>
-                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="profileDropdown">
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list drop-habits" aria-labelledby="profileDropdown">
                   <h6 class="p-3 mb-0">Perfil</h6>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item">
+                  <a class="dropdown-item preview-item div-do-paragrafo">
                     <div class="preview-thumbnail">
                       <div class="preview-icon bg-dark rounded-circle">
                         <i class="mdi mdi-settings text-success"></i>
                       </div>
                     </div>
-                    <div class="preview-item-content">
+                    <div class="preview-item-content paragrafo">
                       <p class="preview-subject mb-1">Configurações</p>
                     </div>
                   </a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item preview-item" href="sair.php">
-                    <div class="preview-thumbnail">
+                  <a class="dropdown-item preview-item div-do-paragrafo" href="sair.php">
+                    <div class="preview-thumbnail ">
                       <div class="preview-icon bg-dark rounded-circle">
                         <i class="mdi mdi-logout text-danger"></i>
                       </div>
                     </div>
-                    <div class="preview-item-content">
+                    <div class="preview-item-content paragrafo">
                     <p class="preview-subject mb-1" >Sair</p>
                     </div>
                   </a>

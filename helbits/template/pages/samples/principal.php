@@ -236,42 +236,7 @@
                   
                 </div>
               </div>
-              <a href="#" id="profile-dropdown" data-toggle="dropdown" ><i class="mdi mdi-dots-vertical"></i></a>
-              <div class="dropdown-menu dropdown-menu-right sidebar-dropdown preview-list drop-habits" aria-labelledby="profile-dropdown">
-                <a href="#" class="dropdown-item preview-item div-do-paragrafo">
-                  <div class="preview-thumbnail ">
-                    <div class="preview-icon bg-dark rounded-circle">
-                      <i class="mdi mdi-settings text-primary"></i>
-                    </div>
-                  </div>
-                  <div class="preview-item-content">
-                    <p class="preview-subject ellipsis mb-1 text-small paragrafo">Account settings</p>
-                  </div>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item preview-item div-do-paragrafo ">
-                  <div class="preview-thumbnail ">
-                    <div class="preview-icon bg-dark rounded-circle">
-                      <i class="mdi mdi-onepassword  text-info"></i>
-                    </div>
-                  </div>
-                  <div class="preview-item-content ">
-                    <p class="preview-subject ellipsis mb-1 text-small paragrafo">Change Password</p>
-                  </div>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item preview-item div-do-paragrafo">
-                  <div class="preview-thumbnail">
-                    <div class="preview-icon bg-dark rounded-circle">
-                      <i class="mdi mdi-calendar-today text-success"></i>
-                    </div>
-                  </div>
-                  <div class="preview-item-content">
-                    <p class="preview-subject ellipsis mb-1 text-small paragrafo">To-do list</p>
-                  </div>
-                </a>
-              </div>
-            </div>
+              
           </li>
           <li class="nav-item nav-category">
             <span class="nav-link">Navegação</span>
@@ -507,7 +472,7 @@
                             
                             array_push($_SESSION['habitosids'], $linha_habitos['cod_hab']);
 
-                            echo "<li><div class='form-check'><label class='form-check-label'><input class='checkbox' type='checkbox'/>". $linha_habitos['nome'] ."<i class='input-helper'></i></label></div><a href='excluihabito.php?id=$linha_habitos['cod_hab']'<i class='remove mdi mdi-close-circle-outline'></i></a></li>";
+                            echo "<li><div class='form-check'><label class='form-check-label'><input class='checkbox' type='checkbox'/>". $linha_habitos['nome'] ."<i class='input-helper'></i></label></div><a href='excluirhabito.php?id=".$linha_habitos['cod_hab']."'<i class='remove mdi mdi-close-circle-outline'></i></a></li>";
                           } 
                         }
                       ?>
