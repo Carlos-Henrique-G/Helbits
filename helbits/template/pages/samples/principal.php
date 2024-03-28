@@ -507,7 +507,7 @@
                             
                             array_push($_SESSION['habitosids'], $linha_habitos['cod_hab']);
 
-                            echo "<li><div class='form-check'><label class='form-check-label'><input class='checkbox' type='checkbox'/>". $linha_habitos['nome'] ."<i class='input-helper'></i></label></div><a href='excluihabito.php'<i class='remove mdi mdi-close-circle-outline'></i></a></li>";
+                            echo "<li><div class='form-check'><label class='form-check-label'><input class='checkbox' type='checkbox'/>". $linha_habitos['nome'] ."<i class='input-helper'></i></label></div><a href='excluihabito.php?id=$linha_habitos['cod_hab']'<i class='remove mdi mdi-close-circle-outline'></i></a></li>";
                           } 
                         }
                       ?>
