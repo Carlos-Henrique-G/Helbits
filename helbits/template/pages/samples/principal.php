@@ -28,7 +28,8 @@
 
   if($consulta_nome -> num_rows > 0) {
     $linha = $consulta_nome -> fetch_array(MYSQLI_ASSOC);
-    $nome_usuario =  $_SESSION['nome_usuario'] = $linha['nome'];
+    $nome_usuario = $linha['nome'];
+    $_SESSION['nomeusuario'] = $linha['nome']
   }
 ?>
 <!DOCTYPE html>
