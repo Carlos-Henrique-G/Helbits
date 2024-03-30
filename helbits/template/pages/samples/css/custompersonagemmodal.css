@@ -1,16 +1,7 @@
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, ); /* 4 linhas de altura fixa */
-    gap: 20px; /* Espaçamento entre os itens */
-    padding: 0px; /* Espaçamento interno do container */
-}
-
 .itemModal {
     background-color: #ddd;
     border: 2px solid #999;
     padding:0px;
     text-align: center;
     width: 400px;
-    
 }
