@@ -1,5 +1,5 @@
-<!-- Small modal --><div id="modal1">
-<button type="button" class="btn btn-success" data-toggle="modal" data-target=".bd-example-modal-sm">Visualizar</button>
+<!-- Small modal -->
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal">Visualizar</button>
 
 <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-sm">
@@ -18,9 +18,9 @@
     </div>
   </div>
 </div>
-</div>
-<div id="modal2">
-<button type="button" class="btn btn-success" data-toggle="modal" data-target=".bd-example-modal-sm">Visualizar</button>
+
+
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal2">Visualizar</button>
 
 <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-sm">
@@ -38,4 +38,4 @@
                       </div>
     </div>
   </div>
-</div></div>
+</div>

@@ -273,16 +273,27 @@
                            <img class="card-img-top" src="../../img/skin/s1.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Angelisis</h5>
-                            <p class="card-text">1000 moedas</p>
+                            <p class="card-text"><i class="mdi mdi-coin">1000 moedas</i></p>
                             <!-- Small modal -->
-                           <?php   // Ler o conteúdo do arquivo conteudo.php
-        $conteudo = file_get_contents('modal.php');
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal1">Visualizar</button>
 
-        // Usar uma expressão regular para encontrar o div com o ID "meuDiv"
-        preg_match('/<div id="modal1">(.*?)<\/div>/s', $conteudo, $matches);
-
-        // Exibir o conteúdo do div encontrado
-        echo $matches[0]; ?>
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal1">
+                              <div class="modal-dialog modal-sm" >
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <p class="card-text">Angelisis sempre foi considerada no seu reino do céu, como uma verdadeira anja. Sua ações, atitudes e ideias levaram-na a ser conhecida como "Mãe dos anjos", aquela que sempre ajuda os mais fracos independente de tudo...Avante nobre guerreira! Não deixe os demônios afetar seu reino e a você!</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>
@@ -292,16 +303,57 @@
                            <div class="card-body">
                             <h5 class="card-title">Kinaiti</h5>
                             <p class="card-text">1000 moedas</p>
+                            
                             <!-- Small modal -->
-                            <?php   // Ler o conteúdo do arquivo conteudo.php
-        $conteudo = file_get_contents('modal.php');
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal2">Visualizar</button>
 
-        // Usar uma expressão regular para encontrar o div com o ID "meuDiv"
-        preg_match('/<div id="modal2">(.*?)<\/div>/s', $conteudo, $matches);
-
-        // Exibir o conteúdo do div encontrado
-        echo $matches[0]; ?>
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal2">
+                              <div class="modal-dialog modal-sm" >
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s2.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Kinaiti</h5>
+                                                        <p class="card-text">Guerras constantes...Sangue, órgãos e cabeças voando ante o campo de batalha...Esse foi o ambiente que se formou um bravo guerreiro, cujo nome real é Fekhir. Sua amada lança, sendo presente dos seus falecidos pais mostram juntamente com o escudo para quê veio...Lutar! Lutar! E lutar!</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
                             </div>
+                            </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/skin/s20.jpeg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Sokernaiti</h5>
+                            <p class="card-text">1000 moedas</p>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal3">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal3">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s20.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Sokernaiti</h5>
+                                                        <p class="card-text">...</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                           </div>
                          </div>
                       </div>
                       <div class="item">
@@ -310,7 +362,26 @@
                            <div class="card-body">
                             <h5 class="card-title">Serventia</h5>
                             <p class="card-text">1000 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal4">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal4">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s4.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Serventia</h5>
+                                                        <p class="card-text">...</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>
@@ -320,7 +391,26 @@
                            <div class="card-body">
                             <h5 class="card-title">Violonelo</h5>
                             <p class="card-text">1100 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal5">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s3.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Violonelo</h5>
+                                                        <p class="card-text">...</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>
@@ -330,7 +420,26 @@
                            <div class="card-body">
                             <h5 class="card-title">Dwleyer</h5>
                             <p class="card-text">2100 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal6">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s5.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Dwleyers</h5>
+                                                        <p class="card-text">...</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>
@@ -340,7 +449,26 @@
                            <div class="card-body">
                             <h5 class="card-title">Sheevah</h5>
                             <p class="card-text">2200 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal7">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <p class="card-text">...</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>
@@ -350,7 +478,26 @@
                            <div class="card-body">
                             <h5 class="card-title">Tarmiel Cap</h5>
                             <p class="card-text">2200 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal8">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <p class="card-text">...</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>
@@ -360,7 +507,26 @@
                            <div class="card-body">
                             <h5 class="card-title">Axelbolt</h5>
                             <p class="card-text">2300 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal9">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <p class="card-text">...</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>
@@ -370,7 +536,26 @@
                            <div class="card-body">
                             <h5 class="card-title">Menin White</h5>
                             <p class="card-text">2500 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal10">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <p class="card-text">...</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>
@@ -380,7 +565,26 @@
                            <div class="card-body">
                             <h5 class="card-title">Fishit</h5>
                             <p class="card-text">4000 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal11">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <p class="card-text">...</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>
@@ -390,7 +594,26 @@
                            <div class="card-body">
                             <h5 class="card-title">Itenias</h5>
                             <p class="card-text">5000 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal12">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <p class="card-text">...</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>
@@ -400,7 +623,26 @@
                            <div class="card-body">
                             <h5 class="card-title">You</h5>
                             <p class="card-text">5000 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal13">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <p class="card-text">...</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>
@@ -410,7 +652,26 @@
                            <div class="card-body">
                             <h5 class="card-title">3Dwitch</h5>
                             <p class="card-text">5100 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal14">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <p class="card-text">...</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>
@@ -420,7 +681,26 @@
                            <div class="card-body">
                             <h5 class="card-title">Irmãos vextre</h5>
                             <p class="card-text">7000 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal15">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <p class="card-text">...</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>
@@ -430,7 +710,26 @@
                            <div class="card-body">
                             <h5 class="card-title">Samsara</h5>
                             <p class="card-text">7000 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal16">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <p class="card-text">...</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>
@@ -440,7 +739,26 @@
                            <div class="card-body">
                             <h5 class="card-title">Díodor</h5>
                             <p class="card-text">7300 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal17">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <p class="card-text">...</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>
@@ -450,7 +768,26 @@
                            <div class="card-body">
                             <h5 class="card-title">Virgin</h5>
                             <p class="card-text">7400 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal18">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <p class="card-text">...</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>
@@ -460,7 +797,26 @@
                            <div class="card-body">
                             <h5 class="card-title">Tramper</h5>
                             <p class="card-text">8000 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal19">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <p class="card-text">...</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>
@@ -470,7 +826,26 @@
                            <div class="card-body">
                             <h5 class="card-title">Hell's Dream</h5>
                             <p class="card-text">8444 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal20">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <p class="card-text">...</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
                            </div>
                          </div>
                       </div>
