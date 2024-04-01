@@ -275,25 +275,14 @@
                             <h5 class="card-title">Angelisis</h5>
                             <p class="card-text">1000 moedas</p>
                             <!-- Small modal -->
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target=".bd-example-modal-sm">Visualizar</button>
+                           <?php   // Ler o conteúdo do arquivo conteudo.php
+        $conteudo = file_get_contents('modal.php');
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                              <div class="modal-dialog modal-sm">
-                                <div class="modal-content">
-                                <div class="itemModal">
-                                  <div class="card">
-                                    <img class="card-img-top" src="../../img/skin/s1.jpeg" >
-                                    <div class="card-body">
-                                      <h5 class="card-title">Angelisis</h5>
-                                      <p class="card-text">Angelisis sempre foi considerada no seu reino do céu, como uma verdadeira anja. Sua ações, atitudes e ideias levaram-na a ser conhecida como "Mãe dos anjos", aquela que sempre ajuda os mais fracos independente de tudo...</p>
-                                      <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                      <button class="btn btn-success">Comprar</button>
-                                    </div>
-                                  </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+        // Usar uma expressão regular para encontrar o div com o ID "meuDiv"
+        preg_match('/<div id="modal1">(.*?)<\/div>/s', $conteudo, $matches);
+
+        // Exibir o conteúdo do div encontrado
+        echo $matches[0]; ?>
                            </div>
                          </div>
                       </div>
@@ -304,36 +293,15 @@
                             <h5 class="card-title">Kinaiti</h5>
                             <p class="card-text">1000 moedas</p>
                             <!-- Small modal -->
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target=".bd-example-modal-sm">Visualizar</button>
+                            <?php   // Ler o conteúdo do arquivo conteudo.php
+        $conteudo = file_get_contents('modal.php');
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                              <div class="modal-dialog modal-sm">
-                                <div class="modal-content">
-                                        <div class="item">
-                                                    <div class="card">
-                                                      <img class="card-img-top" src="../../img/skin/s2.jpeg" >
-                                                      <div class="card-body">
-                                                        <h5 class="card-title">Kinaiti</h5>
-                                                        <p class="card-text">...</p>
-                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                </div>
-                              </div>
+        // Usar uma expressão regular para encontrar o div com o ID "meuDiv"
+        preg_match('/<div id="modal2">(.*?)<\/div>/s', $conteudo, $matches);
+
+        // Exibir o conteúdo do div encontrado
+        echo $matches[0]; ?>
                             </div>
-                           </div>
-                         </div>
-                      </div>
-                      <div class="item">
-                      <div class="card">
-                           <img class="card-img-top" src="../../img/skin/s20.jpeg" >
-                           <div class="card-body">
-                            <h5 class="card-title">Sokernaiti</h5>
-                            <p class="card-text">1000 moedas</p>
-                            <a class="btn btn-success">Visualizar</a>
-                           </div>
                          </div>
                       </div>
                       <div class="item">
