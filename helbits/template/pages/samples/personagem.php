@@ -135,7 +135,7 @@
             </a>
           </li>
           <li class="nav-item menu-items">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="gerenciarhabitos.php ">
               <span class="menu-icon">
                 <i class="mdi mdi-chart-line"></i>
               </span>
@@ -394,7 +394,7 @@
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal5">Visualizar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal5">
                               <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
                                         <div class="itemModal">
@@ -423,14 +423,14 @@
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal6">Visualizar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal6">
                               <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
                                                       <img class="card-img-top" src="../../img/skin/s5.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Dwleyers</h5>
+                                                        <h5 class="card-title">Dwleyer</h5>
                                                         <p class="card-text">...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -452,14 +452,14 @@
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal7">Visualizar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal7">
                               <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <img class="card-img-top" src="../../img/skin/s6.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <h5 class="card-title">Sheevah</h5>
                                                         <p class="card-text">...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -481,14 +481,14 @@
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal8">Visualizar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal8">
                               <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <img class="card-img-top" src="../../img/skin/s7.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <h5 class="card-title">Tarmiel Cap</h5>
                                                         <p class="card-text">...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -510,14 +510,14 @@
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal9">Visualizar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal9">
                               <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <img class="card-img-top" src="../../img/skin/s19.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <h5 class="card-title">Axelbolt</h5>
                                                         <p class="card-text">...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -539,14 +539,14 @@
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal10">Visualizar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal10">
                               <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <img class="card-img-top" src="../../img/skin/s8.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <h5 class="card-title">Menin White</h5>
                                                         <p class="card-text">...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -568,14 +568,14 @@
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal11">Visualizar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal11">
                               <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <img class="card-img-top" src="../../img/skin/s9.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <h5 class="card-title">Fishit</h5>
                                                         <p class="card-text">...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -597,14 +597,14 @@
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal12">Visualizar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal12">
                               <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <img class="card-img-top" src="../../img/skin/s10.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <h5 class="card-title">Itenias</h5>
                                                         <p class="card-text">...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -626,14 +626,14 @@
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal13">Visualizar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal13">
                               <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <img class="card-img-top" src="../../img/skin/s12.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <h5 class="card-title">You</h5>
                                                         <p class="card-text">...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -655,14 +655,14 @@
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal14">Visualizar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal14">
                               <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <img class="card-img-top" src="../../img/skin/s11.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <h5 class="card-title">3Dwitch</h5>
                                                         <p class="card-text">...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -684,14 +684,14 @@
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal15">Visualizar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal15">
                               <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <img class="card-img-top" src="../../img/skin/s13.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <h5 class="card-title">Irmãos Vextre</h5>
                                                         <p class="card-text">...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -713,14 +713,14 @@
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal16">Visualizar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal16">
                               <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <img class="card-img-top" src="../../img/skin/s16.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <h5 class="card-title">Samsara</h5>
                                                         <p class="card-text">...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -742,14 +742,14 @@
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal17">Visualizar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal17">
                               <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <img class="card-img-top" src="../../img/skin/s14.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <h5 class="card-title">Díodor</h5>
                                                         <p class="card-text">...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -771,14 +771,14 @@
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal18">Visualizar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal18">
                               <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <img class="card-img-top" src="../../img/skin/s15.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <h5 class="card-title">Virgin</h5>
                                                         <p class="card-text">...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -800,14 +800,14 @@
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal19">Visualizar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal19">
                               <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <img class="card-img-top" src="../../img/skin/s18.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <h5 class="card-title">Tramper</h5>
                                                         <p class="card-text">...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -829,14 +829,14 @@
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal20">Visualizar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal20">
                               <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <img class="card-img-top" src="../../img/skin/s17.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <h5 class="card-title">Hell's Dream</h5>
                                                         <p class="card-text">...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
