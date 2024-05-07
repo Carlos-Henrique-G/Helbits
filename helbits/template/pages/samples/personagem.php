@@ -77,6 +77,38 @@
     .sair{
       margin-left:33%;
     }
+
+    @media screen and (max-width:500px) {
+      .cardResponsivo{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, ); /* 4 linhas de altura fixa */
+      gap: 20px; /* Espaçamento entre os itens */
+      padding: 5px; }
+
+    }
+
+    @media screen and (min-width:501px ) {
+      .cardResponsivo{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, ); /* 4 linhas de altura fixa */
+      gap: 20px; /* Espaçamento entre os itens */
+      padding: 5px; }
+
+    }
+
+    @media screen and (min-width:1000px ) {
+      .cardResponsivo{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, ); /* 4 linhas de altura fixa */
+      gap: 20px; /* Espaçamento entre os itens */
+      padding: 5px; }
+
+    }
+
+
     </style> 
   </head>
   <body>
