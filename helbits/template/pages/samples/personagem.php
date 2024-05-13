@@ -77,12 +77,22 @@
     .sair{
       margin-left:33%;
     }
-
+   
+    
     @media screen and (max-width:500px) {
       .cardResponsivo{
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(4, ); /* 4 linhas de altura fixa */
+      grid-template-columns: repeat(1, 1fr);
+      
+      gap: 20px; /* Espaçamento entre os itens */
+      padding: 5px; }
+      
+    }
+    @media screen and (max-width:1099px) {
+      .cardResponsivo{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    
       gap: 20px; /* Espaçamento entre os itens */
       padding: 5px; }
 
@@ -91,22 +101,24 @@
     @media screen and (min-width:501px ) {
       .cardResponsivo{
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(4, ); /* 4 linhas de altura fixa */
+      grid-template-columns: repeat(3, 1fr);
+    
       gap: 20px; /* Espaçamento entre os itens */
       padding: 5px; }
 
     }
 
-    @media screen and (min-width:1000px ) {
+    @media screen and (min-width:1100px ) {
       .cardResponsivo{
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(4, ); /* 4 linhas de altura fixa */
+     
       gap: 20px; /* Espaçamento entre os itens */
       padding: 5px; }
+      
 
     }
+    
 
 
     </style> 
@@ -296,11 +308,11 @@
 
             <div class="row">
               <div class=" grid-margin stretch-card">
-                <div class="card"> 
+                <div class="card "> 
                   <div class="card-body">
-                    <h3 class="card-title">Skins</h3>
-                    <div class="grid-container">
-                      <div class="item">
+                    <h3 class="card-title">Personagens</h3>
+                    <div class="grid-container cardResponsivo">
+                      <div class="item ">
                          <div class="card">
                            <img class="card-img-top" src="../../img/skin/s1.jpeg" >
                            <div class="card-body">
