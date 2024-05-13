@@ -108,6 +108,7 @@
       .info{
         margin-bottom:10%;
         margin-left:10px;
+        
       }
       .game{height:80%;}
       .atividades{margin-top:-2%;}
@@ -152,7 +153,13 @@
       }
 
     }
-  
+    .img-1{
+      position:absolute;
+    }
+    .img-2{
+      position:absolute;
+    }
+    
 
   
   </style>
@@ -413,9 +420,11 @@
                 <div class="card game"> 
                     <div class="card-body">
                     <div class="row game-row align-items-center">
-                      
-                          <img class="jogo-img "src="gamebackground_resized_resized_resized.jpg" alt="" srcset="">
-                     
+                      <div class="game col-3 col-1 col-xl-2 pl-0">
+                          <img class="jogo-img img-1"src="gamebackground_resized_resized_resized.jpg" alt="" srcset="">
+                          <img class="jogo-img img-2"src="../../img/skin/s1-nobg.png" alt="" srcset="">
+                        </div>
+                        
                         <div class="info col-9 col-1 col-xl-2 pl-0">
                         <div class = "status">
                          
