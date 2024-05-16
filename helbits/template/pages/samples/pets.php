@@ -316,8 +316,8 @@
                          <div class="card">
                            <img class="card-img-top" src="../../img/pets/p1.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Angelisis</h5>
-                            <p class="card-text"><a style="color:yellow;"><i class="mdi mdi-coin">1000 moedas</i></a></p>
+                            <h5 class="card-title">Lucoa</h5>
+                            <p class="card-text">Ganhe ao entrar no nível 5</p>
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal1">Visualizar</button>
 
@@ -326,10 +326,10 @@
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/skin/p1.jpeg" >
+                                                      <img class="card-img-top" src="../../img/pets/p1.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Angelisis</h5>
-                                                        <p class="card-text">Angelisis sempre foi considerada no seu reino do céu, como uma verdadeira anja. Sua ações, atitudes e ideias levaram-na a ser conhecida como "Mãe dos anjos", aquela que sempre ajuda os mais fracos independente de tudo...Avante nobre guerreira! Não deixe os demônios afetar seu reino e a você!</p>
+                                                        <h5 class="card-title">Lucoa</h5>
+                                                        <p class="card-text">Raridade: Comum</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
                                                       </div>
@@ -345,7 +345,7 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/pets/p2.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Kinaiti</h5>
+                            <h5 class="card-title">Caputs</h5>
                             <p class="card-text">1000 moedas</p>
                             
                             <!-- Small modal -->
@@ -358,8 +358,8 @@
                                                     <div class="card">
                                                       <img class="card-img-top" src="../../img/pets/p2.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Kinaiti</h5>
-                                                        <p class="card-text">Guerras constantes...Sangue, órgãos e cabeças voando ante o campo de batalha...Esse foi o ambiente que se formou um bravo guerreiro, cujo nome real é Fekhir. Sua amada lança, sendo presente dos seus falecidos pais mostram juntamente com o escudo para quê veio...Lutar! Lutar! E lutar!</p>
+                                                        <h5 class="card-title">Caputs</h5>
+                                                        <p class="card-text">Raridade: Comum</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
                                                       </div>
@@ -373,10 +373,10 @@
                       </div>
                       <div class="item">
                       <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p20.jpeg" >
+                           <img class="card-img-top" src="../../img/pets/p3.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Sokernaiti</h5>
-                            <p class="card-text">1000 moedas</p>
+                            <h5 class="card-title">Cadin</h5>
+                            <p class="card-text">1100 moedas</p>
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal3">Visualizar</button>
 
@@ -385,10 +385,10 @@
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p20.jpeg" >
+                                                      <img class="card-img-top" src="../../img/pets/p3.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Sokernaiti</h5>
-                                                        <p class="card-text">Amigo de Kinaiti e cavaleiro que completa o trio, diferente de seus companheiros que portam espadas e arco e flechas, ele usa uma bola de futebol amaldiçoada que fere seus oponentes pra valer de acordo com a potência do seu chute! Temos aqui um inimigo a altura para nosso tão honrado Roberto Carlos não é mesmo?</p>
+                                                        <h5 class="card-title">Cadin</h5>
+                                                        <p class="card-text">Raridade: Comum</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
                                                       </div>
@@ -404,8 +404,8 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/pets/p4.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Serventia</h5>
-                            <p class="card-text">1000 moedas</p>
+                            <h5 class="card-title">Estojex</h5>
+                            <p class="card-text">1100 moedas</p>
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal4">Visualizar</button>
 
@@ -416,7 +416,7 @@
                                                     <div class="card">
                                                       <img class="card-img-top" src="../../img/pets/p4.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Serventia</h5>
+                                                        <h5 class="card-title">Estojex</h5>
                                                         <p class="card-text"> Paixão de Kinaiti, uma brava guerreira que lutou ao lado deste com vigor e coragem. Sua adaga abençoada por Angelisis mostra que independente de onde veio, ou do que faz...Até mesmo os monstros merecem amar, mas da sua maneira. Violenta, animada e ama jogar conversa fora com seu amado para esquecer a realidade cruel que se encontravam...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -431,9 +431,9 @@
                       </div>
                       <div class="item">
                       <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p3.jpeg" >
+                           <img class="card-img-top" src="../../img/pets/p5.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Violonelo</h5>
+                            <h5 class="card-title">Tet</h5>
                             <p class="card-text">1100 moedas</p>
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal5">Visualizar</button>
