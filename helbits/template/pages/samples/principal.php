@@ -76,26 +76,37 @@
       .jogo-img{
         height:75px;
         width:75px;
-        margin-bottom:10%;
+        margin-bottom:20%;
+        
       }
       .info{
         margin-bottom:10%;
-        margin-left:10px;
+        
+        
       }
       .game-row{height:75px;}
+      
+      
     }
     @media screen and (min-width:501px ) {
       .jogo-img{
         height:100px;
         width:100px;
+        margin-bottom:10%;
       }
-      .game-row{height:100px;}
+      .game-row{height:150px;}
       .info{
         
-        margin-left:10px;
+        
+        margin-bottom:10%;
       }
+      .game{
+        height:80%;
+           
+      }
+      .atividades{margin-top:-2%;}
     }
-    @media screen and (min-width:1000px ) {
+    @media screen and (min-width:1200px ) {
       .jogo-img{
         height:120px;
         width:120px;
@@ -107,10 +118,13 @@
       }
       .info{
         margin-bottom:10%;
-        margin-left:10px;
+        
         
       }
-      .game{height:80%;}
+      .game{
+        height:80%;
+           
+      }
       .atividades{margin-top:-2%;}
     }
     .drop-habits{
@@ -153,12 +167,14 @@
       }
 
     }
-    .img-1{
+    .jogo-img{
       position:absolute;
+      
     }
-    .img-2{
-      position:absolute;
+    .jogo{
+      margin-bottom:22%;
     }
+  
     
 
   
@@ -420,12 +436,12 @@
                 <div class="card game"> 
                     <div class="card-body">
                     <div class="row game-row align-items-center">
-                      <div class="game col-3 col-1 col-xl-2 pl-0">
+                       <div class="jogo col-3 col-1 col-xl-2 pl-2">
                           <img class="jogo-img img-1"src="gamebackground_resized_resized_resized.jpg" alt="" srcset="">
                           <img class="jogo-img img-2"src="../../img/skin/s1-nobg.png" alt="" srcset="">
                         </div>
                         
-                        <div class="info col-9 col-1 col-xl-2 pl-0">
+                        <div class="info col-9 col-xl-3 pl-0">
                         <div class = "status">
                          
                           <span class="menu-icon">
@@ -445,10 +461,11 @@
                           </span>
                           
                             <span class="card-title">XP(0/100)<div class="progress">
-                                  <div class="progress-bar bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                  <div class="progress-bar bg-warning" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div></span>
                           </div>
                         </div>
+                        
                     
                         
                     </div>
