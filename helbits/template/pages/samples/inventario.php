@@ -8,7 +8,7 @@
     if($_GET['insert'] == 'ok') {
       
     }
-    if($_GET['erro'] == 'erro'){
+    if($_GET['erro'] == '){
       
     }
   }
