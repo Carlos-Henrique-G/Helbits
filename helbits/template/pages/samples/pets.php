@@ -518,10 +518,10 @@
                       </div>
                       <div class="item">
                       <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p6.jpeg" >
+                           <img class="card-img-top" src="../../img/pets/p7.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Sheevah</h5>
-                            <p class="card-text">2200 moedas</p>
+                            <h5 class="card-title">Sopral</h5>
+                            <p class="card-text">2100 moedas</p>
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal7">Visualizar</button>
 
@@ -530,68 +530,10 @@
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p6.jpeg" >
-                                                      <div class="card-body">
-                                                        <h5 class="card-title">Sheevah</h5>
-                                                        <p class="card-text">Parceira de Dwleyer e Samsara, integrante do panteão do caos, é cotada como o 2° Demônio mais forte residente no submundo, não necessitando sequer de armas para cortar as asas puras e límpidas dos anjos. Corriqueiramente, carrega uma tocha que sempre está acesa com as chamas do andar mais profundo daquele lugar fedido que os demônios chamam de casa para queimar seus oponentes. A mais cruel daquele panteão sanguinário!</p>
-                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                           </div>
-                         </div>
-                      </div>
-                      <div class="item">
-                      <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p7.jpeg" >
-                           <div class="card-body">
-                            <h5 class="card-title">Tarmiel Cap</h5>
-                            <p class="card-text">2200 moedas</p>
-                            <!-- Small modal -->
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal8">Visualizar</button>
-
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal8">
-                              <div class="modal-dialog modal-sm">
-                                <div class="modal-content">
-                                        <div class="itemModal">
-                                                    <div class="card">
                                                       <img class="card-img-top" src="../../img/pets/p7.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Tarmiel Cap</h5>
-                                                        <p class="card-text">Um anjo usando boné? Que ironia! Ele foi um dos únicos celestiais que não precisaram morrer para alcançar seu posto, mas sim recebendo uma benção pela vida tão sofrida e patética que teve. Esse boné representa sua união entre o divino e o terreno, precisando apenas retirá-lo para perder seu posto e poder, por isso ele usufruindo dos seus poderes angelicais e sua espada longa, se tornou um ícone no céu!</p>
-                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                           </div>
-                         </div>
-                      </div>
-                      <div class="item">
-                      <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p19.jpeg" >
-                           <div class="card-body">
-                            <h5 class="card-title">Axelbolt</h5>
-                            <p class="card-text">2300 moedas</p>
-                            <!-- Small modal -->
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal9">Visualizar</button>
-
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal9">
-                              <div class="modal-dialog modal-sm">
-                                <div class="modal-content">
-                                        <div class="itemModal">
-                                                    <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p19.jpeg" >
-                                                      <div class="card-body">
-                                                        <h5 class="card-title">Axelbolt</h5>
-                                                        <p class="card-text">Assim como caronte, ela guia a alma dos recém mortos para o submundo, servindo como serva direta de Samsara, sendo mais como uma verdadeira guia e administradora daquele plano caótico do que necessariamente uma combatente ou guerreira. Quem sabe você não encontra ela por aí depois de morrer né...</p>
+                                                        <h5 class="card-title">Sopral</h5>
+                                                        <p class="card-text">Raridade: Raro</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
                                                       </div>
@@ -607,20 +549,20 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/pets/p8.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Menin White</h5>
-                            <p class="card-text">2500 moedas</p>
+                            <h5 class="card-title">Czará</h5>
+                            <p class="card-text">2200 moedas</p>
                             <!-- Small modal -->
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal10">Visualizar</button>
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal8">Visualizar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal10">
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal8">
                               <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
                                                       <img class="card-img-top" src="../../img/pets/p8.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Menin White</h5>
-                                                        <p class="card-text">"Hahahaha! Uma festa cheia de rapazes e moças...Vamos dançar!", Um humano comum, que vivia uma vida normal, até lhe ser ofertado para ser segurança de "You", um ricasso desconhecido. Como um bom rapaz viciado em festas, bebedeiras e curtições, criou e adaptou um estilo de luta para seu corpo esguio, mas ao mesmo tempo forte para proteger seu senhorio que como forma de pagamento, lhe dá uma boa quantia de dinheiro e festas mensalmente...</p>
+                                                        <h5 class="card-title">Czará</h5>
+                                                        <p class="card-text">Raridade: Raro</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
                                                       </div>
@@ -634,22 +576,22 @@
                       </div>
                       <div class="item">
                       <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p9.jpeg" >
+                           <img class="card-img-top" src="../../img/pets/p19.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Fishit</h5>
-                            <p class="card-text">4000 moedas</p>
+                            <h5 class="card-title">Charsaur</h5>
+                            <p class="card-text">2300 moedas</p>
                             <!-- Small modal -->
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal11">Visualizar</button>
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal9">Visualizar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal11">
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal9">
                               <div class="modal-dialog modal-sm">
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p9.jpeg" >
+                                                      <img class="card-img-top" src="../../img/pets/p19.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Fishit</h5>
-                                                        <p class="card-text">.Um dos integrantes da gangue do "You", sendo apenas um lenhador que se locomove usando um "balãocóptero" criado pelo seu patrão, e para ataque um machado. Chato, sempre reclamando da vida na cidade que seu chefe mora, mas lhe foi ensinado que a lealdade é uma das maiores virtudes que um homem pode ter, então não deve quebrar a confiança de "You".</p>
+                                                        <h5 class="card-title">Charsaur</h5>
+                                                        <p class="card-text">Raridade: Raro</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
                                                       </div>
@@ -665,8 +607,8 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/pets/p10.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Itenias</h5>
-                            <p class="card-text">5000 moedas</p>
+                            <h5 class="card-title">Azathoth</h5>
+                            <p class="card-text">4000 moedas</p>
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal12">Visualizar</button>
 
@@ -677,37 +619,8 @@
                                                     <div class="card">
                                                       <img class="card-img-top" src="../../img/pets/p10.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Itenias</h5>
-                                                        <p class="card-text"> É um palhaço segurança de "You", que usa truques envolvendo sua flor para distrair os inimigos de "You" e em seguida derrota-los. Pouco se sabe sobre o seu passado em si, até mesmo o chefe não sabe muito sobre tal palhaço, mas seu jeito maníaco e engraçado de ser cativou "You", ao ponto de deixá-lo entrar para seus guarda costas de elite. "Aqui minha criança, roubei seu nariz...Não grite, eu realmente peguei seu nariz! Hahahaha!"</p>
-                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                           </div>
-                         </div>
-                      </div>
-                      <div class="item">
-                      <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p12.jpeg" >
-                           <div class="card-body">
-                            <h5 class="card-title">You</h5>
-                            <p class="card-text">5000 moedas</p>
-                            <!-- Small modal -->
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal13">Visualizar</button>
-
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal13">
-                              <div class="modal-dialog modal-sm">
-                                <div class="modal-content">
-                                        <div class="itemModal">
-                                                    <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p12.jpeg" >
-                                                      <div class="card-body">
-                                                        <h5 class="card-title">You</h5>
-                                                        <p class="card-text">Líder de todos do próprio grupo, seu nome real é desconhecido, sendo "You" como ele é conhecido no mundo do crime. É extremamente rico, sendo desconhecido da onde veio tanto dinheiro, mas a única coisa que se sabe é que ele é dono de uma das maiores regiões do mundo, sendo considerado um dos 4 reis, não pela sua força, mas pelo reconhecimento e dinheiro que consegue manipular boa parte do sistema que rege seu território e o mundo no geral.</p>
+                                                        <h5 class="card-title">Azathoth</h5>
+                                                        <p class="card-text">Raridade: Épico</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
                                                       </div>
@@ -723,8 +636,8 @@
                          <div class="card">
                            <img class="card-img-top" src="../../img/pets/p11.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">3Dwitch</h5>
-                            <p class="card-text">5100 moedas</p>
+                            <h5 class="card-title">Celetti</h5>
+                            <p class="card-text">4300 moedas</p>
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal14">Visualizar</button>
 
@@ -735,8 +648,8 @@
                                                     <div class="card">
                                                       <img class="card-img-top" src="../../img/pets/p11.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">3Dwitch</h5>
-                                                        <p class="card-text">Guarda costas mais forte de "You" e o primeiro membro da sua gangue, usa magia de gelo para executar seus oponentes. Originalmente cego, aqueles óculos 3D foram um presente do chefe, que caso ele se juntasse ao seu grupo, poderia dar-lhe um óculos que pudesse restaurar sua visão novamente e assim foi feito. Como Fishit, ele é leal ao "You" pela benfeitoria de lhe ajudar.</p>
+                                                        <h5 class="card-title">Celetti</h5>
+                                                        <p class="card-text">Raridade: Épico</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
                                                       </div>
@@ -750,10 +663,69 @@
                       </div>
                       <div class="item">
                       <div class="card">
+                           <img class="card-img-top" src="../../img/pets/p9.jpeg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Candi</h5>
+                            <p class="card-text">4500 moedas</p>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal11">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal11">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/pets/p9.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Candi</h5>
+                                                        <p class="card-text">Raridade: Épico</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/pets/p12.jpeg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Ahá</h5>
+                            <p class="card-text">4600 moedas</p>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal13">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal13">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/pets/p12.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Ahá</h5>
+                                                        <p class="card-text">Raridade: Épico</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                           </div>
+                         </div>
+                      </div>
+                     
+                      <div class="item">
+                      <div class="card">
                            <img class="card-img-top" src="../../img/pets/p13.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Irmãos vextre</h5>
-                            <p class="card-text">7000 moedas</p>
+                            <h5 class="card-title">Samsara</h5>
+                            <p class="card-text">5000 moedas</p>
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal15">Visualizar</button>
 
@@ -764,37 +736,8 @@
                                                     <div class="card">
                                                       <img class="card-img-top" src="../../img/pets/p13.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Irmãos Vextre</h5>
-                                                        <p class="card-text">A dupla de humanos mais forte do mundo! Pela grande eficiência, força e resistência do rapaz, e inteligência, tenacidade e velocidade da irmã, conquistaram diversos territórios e ganharam seguidos, sendo tratados como realeza. Juntos, ocupam um dos cargos de rei, portando um território que é governado por eles, coberto de lixo e entulho, mas é a casa dos diversos moradores que habitam por ali, sem tanta violência, roubo...Todos vivendo de forma igualitária e unida.</p>
-                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                           </div>
-                         </div>
-                      </div>
-                      <div class="item">
-                      <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p16.jpeg" >
-                           <div class="card-body">
-                            <h5 class="card-title">Samsara</h5>
-                            <p class="card-text">7000 moedas</p>
-                            <!-- Small modal -->
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal16">Visualizar</button>
-
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal16">
-                              <div class="modal-dialog modal-sm">
-                                <div class="modal-content">
-                                        <div class="itemModal">
-                                                    <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p16.jpeg" >
-                                                      <div class="card-body">
                                                         <h5 class="card-title">Samsara</h5>
-                                                        <p class="card-text">Rainha demônio, e membra mais forte do panteão do caos, ela governa tudo pelo submundo, resolvendo os assuntos entre sua raça e os anjos. Ela é extremamente forte, apenas podendo ser batida de frente pelo rei dos anjos, tendo poder suficiente para abalar o céu e a terra de modo literal. Calma, gentil e até mesmo sensata, mas guarda um ódio e rancor dos outros que ninguém imagina...Curvem-se ante a governadora do mal e do caos!</p>
+                                                        <p class="card-text">Raridade: Lendária</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
                                                       </div>
@@ -806,12 +749,13 @@
                            </div>
                          </div>
                       </div>
+                      
                       <div class="item">
                       <div class="card">
                            <img class="card-img-top" src="../../img/pets/p14.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Díodor</h5>
-                            <p class="card-text">7300 moedas</p>
+                            <h5 class="card-title">Raksasha</h5>
+                            <p class="card-text">5500 moedas</p>
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal17">Visualizar</button>
 
@@ -822,8 +766,8 @@
                                                     <div class="card">
                                                       <img class="card-img-top" src="../../img/pets/p14.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Díodor</h5>
-                                                        <p class="card-text"> Parceiro de negócios de "You", rege na palma da sua mão um império que convive apenas vampiros. Um dos 4 reis e o mais volátil de todos, sempre querendo arrumar briga com os outros reis visando expandir seu território e semear o caos pelo mundo. A maioria dos conflitos globais é fomentado por Díodor, sendo seu apelido "Dio". Arrogante, soberba e com complexo de messias, seu objetivo é criar um reinado mundial, onde o único rei presente seja ele e mais ninguém.</p>
+                                                        <h5 class="card-title">Raksasha</h5>
+                                                        <p class="card-text">Raridade: Lendário</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
                                                       </div>
@@ -839,8 +783,8 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/pets/p15.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Virgin</h5>
-                            <p class="card-text">7400 moedas</p>
+                            <h5 class="card-title">Lev</h5>
+                            <p class="card-text">5600 moedas</p>
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal18">Visualizar</button>
 
@@ -851,8 +795,8 @@
                                                     <div class="card">
                                                       <img class="card-img-top" src="../../img/pets/p15.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Virgin</h5>
-                                                        <p class="card-text">Ex serva de "You", seu passado com o vilão é até então desconhecido, apenas sabe-se de sua relação de vassalagem com o rapaz. Ela precisava de dinheiro e comida, então se submeteu a isso...Que horror! Após fugir das garras sujas de "You", ela é uma das pistas mais claras de desvendar o mistério acerca do passado do imperador.</p>
+                                                        <h5 class="card-title">Lev</h5>
+                                                        <p class="card-text">Raridade: Lendário</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
                                                       </div>
@@ -869,8 +813,8 @@
                         <div class="card">
                            <img class="card-img-top" src="../../img/pets/p17.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Hell's Dream</h5>
-                            <p class="card-text">8444 moedas</p>
+                            <h5 class="card-title">Mhay Eggz</h5>
+                            <p class="card-text">5800 moedas</p>
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal20">Visualizar</button>
 
@@ -881,8 +825,8 @@
                                                     <div class="card">
                                                       <img class="card-img-top" src="../../img/pets/p17.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Hell's Dream</h5>
-                                                        <p class="card-text"> "Não morra...Você é muito linda para morrer". A última que completa o grupo dos reis, é além de forte, inteligente e sagaz, sendo amplamente classificada entre os reis como a melhor em relações diplomáticas. Sua nação tem diversos investimentos em várias áreas, sendo formada apenas por mulheres. Mas como elas se reproduzem você me pergunta...Ouvi dizer que elas sequestram homens e o forçam a terem relações com elas para depois executa-los...Brutal.</p>
+                                                        <h5 class="card-title">Mhay Eggz</h5>
+                                                        <p class="card-text">Raridade: Lendário</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
                                                       </div>
@@ -894,8 +838,64 @@
                            </div>
                          </div>
                       </div>
+                      <div class="item">
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/pets/p20.jpeg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Mew-ing</h5>
+                            <p class="card-text">5800 moedas</p>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal10">Visualizar</button>
 
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal10">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/pets/p20.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Mew-ing</h5>
+                                                        <p class="card-text">Raridade: Lendário</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/pets/p16.jpeg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Heldogo</h5>
+                            <p class="card-text">6000 moedas</p>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal10">Visualizar</button>
 
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal10">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/pets/p16.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Heldogo</h5>
+                                                        <p class="card-text">Raridade: Lendária</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                           </div>
+                         </div>
+                      </div>
                     
                     </div>
                   </div>
