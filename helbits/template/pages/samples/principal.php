@@ -6,10 +6,8 @@
 
   if(isset($_GET['insert'])) {
     if($_GET['insert'] == 'ok') {
-      
     }
-    if($_GET['erro'] == 'erro'){
-      
+    if($_GET['insert'] == 'erro'){
     }
   }
   if(isset($_GET['login'])) {
@@ -102,7 +100,7 @@
       }
       .game{
         height:80%;
-           
+         
       }
       .atividades{margin-top:-2%;}
     }
@@ -461,7 +459,7 @@
                           </span>
                           
                             <span class="card-title">XP(0/100)<div class="progress">
-                                  <div class="progress-bar bg-warning" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div></span>
                           </div>
                         </div>
