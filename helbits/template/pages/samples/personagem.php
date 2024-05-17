@@ -317,7 +317,7 @@
                            <img class="card-img-top" src="../../img/skin/s1.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Angelisis</h5>
-                            <p class="card-text"><a style="color:yellow;"><i class="mdi mdi-coin">1000 moedas</i></a></p>
+                            <p class="card-text">1000 moedas</p>
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal1">Visualizar</button>
 

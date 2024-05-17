@@ -417,7 +417,65 @@
                                                       <img class="card-img-top" src="../../img/pets/p4.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Estojex</h5>
-                                                        <p class="card-text"> Paixão de Kinaiti, uma brava guerreira que lutou ao lado deste com vigor e coragem. Sua adaga abençoada por Angelisis mostra que independente de onde veio, ou do que faz...Até mesmo os monstros merecem amar, mas da sua maneira. Violenta, animada e ama jogar conversa fora com seu amado para esquecer a realidade cruel que se encontravam...</p>
+                                                        <p class="card-text"> Raridade: Comum</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/pets/p18.jpeg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Mini R</h5>
+                            <p class="card-text">8000 moedas</p>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal19">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal19">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/pets/p18.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Mini R</h5>
+                                                        <p class="card-text">Raridade: Comum</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/pets/p6.jpeg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Bucs</h5>
+                            <p class="card-text">2000 moedas</p>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal5">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal5">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/pets/p6.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Bucs</h5>
+                                                        <p class="card-text"> Raridade: Raro</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
                                                       </div>
@@ -434,35 +492,6 @@
                            <img class="card-img-top" src="../../img/pets/p5.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Tet</h5>
-                            <p class="card-text">1100 moedas</p>
-                            <!-- Small modal -->
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal5">Visualizar</button>
-
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal5">
-                              <div class="modal-dialog modal-sm">
-                                <div class="modal-content">
-                                        <div class="itemModal">
-                                                    <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p3.jpeg" >
-                                                      <div class="card-body">
-                                                        <h5 class="card-title">Violonelo</h5>
-                                                        <p class="card-text"> "Por que lutar? Podemos muito bem aproveitar a paz de uma bela música, não acham?", Essa frase descreve bem o maníaco chifrudo...Acreditem, ele fala sempre que gosta de diálogo e prosperidade...Mas ele não engana ninguém, seu rosto mostra isso. Acho que ele deve ter feito a pior das atrocidades quando estava em seus tempos sombrios...</p>
-                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                           </div>
-                         </div>
-                      </div>
-                      <div class="item">
-                      <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p5.jpeg" >
-                           <div class="card-body">
-                            <h5 class="card-title">Dwleyer</h5>
                             <p class="card-text">2100 moedas</p>
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal6">Visualizar</button>
@@ -474,8 +503,8 @@
                                                     <div class="card">
                                                       <img class="card-img-top" src="../../img/pets/p5.jpeg" >
                                                       <div class="card-body">
-                                                        <h5 class="card-title">Dwleyer</h5>
-                                                        <p class="card-text"> Que estranho...Um demônio tão pequeno assim...Não se engane pelo seu tamanho! Dwleyer é um dos demônios mais fortes que o submundo já teve a honra de portar! Sua incrível velocidade, juntamente da espada que empunha, é suficiente para derrotar todos os anjos que aparecer em sua frente. Juntamente de Sheevah e Samsara, formam o panteão do caos, diretamente do inferno...</p>
+                                                        <h5 class="card-title">Tet</h5>
+                                                        <p class="card-text"> Raridade: Raro</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
                                                       </div>
@@ -835,35 +864,7 @@
                            </div>
                          </div>
                       </div>
-                      <div class="item">
-                      <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p18.jpeg" >
-                           <div class="card-body">
-                            <h5 class="card-title">Tramper</h5>
-                            <p class="card-text">8000 moedas</p>
-                            <!-- Small modal -->
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal19">Visualizar</button>
-
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal19">
-                              <div class="modal-dialog modal-sm">
-                                <div class="modal-content">
-                                        <div class="itemModal">
-                                                    <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p18.jpeg" >
-                                                      <div class="card-body">
-                                                        <h5 class="card-title">Tramper</h5>
-                                                        <p class="card-text">- Não chega a ser considerado um rei, mas ele da serviços para todos os demais. Armamentos, espionagem...Tudo que você imaginar o Tramper tem consigo, basta ter dinheiro para pagar. Nenhum dos reis ousam roubar ou destrui-lo, nem mesmo Díodor...Por que será?</p>
-                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                           </div>
-                         </div>
-                      </div>
+                      
                       <div class="item">
                         <div class="card">
                            <img class="card-img-top" src="../../img/pets/p17.jpeg" >
