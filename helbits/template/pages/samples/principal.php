@@ -8,6 +8,7 @@
     if($_GET['insert'] == 'ok') {
     }
     if($_GET['insert'] == 'erro'){
+
     }
   }
   if(isset($_GET['login'])) {
@@ -82,8 +83,8 @@
         
         
       }
-      .game-row{height:75px;}
-      
+      .game-row{height:80px;}
+      .progress{width:50%;}
       
     }
     @media screen and (min-width:501px ) {
@@ -103,19 +104,20 @@
          
       }
       .atividades{margin-top:-2%;}
+      .progress{width:80%;}
     }
     @media screen and (min-width:1200px ) {
       .jogo-img{
         height:120px;
         width:120px;
-        margin-bottom:10%;
+        
       }
       .game-row{
         height:170px;
         
       }
       .info{
-        margin-bottom:10%;
+        margin-bottom:15%;
         
         
       }
@@ -123,7 +125,52 @@
         height:80%;
            
       }
+      
       .atividades{margin-top:-2%;}
+      .progress{width:100%;}
+    }
+    .drop-habits{
+      background-color:#f5f5f5;
+      color:black;
+    }
+    .paragrafo{
+      color:black;
+    }
+    .div-do-paragrafo:hover{
+      background-color:rgb(230, 230, 230);
+    }
+    .sair{
+      margin-left:33%;
+    }
+  
+    .list-wrapper a.remove:hover{
+      color:black !important;
+    }
+    @media screen and (min-width:1600px ) {
+      .jogo-img{
+        height:120px;
+        width:120px;
+        
+      }
+      .game-row{
+        height:170px;
+        
+      }
+      .info{
+        margin-bottom:15%;
+        
+        
+      }
+      .game{
+        height:80%;
+           
+      }
+      .jogo{
+     
+      margin-right:-5%;
+    }
+      .atividades{margin-top:-2%;}
+      .progress{width:100%;}
     }
     .drop-habits{
       background-color:#f5f5f5;
@@ -171,6 +218,7 @@
     }
     .jogo{
       margin-bottom:22%;
+      margin-right:-5%;
     }
   
     
