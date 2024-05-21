@@ -346,7 +346,17 @@
                 <div class="card"> 
                     <div class="card-body">
                     <h3 class="card-title">Configurações</h3>
-                   
+                      <form name="f1" action="updateconfiguracoes.php" method="POST">
+                       <div class="form-group">
+                        <Label>Nome:</Label>
+                        <input type="text" class="form-control p_input forminput" name="nome" id="nome" placeholder="<?php echo $_SESSION['nomeusuario']; ?>"></input><br>
+                        <Label>Email:</Label>
+                        <input type="text" class="form-control p_input forminput" name="email" id="email" placeholder="<?php echo $_SESSION['email']; ?>"></input><br>
+                        <Label>Senha:</Label>
+                        <input type="text" class="form-control p_input forminput" name="senha" id="senha" placeholder="<?php echo $_SESSION['senha']; ?>"></input><br>
+                        <button type="submit" class="btn btn-success">Salvar</button>
+                       </div>
+                      </form>
                     
                     
                     </div>
