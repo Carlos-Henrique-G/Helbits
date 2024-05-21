@@ -56,8 +56,15 @@
       margin:auto;
     }
     .subtitle-modal{color:#000000}
-    .form-control{color:black}
     
+    .form-control{
+      background-color:white;
+      color:black;
+    }
+
+   .form-control:hover{
+    background-color:white;
+   }
    
     @media screen and (max-width:500px) {
       .jogo-img{
@@ -350,10 +357,13 @@
                        <div class="form-group">
                         <Label>Nome:</Label>
                         <input type="text" class="form-control p_input forminput" name="nome" id="nome" placeholder="<?php echo $_SESSION['nomeusuario']; ?>"></input><br>
+
                         <Label>Email:</Label>
                         <input type="text" class="form-control p_input forminput" name="email" id="email" placeholder="<?php echo $_SESSION['email']; ?>"></input><br>
+
                         <Label>Senha:</Label>
                         <input type="text" class="form-control p_input forminput" name="senha" id="senha" placeholder="<?php echo $_SESSION['senha']; ?>"></input><br>
+                        
                         <button type="submit" class="btn btn-success">Salvar</button>
                        </div>
                       </form>

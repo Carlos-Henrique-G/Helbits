@@ -12,7 +12,7 @@
 
     $update = $conexao->query($novosdados);
 
-    if($insert) {
+    if($update= true) {
         header('Location: principal.php?alteracao=ok');
     } else {
         header('Location: principal.php?alteracao=erro');
