@@ -61,7 +61,9 @@
       background-color:white;
       color:black;
     }
-
+    .form-control:focus{
+      background-color: white;
+    }
    .form-control:hover{
     background-color:white;
    }
