@@ -356,12 +356,20 @@
                     <div class="card-body">
                     <h3 class="card-title">Configurações</h3>
                       <form name="f1" action="updateconfiguracoes.php" method="POST">
+                        <?php
+                          
+                        
+                        
+                        ?>
                        <div class="form-group">
+                        <Label>Código:</Label>
+                        <input type="text" class="form-control p_input forminput" name="nome" id="nome" readonly value="<?php echo $_SESSION['cod_usu']; ?>"></input><br>
+
                         <Label>Nome:</Label>
-                        <input type="text" class="form-control p_input forminput" name="nome" id="nome" placeholder="<?php echo $_SESSION['nomeusuario']; ?>"></input><br>
+                        <input type="text" class="form-control p_input forminput" name="nome" id="nome" placeholder="<?php echo $_SESSION['nome']; ?>"></input><br>
 
                         <Label>Email:</Label>
-                        <input type="text" class="form-control p_input forminput" name="email" id="email" placeholder="<?php echo $_SESSION['email']; ?>"></input><br>
+                        <input type="text" class="form-control p_input forminput" name="email" id="email" placeholder="<?php echo $_SESSION['utilizador']; ?>"></input><br>
 
                         <Label>Senha:</Label>
                         <input type="text" class="form-control p_input forminput" name="senha" id="senha" placeholder="<?php echo $_SESSION['senha']; ?>"></input><br>
