@@ -21,7 +21,7 @@
 
   $cod_usu = $_SESSION['cod_usu'];
   $sql_nome_usuario = "select nome from tbusuarios
-                  where cod_usu = $cod_usu";
+                  where cod_usu = '$cod_usu'";
 
   $consulta_nome = $conexao->query($sql_nome_usuario);
 
@@ -71,7 +71,7 @@
     .form-control{color:black}
     
    
-    @media screen and (max-width:500px) {
+    @media screen and (max-width:640px) {
       .jogo-img{
         height:75px;
         width:75px;
@@ -87,7 +87,7 @@
       .progress{width:50%;}
       
     }
-    @media screen and (min-width:501px ) {
+    @media screen and (min-width:641px ) {
       .jogo-img{
         height:100px;
         width:100px;
@@ -107,6 +107,9 @@
       .progress{width:80%;}
     }
     @media screen and (min-width:1200px ) {
+      .jogo{
+        margin-right:10px;
+      }
       .jogo-img{
         height:120px;
         width:120px;
@@ -482,7 +485,7 @@
                 <div class="card game"> 
                     <div class="card-body">
                     <div class="row game-row align-items-center">
-                       <div class="jogo col-3 col-1 col-xl-2 pl-2">
+                       <div class="jogo col-3 col-1 col-xl-3 pl-2">
                           <img class="jogo-img img-1"src="gamebackground_resized_resized_resized.jpg" alt="" srcset="">
                           <img class="jogo-img img-2"src="../../img/skin/s1-nobg.png" alt="" srcset="">
                         </div>
@@ -496,10 +499,8 @@
                           <span class="card-title">Money</span>
                         </div>
                         <div class = "status">
-                          <span class="menu-icon">
-                             <i class="mdi mdi-coin"></i>
-                          </span>
-                          <span class="card-title">HP</span>
+                          
+                          
                         </div>
                         <div class = "status_xp">
                           <span class="menu-icon">

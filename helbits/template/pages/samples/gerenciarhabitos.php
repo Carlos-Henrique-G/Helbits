@@ -144,7 +144,7 @@
   </style>
   </head>
   <body>
-  <form action="habitos.php" method="POST">
+  <form action="bonshabitos.php" method="POST">
   <div class="modal-background">
   <div class="modal fade custom-modal" id="modal-bom" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -173,7 +173,7 @@
   
 </div>
 </div>
-<form action="habitos.php" method="POST">
+<form action="maushabitos.php" method="POST">
 <div class="modal-background">
   <div class="modal fade custom-modal" id="modal-mal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -197,6 +197,8 @@
             </div>
       </form>
 
+
+      
     </div>
   </div>
 </div>
@@ -408,25 +410,34 @@
                           <tr>
                             <th>Nome</th>
                             <th>Descrição</th>
-                            <th>Qtd. Feita</th>
+                            
                             <th>tipo</th>
                           </tr>
                         </thead>
                         <tbody>
-                          <tr>
-                            <td>Jacob</td>
-                            <td>53275531</td>
-                            <td>12 May 2017</td>
-                            <td><label class="badge badge-danger">Ruim</label></td>
-                          </tr>
+                         <?php
+                         include('conexaocombanco/banco.php');
+                         $codusu_habitos = $_SESSION['cod_usu'];
+                         $sql_habitos_usu = "select * from tbhabitos
+                                             where cod_usu = $codusu_habitos
+                                             order by cod_hab asc;";
+ 
+                         $consulta_habitos = $conexao->query($sql_habitos_usu);  
                          
-                          <tr>
-                            <td>Peter</td>
-                            <td>53275534</td>
-                            <td>16 May 2017</td>
-                            <td><label class="badge badge-success">Bom</label></td>
-                          </tr>
-                          <tr>
+                         while($linha_habitos = $consulta_habitos->fetch_array(MYSQLI_ASSOC)){
+ 
+                         echo "<tr><td>".$linha_habitos['nome']."</td>";
+                         echo "<td>".$linha_habitos['descricao']."</td>";
+
+                         echo "<td>".$linha_habitos['tipo']."</td>";
+
+
+                        echo "</tr>";
+
+                        echo'';
+                            // <textarea class="desc-habit" cols="28" rows="5" value='.$linha_habitos['descricao'].' disabled></textarea>
+                        }
+                         ?>
                             
                         </tbody>
                       </table>

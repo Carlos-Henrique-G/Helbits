@@ -119,6 +119,51 @@
         color:#000000;
     }
   
+    @media screen and (max-width:500px) {
+      .cardResponsivo{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      
+      gap: 20px; /* Espaçamento entre os itens */
+      padding: 5px; }
+      
+    }
+    @media screen and (max-width:1099px) {
+      .cardResponsivo{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    
+      gap: 20px; /* Espaçamento entre os itens */
+      padding: 5px; }
+
+    }
+
+    @media screen and (min-width:501px ) {
+      .cardResponsivo{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    
+      gap: 20px; /* Espaçamento entre os itens */
+      padding: 5px; }
+
+    }
+
+    @media screen and (min-width:1100px ) {
+      .cardResponsivo{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+     
+      gap: 20px; /* Espaçamento entre os itens */
+      padding: 5px; }
+      
+
+    }
+    .item {
+    background-color: #dddddd;
+    border: 1px solid #999;
+    padding: 20px;
+    text-align: center;
+}
   </style>
   </head>
   <body>
@@ -345,15 +390,89 @@
               <div class="col-md-12 grid-margin stretch-card">
                 <div class="card"> 
                     <div class="card-body">
-                    <h3 class="card-title">Seu Inventário</h3>
-                   
+                    <h3 class="card-title">Seu Inventário (Personagens)</h3>
+                    <div class="grid-container cardResponsivo">
+                    <div class="item ">
+                         <div class="card">
+                           <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Angelisis</h5>
+                            <p class="card-text">1000 moedas</p>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal1">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal1">
+                              <div class="modal-dialog modal-sm" >
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Angelisis</h5>
+                                                        <p class="card-text">Angelisis sempre foi considerada no seu reino do céu, como uma verdadeira anja. Sua ações, atitudes e ideias levaram-na a ser conhecida como "Mãe dos anjos", aquela que sempre ajuda os mais fracos independente de tudo...Avante nobre guerreira! Não deixe os demônios afetar seu reino e a você!</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                           </div>
+                         </div>
+                      </div>
                     
                     
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+  </div>
+            
+            <div class="row">
+              <div class="col-md-12 grid-margin stretch-card">
+                <div class="card"> 
+                    <div class="card-body">
+                    <h3 class="card-title">Seu Inventário (Pets)</h3>
+                    <div class="grid-container cardResponsivo">
+                      <div class="item ">
+                         <div class="card">
+                           <img class="card-img-top" src="../../img/pets/p1.jpeg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Lucoa</h5>
+                            <p class="card-text">Ganhe ao entrar no nível 5</p>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal1">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal1">
+                              <div class="modal-dialog modal-sm" >
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/pets/p1.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Lucoa</h5>
+                                                        <p class="card-text">Raridade: Comum</p>
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <button class="btn btn-success">Comprar</button>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                           </div>
+                         </div>
+                      </div>
+</div>
+                    
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+  </div>   
+            
           
         
           
