@@ -158,6 +158,16 @@
       
 
     }
+    @media screen and (min-width:1600px ) {
+      .cardResponsivo{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+     
+      gap: 20px; /* Espaçamento entre os itens */
+      padding: 5px; }
+      
+
+    }
     .item {
     background-color: #dddddd;
     border: 1px solid #999;
@@ -276,9 +286,9 @@
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="personagem.php">Personagens</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pets.php">Pets</a></li>
+            <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="personagem.php"><i class="mdi mdi-account-switch"></i>Personagens</a></li>
+            <li class="nav-item"> <a class="nav-link" href="pets.php" ><i class="mdi mdi-cat"> </i>Pets</a></li>
                 
               </ul>
           </li>
@@ -397,7 +407,7 @@
                            <img class="card-img-top" src="../../img/skin/s1.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Angelisis</h5>
-                            <p class="card-text">1000 moedas</p>
+                           
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal1">Visualizar</button>
 
@@ -410,8 +420,8 @@
                                                       <div class="card-body">
                                                         <h5 class="card-title">Angelisis</h5>
                                                         <p class="card-text">Angelisis sempre foi considerada no seu reino do céu, como uma verdadeira anja. Sua ações, atitudes e ideias levaram-na a ser conhecida como "Mãe dos anjos", aquela que sempre ajuda os mais fracos independente de tudo...Avante nobre guerreira! Não deixe os demônios afetar seu reino e a você!</p>
-                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                        <button class="btn btn-danger" data-dismiss="modal">fechar</button>
+                                                        
                                                       </div>
                                                     </div>
                                                   </div>
@@ -453,8 +463,8 @@
                                                       <div class="card-body">
                                                         <h5 class="card-title">Lucoa</h5>
                                                         <p class="card-text">Raridade: Comum</p>
-                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                        <button class="btn btn-danger" data-dismiss="modal">fechar</button>
+                                                        
                                                       </div>
                                                     </div>
                                                   </div>

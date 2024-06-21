@@ -151,12 +151,12 @@
     }
     @media screen and (min-width:1600px ) {
       .jogo-img{
-        height:120px;
-        width:120px;
+        height:170px;
+        width:170px;
         
       }
       .game-row{
-        height:170px;
+        height:220px;
         
       }
       .info{
@@ -339,9 +339,9 @@
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="personagem.php">Personagens</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pets.php">Pets</a></li>
+            <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="personagem.php"><i class="mdi mdi-account-switch"></i>Personagens</a></li>
+            <li class="nav-item"> <a class="nav-link" href="pets.php" ><i class="mdi mdi-cat"> </i>Pets</a></li>
                 
               </ul>
           </li>

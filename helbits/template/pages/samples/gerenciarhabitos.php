@@ -188,11 +188,11 @@
         <form action="" method="POST">
             <label class="subtitle-modal">Nome</label>
             <div class="add-items d-flex">
-                            <input type="text" class="form-control todo-list-input" placeholder="Adicione tarefas">
+                            <input type="text" class="form-control todo-list-input" name="nomehabito" id="nomehabito" placeholder="Adicione tarefas">
                             <button type="submit" class="add btn btn-primary todo-list-add-btn">Add</button>
                           </div>
                   <label class="subtitle-modal">Descrição</label>
-                <textarea class="desc-habit" name="desc" id="desc" cols="28" rows="5"></textarea>
+                <textarea class="desc-habit"name="habitodesc" id="habitodesc" cols="28" rows="5"></textarea>
               
             </div>
       </form>
@@ -255,9 +255,9 @@
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="personagem.php">Personagens</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pets.php">Pets</a></li>
+            <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="personagem.php"><i class="mdi mdi-account-switch"></i>Personagens</a></li>
+            <li class="nav-item"> <a class="nav-link" href="pets.php" ><i class="mdi mdi-cat"> </i>Pets</a></li>
                 
               </ul>
           </li>
