@@ -355,24 +355,32 @@
                 <div class="card"> 
                     <div class="card-body">
                     <h3 class="card-title">Configurações</h3>
-                      <form name="f1" action="updateconfiguracoes.php" method="POST">
-                        <?php
-                          
-                        
+                    <?php
+                          include('./conexaocombanco/banco.php');
+                          $codusu = $_SESSION['cod_usu'];
+                          $sql  = "select * from tbusuarios where cod_usu = $codusu";
+
+                          $select = $conexao->query($sql);
+
+                          if($select->num_rows > 0) {
+                            $linha = $select->fetch_array(MYSQLI_ASSOC);
+                          }
                         
                         ?>
+                      <form name="f1" action="updateconfiguracoes.php" method="POST">
+                        
                        <div class="form-group">
                         <Label>Código:</Label>
-                        <input type="text" class="form-control p_input forminput" name="nome" id="nome" readonly value="<?php echo $_SESSION['cod_usu']; ?>"></input><br>
+                        <input type="text" class="form-control p_input forminput" name="cod_usu" id="cod_usu" readonly value="<?php echo $linha['cod_usu']; ?>"></input><br>
 
                         <Label>Nome:</Label>
-                        <input type="text" class="form-control p_input forminput" name="nome" id="nome" placeholder="<?php echo $_SESSION['nome']; ?>"></input><br>
+                        <input type="text" class="form-control p_input forminput" name="nome" id="nome" value="<?php echo $linha['nome']; ?>"></input><br>
 
                         <Label>Email:</Label>
-                        <input type="text" class="form-control p_input forminput" name="email" id="email" placeholder="<?php echo $_SESSION['utilizador']; ?>"></input><br>
+                        <input type="text" class="form-control p_input forminput" name="email" id="email" value="<?php echo $linha['utilizador'].$linha['dominio']; ?>"></input><br>
 
                         <Label>Senha:</Label>
-                        <input type="text" class="form-control p_input forminput" name="senha" id="senha" placeholder="<?php echo $_SESSION['senha']; ?>"></input><br>
+                        <input type="text" class="form-control p_input forminput" name="senha" id="senha" value="<?php echo $linha['senha']; ?>"></input><br>
                         
                         <button type="submit" class="btn btn-success">Salvar</button>
                        </div>
