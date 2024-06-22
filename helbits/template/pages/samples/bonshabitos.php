@@ -7,8 +7,8 @@
     $codusu= $_SESSION['cod_usu'];
 
     
-    $novohabito = "insert into tbhabitos (cod_hab, cod_usu,nome,descricao, tipo)
-                                         values (null,".$codusu.",'".$nome."','".$descricao."','BOM');";
+    $novohabito = "insert into tbhabitos (cod_hab, cod_usu,nome,descricao, tipo, status)
+                                         values (null,".$codusu.",'".$nome."','".$descricao."','BOM','NAO');";
 
     $insert = $conexao->query($novohabito);
 
