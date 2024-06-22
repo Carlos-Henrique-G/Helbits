@@ -361,6 +361,7 @@
                                                       <img class="card-img-top" src="../../img/skin/s2.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Kinaiti</h5>
+                                                        <h5 class="card-title">Raridade : Comum</h5>
                                                         <p class="card-text">Guerras constantes...Sangue, órgãos e cabeças voando ante o campo de batalha...Esse foi o ambiente que se formou um bravo guerreiro, cujo nome real é Fekhir. Sua amada lança, sendo presente dos seus falecidos pais mostram juntamente com o escudo para quê veio...Lutar! Lutar! E lutar!</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -390,6 +391,7 @@
                                                       <img class="card-img-top" src="../../img/skin/s20.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Sokernaiti</h5>
+                                                        <h5 class="card-title">Raridade : Comum</h5>
                                                         <p class="card-text">Amigo de Kinaiti e cavaleiro que completa o trio, diferente de seus companheiros que portam espadas e arco e flechas, ele usa uma bola de futebol amaldiçoada que fere seus oponentes pra valer de acordo com a potência do seu chute! Temos aqui um inimigo a altura para nosso tão honrado Roberto Carlos não é mesmo?</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -419,6 +421,7 @@
                                                       <img class="card-img-top" src="../../img/skin/s4.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Serventia</h5>
+                                                        <h5 class="card-title">Raridade : Comum</h5>
                                                         <p class="card-text"> Paixão de Kinaiti, uma brava guerreira que lutou ao lado deste com vigor e coragem. Sua adaga abençoada por Angelisis mostra que independente de onde veio, ou do que faz...Até mesmo os monstros merecem amar, mas da sua maneira. Violenta, animada e ama jogar conversa fora com seu amado para esquecer a realidade cruel que se encontravam...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -448,6 +451,7 @@
                                                       <img class="card-img-top" src="../../img/skin/s3.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Violonelo</h5>
+                                                        <h5 class="card-title">Raridade : Comum</h5>
                                                         <p class="card-text"> "Por que lutar? Podemos muito bem aproveitar a paz de uma bela música, não acham?", Essa frase descreve bem o maníaco chifrudo...Acreditem, ele fala sempre que gosta de diálogo e prosperidade...Mas ele não engana ninguém, seu rosto mostra isso. Acho que ele deve ter feito a pior das atrocidades quando estava em seus tempos sombrios...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -477,6 +481,7 @@
                                                       <img class="card-img-top" src="../../img/skin/s5.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Dwleyer</h5>
+                                                        <h5 class="card-title">Raridade : Raro</h5>
                                                         <p class="card-text"> Que estranho...Um demônio tão pequeno assim...Não se engane pelo seu tamanho! Dwleyer é um dos demônios mais fortes que o submundo já teve a honra de portar! Sua incrível velocidade, juntamente da espada que empunha, é suficiente para derrotar todos os anjos que aparecer em sua frente. Juntamente de Sheevah e Samsara, formam o panteão do caos, diretamente do inferno...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -494,6 +499,7 @@
                            <img class="card-img-top" src="../../img/skin/s6.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Sheevah</h5>
+                            
                             <p class="card-text">2200 moedas</p>
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal7">Visualizar</button>
@@ -506,6 +512,7 @@
                                                       <img class="card-img-top" src="../../img/skin/s6.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Sheevah</h5>
+                                                        <h5 class="card-title">Raridade : Raro</h5>
                                                         <p class="card-text">Parceira de Dwleyer e Samsara, integrante do panteão do caos, é cotada como o 2° Demônio mais forte residente no submundo, não necessitando sequer de armas para cortar as asas puras e límpidas dos anjos. Corriqueiramente, carrega uma tocha que sempre está acesa com as chamas do andar mais profundo daquele lugar fedido que os demônios chamam de casa para queimar seus oponentes. A mais cruel daquele panteão sanguinário!</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -535,6 +542,7 @@
                                                       <img class="card-img-top" src="../../img/skin/s7.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Tarmiel Cap</h5>
+                                                        <h5 class="card-title">Raridade : Raro</h5>
                                                         <p class="card-text">Um anjo usando boné? Que ironia! Ele foi um dos únicos celestiais que não precisaram morrer para alcançar seu posto, mas sim recebendo uma benção pela vida tão sofrida e patética que teve. Esse boné representa sua união entre o divino e o terreno, precisando apenas retirá-lo para perder seu posto e poder, por isso ele usufruindo dos seus poderes angelicais e sua espada longa, se tornou um ícone no céu!</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -564,6 +572,7 @@
                                                       <img class="card-img-top" src="../../img/skin/s19.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Axelbolt</h5>
+                                                        <h5 class="card-title">Raridade : Raro</h5>
                                                         <p class="card-text">Assim como caronte, ela guia a alma dos recém mortos para o submundo, servindo como serva direta de Samsara, sendo mais como uma verdadeira guia e administradora daquele plano caótico do que necessariamente uma combatente ou guerreira. Quem sabe você não encontra ela por aí depois de morrer né...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -593,6 +602,7 @@
                                                       <img class="card-img-top" src="../../img/skin/s8.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Menin White</h5>
+                                                        <h5 class="card-title">Raridade : Raro</h5>
                                                         <p class="card-text">"Hahahaha! Uma festa cheia de rapazes e moças...Vamos dançar!", Um humano comum, que vivia uma vida normal, até lhe ser ofertado para ser segurança de "You", um ricasso desconhecido. Como um bom rapaz viciado em festas, bebedeiras e curtições, criou e adaptou um estilo de luta para seu corpo esguio, mas ao mesmo tempo forte para proteger seu senhorio que como forma de pagamento, lhe dá uma boa quantia de dinheiro e festas mensalmente...</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -622,6 +632,7 @@
                                                       <img class="card-img-top" src="../../img/skin/s9.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Fishit</h5>
+                                                        <h5 class="card-title">Raridade : Épico</h5>
                                                         <p class="card-text">.Um dos integrantes da gangue do "You", sendo apenas um lenhador que se locomove usando um "balãocóptero" criado pelo seu patrão, e para ataque um machado. Chato, sempre reclamando da vida na cidade que seu chefe mora, mas lhe foi ensinado que a lealdade é uma das maiores virtudes que um homem pode ter, então não deve quebrar a confiança de "You".</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -651,6 +662,7 @@
                                                       <img class="card-img-top" src="../../img/skin/s10.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Itenias</h5>
+                                                        <h5 class="card-title">Raridade : Épico</h5>
                                                         <p class="card-text"> É um palhaço segurança de "You", que usa truques envolvendo sua flor para distrair os inimigos de "You" e em seguida derrota-los. Pouco se sabe sobre o seu passado em si, até mesmo o chefe não sabe muito sobre tal palhaço, mas seu jeito maníaco e engraçado de ser cativou "You", ao ponto de deixá-lo entrar para seus guarda costas de elite. "Aqui minha criança, roubei seu nariz...Não grite, eu realmente peguei seu nariz! Hahahaha!"</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -680,6 +692,7 @@
                                                       <img class="card-img-top" src="../../img/skin/s12.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">You</h5>
+                                                        <h5 class="card-title">Raridade : Épico</h5>
                                                         <p class="card-text">Líder de todos do próprio grupo, seu nome real é desconhecido, sendo "You" como ele é conhecido no mundo do crime. É extremamente rico, sendo desconhecido da onde veio tanto dinheiro, mas a única coisa que se sabe é que ele é dono de uma das maiores regiões do mundo, sendo considerado um dos 4 reis, não pela sua força, mas pelo reconhecimento e dinheiro que consegue manipular boa parte do sistema que rege seu território e o mundo no geral.</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -709,6 +722,7 @@
                                                       <img class="card-img-top" src="../../img/skin/s11.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">3Dwitch</h5>
+                                                        <h5 class="card-title">Raridade : Épico</h5>
                                                         <p class="card-text">Guarda costas mais forte de "You" e o primeiro membro da sua gangue, usa magia de gelo para executar seus oponentes. Originalmente cego, aqueles óculos 3D foram um presente do chefe, que caso ele se juntasse ao seu grupo, poderia dar-lhe um óculos que pudesse restaurar sua visão novamente e assim foi feito. Como Fishit, ele é leal ao "You" pela benfeitoria de lhe ajudar.</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -738,6 +752,7 @@
                                                       <img class="card-img-top" src="../../img/skin/s13.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Irmãos Vextre</h5>
+                                                        <h5 class="card-title">Raridade : Lendário</h5>
                                                         <p class="card-text">A dupla de humanos mais forte do mundo! Pela grande eficiência, força e resistência do rapaz, e inteligência, tenacidade e velocidade da irmã, conquistaram diversos territórios e ganharam seguidos, sendo tratados como realeza. Juntos, ocupam um dos cargos de rei, portando um território que é governado por eles, coberto de lixo e entulho, mas é a casa dos diversos moradores que habitam por ali, sem tanta violência, roubo...Todos vivendo de forma igualitária e unida.</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -767,6 +782,7 @@
                                                       <img class="card-img-top" src="../../img/skin/s16.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Samsara</h5>
+                                                        <h5 class="card-title">Raridade : Lendário</h5>
                                                         <p class="card-text">Rainha demônio, e membra mais forte do panteão do caos, ela governa tudo pelo submundo, resolvendo os assuntos entre sua raça e os anjos. Ela é extremamente forte, apenas podendo ser batida de frente pelo rei dos anjos, tendo poder suficiente para abalar o céu e a terra de modo literal. Calma, gentil e até mesmo sensata, mas guarda um ódio e rancor dos outros que ninguém imagina...Curvem-se ante a governadora do mal e do caos!</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -796,6 +812,7 @@
                                                       <img class="card-img-top" src="../../img/skin/s14.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Díodor</h5>
+                                                        <h5 class="card-title">Raridade : Lendário</h5>
                                                         <p class="card-text"> Parceiro de negócios de "You", rege na palma da sua mão um império que convive apenas vampiros. Um dos 4 reis e o mais volátil de todos, sempre querendo arrumar briga com os outros reis visando expandir seu território e semear o caos pelo mundo. A maioria dos conflitos globais é fomentado por Díodor, sendo seu apelido "Dio". Arrogante, soberba e com complexo de messias, seu objetivo é criar um reinado mundial, onde o único rei presente seja ele e mais ninguém.</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -825,6 +842,7 @@
                                                       <img class="card-img-top" src="../../img/skin/s15.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Virgin</h5>
+                                                        <h5 class="card-title">Raridade : Lendário</h5>
                                                         <p class="card-text">Ex serva de "You", seu passado com o vilão é até então desconhecido, apenas sabe-se de sua relação de vassalagem com o rapaz. Ela precisava de dinheiro e comida, então se submeteu a isso...Que horror! Após fugir das garras sujas de "You", ela é uma das pistas mais claras de desvendar o mistério acerca do passado do imperador.</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -854,6 +872,7 @@
                                                       <img class="card-img-top" src="../../img/skin/s18.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Tramper</h5>
+                                                        <h5 class="card-title">Raridade : Lendário</h5>
                                                         <p class="card-text">- Não chega a ser considerado um rei, mas ele da serviços para todos os demais. Armamentos, espionagem...Tudo que você imaginar o Tramper tem consigo, basta ter dinheiro para pagar. Nenhum dos reis ousam roubar ou destrui-lo, nem mesmo Díodor...Por que será?</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
@@ -883,6 +902,7 @@
                                                       <img class="card-img-top" src="../../img/skin/s17.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Hell's Dream</h5>
+                                                        <h5 class="card-title">Raridade : Lendário</h5>
                                                         <p class="card-text"> "Não morra...Você é muito linda para morrer". A última que completa o grupo dos reis, é além de forte, inteligente e sagaz, sendo amplamente classificada entre os reis como a melhor em relações diplomáticas. Sua nação tem diversos investimentos em várias áreas, sendo formada apenas por mulheres. Mas como elas se reproduzem você me pergunta...Ouvi dizer que elas sequestram homens e o forçam a terem relações com elas para depois executa-los...Brutal.</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                                                         <button class="btn btn-success">Comprar</button>
