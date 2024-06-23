@@ -30,7 +30,9 @@
     if($insert==true && $consulta-> num_rows > 0) {
         $linha = $consulta->fetch_array(MYSQLI_ASSOC);
         $skinfree = "INSERT INTO inventario_skins (cod_inventario, cod_usu, cod_skin) VALUES (null, {$linha['cod_usu']},'1');";
-        $consulta2 = $conexao->query($skinfree);
+        $petfree = "INSERT INTO inventario_pets (cod_inventario, cod_usu, cod_pet) VALUES (null, {$linha['cod_usu']},'1');";
+        $free2 = $conexao->query($skinfree);
+        $free3 = $conexao->query($petfree);
         session_start();
         $_SESSION['cod_usu'] = $linha['cod_usu'];
         $_SESSION['dinheiro'] = $linha['dinheiro'];
