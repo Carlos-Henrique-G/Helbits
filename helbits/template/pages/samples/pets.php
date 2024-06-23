@@ -339,7 +339,7 @@
                            <img class="card-img-top" src="../../img/pets/p1.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Lucoa</h5>
-                            <p class="card-text">Ganhe ao entrar no nível 5</p>
+                            <p class="card-text">Grátis</p>
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal1">Visualizar</button>
 
