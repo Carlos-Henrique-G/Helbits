@@ -20,14 +20,14 @@
   include('./conexaocombanco/banco.php');
 
   $cod_usu = $_SESSION['cod_usu'];
-  $sql_nome_usuario = "select nome from tbusuarios
+  $sql_nome_usuario = "select * from tbusuarios
                   where cod_usu = '$cod_usu'";
 
   $consulta_nome = $conexao->query($sql_nome_usuario);
 
   if($consulta_nome -> num_rows > 0) {
     $linha = $consulta_nome -> fetch_array(MYSQLI_ASSOC);
-    
+    $_SESSION['lvl'] = $linha['nivel'];
     $_SESSION['nomeusuario'] = $linha['nome'];
   }
 ?>

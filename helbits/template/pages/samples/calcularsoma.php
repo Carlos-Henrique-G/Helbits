@@ -40,13 +40,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $update3 = $conexao->query($novolvl);   
             $_SESSION['dinheiro'] = $linha['dinheiro'];
             $_SESSION['xp'] = $linha['experiencia'];
-            $_SESSION['lvl'] = $linha['nivel'];
-            if($update == true ) {
+            
+            if($update3 == true ) {
+                $_SESSION['lvl'] = $linha['nivel'];
                 header('Location:principal.php?altera=ok');
             } else {
                 header('Location:principal.php?altera=erro');
             }
     }
     
+}else {
+    header('Location:principal.php?altera=erro');
 }
 ?>
