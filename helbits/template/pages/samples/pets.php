@@ -434,7 +434,7 @@
                            <img class="card-img-top" src="../../img/pets/p18.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Mini R</h5>
-                            <p class="card-text">8000 moedas</p>
+                            <p class="card-text">1000 moedas</p>
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal19">Visualizar</button>
 
