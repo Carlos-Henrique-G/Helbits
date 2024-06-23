@@ -18,19 +18,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Converte o valor para número (float) e adiciona à soma
             $soma = count($_POST['inputs']);
             
-            $soma_string = strval($soma*500);
-        
+            $soma_string_dinheiro = strval($soma*500);
+            $soma_string_xp = strval($soma*25);
+            
+
             $codusu = $_SESSION['cod_usu'];
 
-            $novodinheiro = "update tbusuarios set dinheiro = dinheiro + $soma_string where cod_usu = $codusu";
+            $novodinheiro = "update tbusuarios set dinheiro = dinheiro + $soma_string_dinheiro where cod_usu = $codusu";
+            $novoxp = "update tbusuarios set experiencia = experiencia + $soma_string_xp where cod_usu = $codusu";
+            
             
             $update = $conexao->query($novodinheiro);
+            $update2 = $conexao->query($novoxp);
+            
             $dinheiroselect = "select * from tbusuarios where cod_usu = $codusu;";
 
              $select = $conexao->query($dinheiroselect);
             $linha = $select->fetch_array(MYSQLI_ASSOC);
+            $soma_string_lvl = strval(intdiv($linha['experiencia'], 100));
+            $novolvl = "update tbusuarios set nivel = $soma_string_lvl where cod_usu = $codusu";
+            $update3 = $conexao->query($novolvl);   
             $_SESSION['dinheiro'] = $linha['dinheiro'];
-            if($update == true) {
+            $_SESSION['xp'] = $linha['experiencia'];
+            $_SESSION['lvl'] = $linha['nivel'];
+            if($update == true ) {
                 header('Location:principal.php?altera=ok');
             } else {
                 header('Location:principal.php?altera=erro');

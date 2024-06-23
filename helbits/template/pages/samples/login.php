@@ -24,6 +24,8 @@
         session_start();
         $_SESSION['cod_usu'] = $linha['cod_usu'];
         $_SESSION['dinheiro'] = $linha['dinheiro'];
+        $_SESSION['xp'] = $linha['experiencia'];
+        $_SESSION['lvl'] = $linha['nivel'];
         $_SESSION['login']='ok';
         header('Location: principal.php?login=ok');
     } else {

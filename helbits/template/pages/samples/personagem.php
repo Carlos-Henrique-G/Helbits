@@ -318,7 +318,7 @@
                            <div class="card-body">
                             <h5 class="card-title">Angelisis</h5>
                             
-                            <p class="card-text">1000 moedas</p>
+                            <p class="card-text">Grátis</p>
                             <!-- Small modal -->
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal1">Visualizar</button>
 
@@ -333,7 +333,7 @@
                                                         <h5 class="card-title">Raridade : Comum</h5>
                                                         <p class="card-text">Angelisis sempre foi considerada no seu reino do céu, como uma verdadeira anja. Sua ações, atitudes e ideias levaram-na a ser conhecida como "Mãe dos anjos", aquela que sempre ajuda os mais fracos independente de tudo...Avante nobre guerreira! Não deixe os demônios afetar seu reino e a você!</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                        
                                                       </div>
                                                     </div>
                                                   </div>

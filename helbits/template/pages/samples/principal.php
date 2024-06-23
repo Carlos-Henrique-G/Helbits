@@ -519,8 +519,17 @@
                              <i class="mdi mdi-coin"></i>
                           </span>
                           
-                            <span class="card-title">XP(0/100)<div class="progress">
-                                  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            <span class="card-title">Nível: <?php echo$_SESSION['lvl']?>
+                                  
+                                </span>
+                          </div>
+                        <div class = "status_xp">
+                          <span class="menu-icon">
+                             <i class="mdi mdi-coin"></i>
+                          </span>
+                          
+                            <span class="card-title">XP(<?php echo$_SESSION['xp']- 100*$_SESSION['lvl']?>/100)<div class="progress">
+                                  <div class="progress-bar bg-warning" role="progressbar" style="width: <?php echo$_SESSION['xp']- 100*$_SESSION['lvl']?>%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div></span>
                           </div>
                         </div>
