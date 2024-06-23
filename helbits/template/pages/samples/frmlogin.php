@@ -34,6 +34,12 @@
     <link rel="shortcut icon" href="../../assets/images/favicon.png" />
     <!-- Minha config css login -->
     <link rel="stylesheet" href="./css/customlogincss.css">
+    <style>
+        .form-control, .asColorPicker-input, .dataTables_wrapper select, .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row select, .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .select2-container--default .select2-selection--single, .select2-container--default .select2-selection--single .select2-search__field, .typeahead, .tt-query, .tt-hint{
+          color:#000000;
+        }
+
+      </style>
   </head>
   <body>
     <div class="container-scroller">

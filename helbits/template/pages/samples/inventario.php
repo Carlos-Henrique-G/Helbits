@@ -402,35 +402,45 @@
                     <div class="card-body">
                     <h3 class="card-title">Seu Inventário (Personagens)</h3>
                     <div class="grid-container cardResponsivo">
-                    <div class="item ">
-                         <div class="card">
-                           <img class="card-img-top" src="../../img/skin/s1.jpeg" >
-                           <div class="card-body">
-                            <h5 class="card-title">Angelisis</h5>
-                           
-                            <!-- Small modal -->
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal1">Visualizar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal1">
-                              <div class="modal-dialog modal-sm" >
-                                <div class="modal-content">
-                                        <div class="itemModal">
-                                                    <div class="card">
-                                                      <img class="card-img-top" src="../../img/skin/s1.jpeg" >
-                                                      <div class="card-body">
-                                                        <h5 class="card-title">Angelisis</h5>
-                                                        <p class="card-text">Angelisis sempre foi considerada no seu reino do céu, como uma verdadeira anja. Sua ações, atitudes e ideias levaram-na a ser conhecida como "Mãe dos anjos", aquela que sempre ajuda os mais fracos independente de tudo...Avante nobre guerreira! Não deixe os demônios afetar seu reino e a você!</p>
-                                                        <button class="btn btn-danger" data-dismiss="modal">fechar</button>
-                                                        
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                </div>
-                              </div>
+                    <?php
+                    
+                      include('./conexaocombanco/banco.php');
+                      $codusu_inventario = $_SESSION['cod_usu'];
+                      $sql1 = "select inventario_skins.* , tbskins.* from tbskins
+                                inner join inventario_skins on(tbskins.cod_skin = inventario_skins.cod_skin)
+                                            where cod_usu = $codusu_inventario
+                                            order by tbskins.cod_skin asc;";
+                                          
+                      $consulta_inventario_skin = $conexao->query($sql1);    
+                      if($consulta_inventario_skin == true) {
+                        while($linha_inventario = $consulta_inventario_skin->fetch_array(MYSQLI_ASSOC)){
+                          echo '<div class="item ">
+                          <div class="card">
+                          <img class="card-img-top" src="../../img/skin/'.$linha_inventario['foto_skin'].'" >
+                            <div class="card-body">
+                             <h5 class="card-title">'.$linha_inventario['nome'].'</h5>
+                            
+                             
+                             <form method="POST" action="inventario.php">
+                              <input type="hidden" name="skin_equipada" value='.$linha_inventario['cod_skin'].'>
+                              <button type="submit" class="btn btn-success" >Equipar</button>
+                             </form>
+                            
                             </div>
-                           </div>
-                         </div>
-                      </div>
+                          </div>
+                       </div>';
+                          
+
+                         
+                        } 
+                      }
+                      if(isset($_POST['skin_equipada'])){
+                        $_SESSION['skin_equipada'] = $_POST['skin_equipada'];
+                      }
+                      
+                    ?>
+
                     
                     
                     </div>
@@ -445,35 +455,37 @@
                     <div class="card-body">
                     <h3 class="card-title">Seu Inventário (Pets)</h3>
                     <div class="grid-container cardResponsivo">
-                      <div class="item ">
-                         <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p1.jpeg" >
-                           <div class="card-body">
-                            <h5 class="card-title">Lucoa</h5>
-                            <p class="card-text">Ganhe ao entrar no nível 5</p>
-                            <!-- Small modal -->
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal1">Visualizar</button>
+                    <?php
+                    
+                    
+                    $sql2 = "select inventario_pets.* , tbpets.* from tbpets
+                              inner join inventario_pets on(tbpets.cod_pet = inventario_pets.cod_pet)
+                                          where cod_usu = $codusu_inventario
+                                          order by tbpets.cod_pet asc;";
+                                        
+                    $consulta_inventario_pet = $conexao->query($sql2);    
+                    if($consulta_inventario_pet == true) {
+                      while($linha_inventario2 = $consulta_inventario_pet->fetch_array(MYSQLI_ASSOC)){
+                        echo '<div class="item ">
+                        <div class="card">
+                        <img class="card-img-top" src="../../img/pets/'.$linha_inventario2['foto_pet'].'" >
+                          <div class="card-body">
+                           <h5 class="card-title">'.$linha_inventario2['nome'].'</h5>
+                          
+                           <!-- Small modal -->
+                           <button type="button" class="btn btn-success">Equipar</button>
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal1">
-                              <div class="modal-dialog modal-sm" >
-                                <div class="modal-content">
-                                        <div class="itemModal">
-                                                    <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p1.jpeg" >
-                                                      <div class="card-body">
-                                                        <h5 class="card-title">Lucoa</h5>
-                                                        <p class="card-text">Raridade: Comum</p>
-                                                        <button class="btn btn-danger" data-dismiss="modal">fechar</button>
-                                                        
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                           </div>
-                         </div>
-                      </div>
+                          
+                          </div>
+                        </div>
+                     </div>';
+                        
+
+                       
+                      } 
+                    }
+                  
+                  ?>
 </div>
                     
                     

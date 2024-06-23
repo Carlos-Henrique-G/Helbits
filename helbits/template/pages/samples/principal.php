@@ -300,7 +300,11 @@
             <div class="profile-desc">
               <div class="profile-pic">
                 <div class="count-indicator">
-                  <img class="img-xs rounded-circle " src="../../assets/images/faces/face15.jpg" alt="">
+                  <img class="img-xs rounded-circle " src="../../img/skin/s<?php 
+                  if(isset($_SESSION['skin_equipada'])){
+                  echo$_SESSION['skin_equipada'];}
+                  else{echo 1;}
+                  ?>.jpeg" alt="">
                   <span class="count bg-success"></span>
                 </div>
                 <div class="profile-name">
@@ -439,7 +443,11 @@
               <li class="nav-item dropdown">
                 <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
                   <div class="navbar-profile">
-                    <img class="img-xs rounded-circle" src="../../assets/images/faces/face15.jpg" alt="">
+                  <img class="img-xs rounded-circle " src="../../img/skin/s<?php 
+                  if(isset($_SESSION['skin_equipada'])){
+                  echo$_SESSION['skin_equipada'];}
+                  else{echo 1;}
+                  ?>.jpeg" alt="">
                     <p class="mb-0 d-none d-sm-block navbar-profile-name"><?php echo $_SESSION['nomeusuario']; ?></p>
                     <i class="mdi mdi-menu-down d-none d-sm-block"></i>
                   </div>
@@ -487,7 +495,11 @@
                     <div class="row game-row align-items-center">
                        <div class="jogo col-3 col-1 col-xl-3 pl-2">
                           <img class="jogo-img img-1"src="gamebackground_resized_resized_resized.jpg" alt="" srcset="">
-                          <img class="jogo-img img-2"src="../../img/skin/s1-nobg.png" alt="" srcset="">
+                          <img class="jogo-img img-2"src="../../img/skin/s<?php 
+                  if(isset($_SESSION['skin_equipada'])){
+                  echo$_SESSION['skin_equipada'];}
+                  else{echo 1;}
+                  ?>-removebg-preview.png" alt="" srcset="">
                         </div>
                         
                         <div class="info col-9 col-xl-3 pl-0">
@@ -496,7 +508,7 @@
                           <span class="menu-icon">
                              <i class="mdi mdi-coin icon-item"></i>
                           </span>
-                          <span class="card-title">Money</span>
+                          <span class="card-title">Moedas:<?php echo $_SESSION['dinheiro']?> </span>
                         </div>
                         <div class = "status">
                           
@@ -526,7 +538,9 @@
                 <div class="card atividades">
                   <div class="card-body">
                     <h4 class="card-title">Atividades</h4>
-                    
+
+                    <form action="calcularsoma.php" method="post">
+
                     <div class="list-wrapper">
                       <ul class="d-flex flex-column-reverse text-white todo-list todo-list-custom">
                         
@@ -544,13 +558,22 @@
                           while($linha_habitos = $consulta_habitos->fetch_array(MYSQLI_ASSOC)){
                             
                             array_push($_SESSION['habitosids'], $linha_habitos['cod_hab']);
-
-                            echo "<li><div class='form-check'><label class='form-check-label'><input class='checkbox' type='checkbox'/>". $linha_habitos['nome'] ."<i class='input-helper'></i></label></div><a href='excluirhabito.php?id=".$linha_habitos['cod_hab']."'<i class='remove mdi mdi-close-circle-outline'></i></a></li>";
+                            if($linha_habitos['status']== 'SIM'){
+                              echo "<li><div class='form-check'><label class='form-check-label'><input class='checkbox' checked disabled type='checkbox' name='inputs[]' value='".$linha_habitos['cod_hab']."' />". $linha_habitos['nome'] ."<i class='input-helper'></i></label></div><a href='excluirhabito.php?id=".$linha_habitos['cod_hab']."'<i class='remove mdi mdi-close-circle-outline'></i></a></li>";
+                            }else{
+                            echo "<li><div class='form-check'><label class='form-check-label'><input class='checkbox'  type='checkbox' name='inputs[]' value='".$linha_habitos['cod_hab']."' />". $linha_habitos['nome'] ."<i class='input-helper'></i></label></div><a href='excluirhabito.php?id=".$linha_habitos['cod_hab']."'<i class='remove mdi mdi-close-circle-outline'></i></a></li>";
+                            }
+                           
                           } 
                         }
+                        
                       ?>
+                      
                       </ul>
+                      
                     </div>
+                    <button type="submit" class="btn btn-primary">confirmar</button>
+                    </form>
                   </div>
                 </div>
               </div>
