@@ -401,6 +401,7 @@
                 <div class="card"> 
                     <div class="card-body">
                     <h3 class="card-title">Seu Inventário (Personagens)</h3>
+                    
                     <div class="grid-container cardResponsivo">
 
                     <?php

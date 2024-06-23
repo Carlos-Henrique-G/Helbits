@@ -10,6 +10,6 @@ $sql = "insert into inventario_skins (cod_inventario,cod_usu,cod_skin)
 
     $insert = $conexao->query($sql);
     if($insert == true){
-        header('location:personagem.php');
+        header('location:personagem.php?compraskin=ok');
     }
 ?>
