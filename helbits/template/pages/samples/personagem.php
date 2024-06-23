@@ -363,8 +363,24 @@
                                                         <h5 class="card-title">Kinaiti</h5>
                                                         <h5 class="card-title">Raridade : Comum</h5>
                                                         <p class="card-text">Guerras constantes...Sangue, órgãos e cabeças voando ante o campo de batalha...Esse foi o ambiente que se formou um bravo guerreiro, cujo nome real é Fekhir. Sua amada lança, sendo presente dos seus falecidos pais mostram juntamente com o escudo para quê veio...Lutar! Lutar! E lutar!</p>
+                                                        <form action="comprar_skin.php" method="post">
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_skins where cod_usu='$codusu' and cod_skin= '2';";
+
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="skin" value="2">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
                                                       </div>
                                                     </div>
                                                   </div>
