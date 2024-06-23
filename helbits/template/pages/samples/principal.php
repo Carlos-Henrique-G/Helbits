@@ -28,6 +28,7 @@
   if($consulta_nome -> num_rows > 0) {
     $linha = $consulta_nome -> fetch_array(MYSQLI_ASSOC);
     $_SESSION['lvl'] = $linha['nivel'];
+    $_SESSION['dinheiro'] = $linha['dinheiro'];
     $_SESSION['nomeusuario'] = $linha['nome'];
   }
 ?>
