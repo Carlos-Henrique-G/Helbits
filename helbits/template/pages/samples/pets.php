@@ -353,7 +353,7 @@
                                                         <h5 class="card-title">Lucoa</h5>
                                                         <p class="card-text">Raridade: Comum</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                       
                                                       </div>
                                                     </div>
                                                   </div>
@@ -382,8 +382,24 @@
                                                       <div class="card-body">
                                                         <h5 class="card-title">Caputs</h5>
                                                         <p class="card-text">Raridade: Comum</p>
+                                                        <form action="comprar_pet.php" method="post">
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_pets where cod_usu='$codusu' and cod_pet= '2';";
+
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="pet" value="2">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -411,8 +427,24 @@
                                                       <div class="card-body">
                                                         <h5 class="card-title">Cadin</h5>
                                                         <p class="card-text">Raridade: Comum</p>
+                                                        <form action="comprar_pet.php" method="post">
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_pets where cod_usu='$codusu' and cod_pet= '3';";
+
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="pet" value="3">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -440,8 +472,24 @@
                                                       <div class="card-body">
                                                         <h5 class="card-title">Estojex</h5>
                                                         <p class="card-text"> Raridade: Comum</p>
+                                                        <form action="comprar_pet.php" method="post">
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_pets where cod_usu='$codusu' and cod_pet= '4';";
+
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="pet" value="4">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -453,7 +501,7 @@
                       </div>
                       <div class="item">
                       <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p18.jpeg" >
+                           <img class="card-img-top" src="../../img/pets/p5.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Mini R</h5>
                             <p class="card-text">1000 moedas</p>
@@ -465,12 +513,28 @@
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p18.jpeg" >
+                                                      <img class="card-img-top" src="../../img/pets/p5.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Mini R</h5>
                                                         <p class="card-text">Raridade: Comum</p>
+                                                        <form action="comprar_pet.php" method="post">
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_pets where cod_usu='$codusu' and cod_pet= '5';";
+
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="pet" value="5">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -498,37 +562,24 @@
                                                       <div class="card-body">
                                                         <h5 class="card-title">Bucs</h5>
                                                         <p class="card-text"> Raridade: Raro</p>
+                                                        <form action="comprar_pet.php" method="post">
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                           </div>
-                         </div>
-                      </div>
-                      <div class="item">
-                      <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p5.jpeg" >
-                           <div class="card-body">
-                            <h5 class="card-title">Tet</h5>
-                            <p class="card-text">2100 moedas</p>
-                            <!-- Small modal -->
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal6">Visualizar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_pets where cod_usu='$codusu' and cod_pet= '6';";
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal6">
-                              <div class="modal-dialog modal-sm">
-                                <div class="modal-content">
-                                        <div class="itemModal">
-                                                    <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p5.jpeg" >
-                                                      <div class="card-body">
-                                                        <h5 class="card-title">Tet</h5>
-                                                        <p class="card-text"> Raridade: Raro</p>
-                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="pet" value="6">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -542,6 +593,51 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/pets/p7.jpeg" >
                            <div class="card-body">
+                            <h5 class="card-title">Tet</h5>
+                            <p class="card-text">2100 moedas</p>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal6">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal6">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/pets/p7.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Tet</h5>
+                                                        <p class="card-text"> Raridade: Raro</p>
+                                                        <form action="comprar_pet.php" method="post">
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_pets where cod_usu='$codusu' and cod_pet= '7';";
+
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="pet" value="7">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/pets/p8.jpeg" >
+                           <div class="card-body">
                             <h5 class="card-title">Sopral</h5>
                             <p class="card-text">2100 moedas</p>
                             <!-- Small modal -->
@@ -552,7 +648,7 @@
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p7.jpeg" >
+                                                      <img class="card-img-top" src="../../img/pets/p8.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Sopral</h5>
                                                         <p class="card-text">Raridade: Raro</p>
@@ -569,7 +665,7 @@
                       </div>
                       <div class="item">
                       <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p8.jpeg" >
+                           <img class="card-img-top" src="../../img/pets/p9.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Czará</h5>
                             <p class="card-text">2200 moedas</p>
@@ -581,41 +677,28 @@
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p8.jpeg" >
+                                                      <img class="card-img-top" src="../../img/pets/p9.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Czará</h5>
                                                         <p class="card-text">Raridade: Raro</p>
+                                                        <form action="comprar_pet.php" method="post">
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                           </div>
-                         </div>
-                      </div>
-                      <div class="item">
-                      <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p19.jpeg" >
-                           <div class="card-body">
-                            <h5 class="card-title">Charsaur</h5>
-                            <p class="card-text">2300 moedas</p>
-                            <!-- Small modal -->
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal9">Visualizar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_pets where cod_usu='$codusu' and cod_pet= '9';";
 
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal9">
-                              <div class="modal-dialog modal-sm">
-                                <div class="modal-content">
-                                        <div class="itemModal">
-                                                    <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p19.jpeg" >
-                                                      <div class="card-body">
-                                                        <h5 class="card-title">Charsaur</h5>
-                                                        <p class="card-text">Raridade: Raro</p>
-                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="pet" value="9">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -629,6 +712,51 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/pets/p10.jpeg" >
                            <div class="card-body">
+                            <h5 class="card-title">Charsaur</h5>
+                            <p class="card-text">2300 moedas</p>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal9">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal9">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/pets/p10.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Charsaur</h5>
+                                                        <p class="card-text">Raridade: Raro</p>
+                                                        <form action="comprar_pet.php" method="post">
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_pets where cod_usu='$codusu' and cod_pet= '10';";
+
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="pet" value="10">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/pets/p11.jpeg" >
+                           <div class="card-body">
                             <h5 class="card-title">Azathoth</h5>
                             <p class="card-text">4000 moedas</p>
                             <!-- Small modal -->
@@ -639,12 +767,28 @@
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p10.jpeg" >
+                                                      <img class="card-img-top" src="../../img/pets/p11.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Azathoth</h5>
                                                         <p class="card-text">Raridade: Épico</p>
+                                                        <form action="comprar_pet.php" method="post">
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_pets where cod_usu='$codusu' and cod_pet= '11';";
+
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="pet" value="11">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -656,7 +800,7 @@
                       </div>
                       <div class="item">
                          <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p11.jpeg" >
+                           <img class="card-img-top" src="../../img/pets/p12.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Celetti</h5>
                             <p class="card-text">4300 moedas</p>
@@ -668,12 +812,28 @@
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p11.jpeg" >
+                                                      <img class="card-img-top" src="../../img/pets/p12.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Celetti</h5>
                                                         <p class="card-text">Raridade: Épico</p>
+                                                        <form action="comprar_pet.php" method="post">
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_pets where cod_usu='$codusu' and cod_pet= '12';";
+
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="pet" value="12">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -685,7 +845,7 @@
                       </div>
                       <div class="item">
                       <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p9.jpeg" >
+                           <img class="card-img-top" src="../../img/pets/p13.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Candi</h5>
                             <p class="card-text">4500 moedas</p>
@@ -697,12 +857,28 @@
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p9.jpeg" >
+                                                      <img class="card-img-top" src="../../img/pets/p13.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Candi</h5>
                                                         <p class="card-text">Raridade: Épico</p>
+                                                        <form action="comprar_pet.php" method="post">
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_pets where cod_usu='$codusu' and cod_pet= '13';";
+
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="pet" value="13">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -714,7 +890,7 @@
                       </div>
                       <div class="item">
                       <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p12.jpeg" >
+                           <img class="card-img-top" src="../../img/pets/p14.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Ahá</h5>
                             <p class="card-text">4600 moedas</p>
@@ -726,12 +902,28 @@
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p12.jpeg" >
+                                                      <img class="card-img-top" src="../../img/pets/p14.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Ahá</h5>
                                                         <p class="card-text">Raridade: Épico</p>
+                                                        <form action="comprar_pet.php" method="post">
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_pets where cod_usu='$codusu' and cod_pet= '14';";
+
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="pet" value="14">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -744,7 +936,7 @@
                      
                       <div class="item">
                       <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p13.jpeg" >
+                           <img class="card-img-top" src="../../img/pets/p15.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Samsara</h5>
                             <p class="card-text">5000 moedas</p>
@@ -756,12 +948,28 @@
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p13.jpeg" >
+                                                      <img class="card-img-top" src="../../img/pets/p15.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Samsara</h5>
                                                         <p class="card-text">Raridade: Lendária</p>
+                                                        <form action="comprar_pet.php" method="post">
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_pets where cod_usu='$codusu' and cod_pet= '15';";
+
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="pet" value="15">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -774,7 +982,7 @@
                       
                       <div class="item">
                       <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p14.jpeg" >
+                           <img class="card-img-top" src="../../img/pets/p16.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Raksasha</h5>
                             <p class="card-text">5500 moedas</p>
@@ -786,12 +994,28 @@
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p14.jpeg" >
+                                                      <img class="card-img-top" src="../../img/pets/p16.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Raksasha</h5>
                                                         <p class="card-text">Raridade: Lendário</p>
+                                                        <form action="comprar_pet.php" method="post">
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_pets where cod_usu='$codusu' and cod_pet= '16';";
+
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="pet" value="16">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -803,7 +1027,7 @@
                       </div>
                       <div class="item">
                       <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p15.jpeg" >
+                           <img class="card-img-top" src="../../img/pets/p17.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Lev</h5>
                             <p class="card-text">5600 moedas</p>
@@ -815,12 +1039,28 @@
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p15.jpeg" >
+                                                      <img class="card-img-top" src="../../img/pets/p17.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Lev</h5>
                                                         <p class="card-text">Raridade: Lendário</p>
+                                                        <form action="comprar_pet.php" method="post">
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_pets where cod_usu='$codusu' and cod_pet= '17';";
+
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="pet" value="17">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -833,7 +1073,7 @@
                       
                       <div class="item">
                         <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p17.jpeg" >
+                           <img class="card-img-top" src="../../img/pets/p18.jpeg" >
                            <div class="card-body">
                             <h5 class="card-title">Mhay Eggz</h5>
                             <p class="card-text">5800 moedas</p>
@@ -845,12 +1085,73 @@
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p17.jpeg" >
+                                                      <img class="card-img-top" src="../../img/pets/p18.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Mhay Eggz</h5>
                                                         <p class="card-text">Raridade: Lendário</p>
+                                                        <form action="comprar_pet.php" method="post">
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_pets where cod_usu='$codusu' and cod_pet= '18';";
+
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="pet" value="18">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                           </div>
+                         </div>
+                      </div>
+                      <div class="item">
+                      <div class="card">
+                           <img class="card-img-top" src="../../img/pets/p19.jpeg" >
+                           <div class="card-body">
+                            <h5 class="card-title">Mew-ing</h5>
+                            <p class="card-text">5800 moedas</p>
+                            <!-- Small modal -->
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal10">Visualizar</button>
+
+                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal10">
+                              <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                        <div class="itemModal">
+                                                    <div class="card">
+                                                      <img class="card-img-top" src="../../img/pets/p19.jpeg" >
+                                                      <div class="card-body">
+                                                        <h5 class="card-title">Mew-ing</h5>
+                                                        <p class="card-text">Raridade: Lendário</p>
+                                                        <form action="comprar_pet.php" method="post">
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_pets where cod_usu='$codusu' and cod_pet= '19';";
+
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="pet" value="19">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -864,35 +1165,6 @@
                       <div class="card">
                            <img class="card-img-top" src="../../img/pets/p20.jpeg" >
                            <div class="card-body">
-                            <h5 class="card-title">Mew-ing</h5>
-                            <p class="card-text">5800 moedas</p>
-                            <!-- Small modal -->
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal10">Visualizar</button>
-
-                            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="modal10">
-                              <div class="modal-dialog modal-sm">
-                                <div class="modal-content">
-                                        <div class="itemModal">
-                                                    <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p20.jpeg" >
-                                                      <div class="card-body">
-                                                        <h5 class="card-title">Mew-ing</h5>
-                                                        <p class="card-text">Raridade: Lendário</p>
-                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                           </div>
-                         </div>
-                      </div>
-                      <div class="item">
-                      <div class="card">
-                           <img class="card-img-top" src="../../img/pets/p16.jpeg" >
-                           <div class="card-body">
                             <h5 class="card-title">Heldogo</h5>
                             <p class="card-text">6000 moedas</p>
                             <!-- Small modal -->
@@ -903,12 +1175,29 @@
                                 <div class="modal-content">
                                         <div class="itemModal">
                                                     <div class="card">
-                                                      <img class="card-img-top" src="../../img/pets/p16.jpeg" >
+                                                      <img class="card-img-top" src="../../img/pets/p20.jpeg" >
                                                       <div class="card-body">
                                                         <h5 class="card-title">Heldogo</h5>
                                                         <p class="card-text">Raridade: Lendária</p>
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                        <form action="comprar_pet.php" method="post">
+                                                        <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_pets where cod_usu='$codusu' and cod_pet= '20';";
+
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="pet" value="20">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
                                                       </div>
                                                     </div>
                                                   </div>
