@@ -23,5 +23,7 @@ $sql = "insert into inventario_skins (cod_inventario,cod_usu,cod_skin)
         header('location:personagem.php?compraskin=ok');
     }
 }
-else{header('location:personagem.php?erro=semdinheiro');}
+else{
+    header('location:personagem.php?compraskin=erro');
+}
 ?>

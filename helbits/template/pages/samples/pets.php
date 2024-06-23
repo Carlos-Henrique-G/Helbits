@@ -311,6 +311,28 @@
                 <div class="card "> 
                   <div class="card-body">
                     <h3 class="card-title">Pets</h3>
+                    <?php
+                      if (isset($_GET['comprapet'])) {
+                        if ($_GET['comprapet'] == 'ok') {
+                          echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>Parabéns!</strong> Compra do pet feita com sucesso!
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>';
+                        }
+                      }
+                      if (isset($_GET['comprapet'])) {
+                        if ($_GET['comprapet'] == 'erro') {
+                          echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
+  <strong>Atenção!</strong> Você não tem dinheiro o suficiente para comprar o pet!
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>';
+                        }
+                      }
+                    ?>
                     <div class="grid-container cardResponsivo">
                       <div class="item ">
                          <div class="card">
