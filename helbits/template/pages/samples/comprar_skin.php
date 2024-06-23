@@ -13,11 +13,13 @@ $select = $conexao->query($sql2);
 $linha = $select->fetch_array(MYSQLI_ASSOC);
 
 if($linha['dinheiro'] >= $linha2['preco'] ){
-
+$dinheiro = $linha['dinheiro'];
+$preco = $linha2['preco'];
+$dinheirofinal = $dinheiro - $preco;
 $sql = "insert into inventario_skins (cod_inventario,cod_usu,cod_skin)
                                     values (null,'$codusu','$compra')";
-   
-
+$sql4 = "update tbusuarios set dinheiro = $dinheirofinal where cod_usu = $codusu;";   
+    $update = $conexao->query($sql4);
     $insert = $conexao->query($sql);
     if($insert == true){
         header('location:personagem.php?compraskin=ok');
