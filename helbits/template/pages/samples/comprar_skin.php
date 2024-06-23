@@ -22,8 +22,10 @@ $sql4 = "update tbusuarios set dinheiro = $dinheirofinal where cod_usu = $codusu
     $update = $conexao->query($sql4);
     $insert = $conexao->query($sql);
     if($insert == true){
-        header('location:personagem.php');
+        header('location:personagem.php?compraskin=ok');
     }
 }
-else{header('location:personagem.php?erro=semdinheiro');}
+else{
+    header('location:personagem.php?compraskin=erro');
+}
 ?>
