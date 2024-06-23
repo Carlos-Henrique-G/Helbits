@@ -409,8 +409,24 @@
                                                         <h5 class="card-title">Sokernaiti</h5>
                                                         <h5 class="card-title">Raridade : Comum</h5>
                                                         <p class="card-text">Amigo de Kinaiti e cavaleiro que completa o trio, diferente de seus companheiros que portam espadas e arco e flechas, ele usa uma bola de futebol amaldiçoada que fere seus oponentes pra valer de acordo com a potência do seu chute! Temos aqui um inimigo a altura para nosso tão honrado Roberto Carlos não é mesmo?</p>
+                                                        <form action="comprar_skin.php" method="post">
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_skins where cod_usu='$codusu' and cod_skin= '3';";
+
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="skin" value="3">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -439,8 +455,24 @@
                                                         <h5 class="card-title">Serventia</h5>
                                                         <h5 class="card-title">Raridade : Comum</h5>
                                                         <p class="card-text"> Paixão de Kinaiti, uma brava guerreira que lutou ao lado deste com vigor e coragem. Sua adaga abençoada por Angelisis mostra que independente de onde veio, ou do que faz...Até mesmo os monstros merecem amar, mas da sua maneira. Violenta, animada e ama jogar conversa fora com seu amado para esquecer a realidade cruel que se encontravam...</p>
+                                                        <form action="comprar_skin.php" method="post">
                                                         <button class="btn btn-danger" data-dismiss="modal">Cancelar</button>
-                                                        <button class="btn btn-success">Comprar</button>
+                                                        <?php
+                                                        include('./conexaocombanco/banco.php');
+                                                        $codusu = $_SESSION['cod_usu'];
+                                                         $teste_personagem = "select * from inventario_skins where cod_usu='$codusu' and cod_skin= '4';";
+
+                                                          $consulta = $conexao->query($teste_personagem);
+
+                                                        if($consulta->num_rows > 0) {
+                                                          $linha = $consulta->fetch_array(MYSQLI_ASSOC);
+                                                        }else{
+                                                          echo'
+                                                          <input type="hidden" name="skin" value="4">
+                                                        <button type="submit" class="btn btn-success">Comprar</button>
+                                                        ';}
+                                                        ?>
+                                                        </form>
                                                       </div>
                                                     </div>
                                                   </div>
