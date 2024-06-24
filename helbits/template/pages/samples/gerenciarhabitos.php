@@ -216,7 +216,11 @@
             <div class="profile-desc">
               <div class="profile-pic">
                 <div class="count-indicator">
-                  <img class="img-xs rounded-circle " src="../../assets/images/faces/face15.jpg" alt="">
+                <img class="img-xs rounded-circle " src="../../img/skin/s<?php 
+                  if(isset($_SESSION['skin_equipada'])){
+                  echo$_SESSION['skin_equipada'];}
+                  else{echo 1;}
+                  ?>.jpeg" alt="">
                   <span class="count bg-success"></span>
                 </div>
                 <div class="profile-name">
@@ -353,7 +357,11 @@
               <li class="nav-item dropdown">
                 <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
                   <div class="navbar-profile">
-                    <img class="img-xs rounded-circle" src="../../assets/images/faces/face15.jpg" alt="">
+                  <img class="img-xs rounded-circle " src="../../img/skin/s<?php 
+                  if(isset($_SESSION['skin_equipada'])){
+                  echo$_SESSION['skin_equipada'];}
+                  else{echo 1;}
+                  ?>.jpeg" alt="">
                     <p class="mb-0 d-none d-sm-block navbar-profile-name"><?php echo $_SESSION['nomeusuario']; ?></p>
                     <i class="mdi mdi-menu-down d-none d-sm-block"></i>
                   </div>
@@ -412,6 +420,7 @@
                             <th>Descrição</th>
                             
                             <th>tipo</th>
+                            <th>excluir</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -430,7 +439,7 @@
                          echo "<td>".$linha_habitos['descricao']."</td>";
 
                          echo "<td>".$linha_habitos['tipo']."</td>";
-
+                         echo "<td><a title='excluir' href='excluirhabito.php?id=".$linha_habitos['cod_hab']."' class='btn btn-danger'><i class='mdi mdi-delete'></i></a>";
 
                         echo "</tr>";
 

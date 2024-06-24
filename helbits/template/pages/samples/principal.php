@@ -225,8 +225,12 @@
       margin-right:-5%;
     }
   
-    
-
+    .status i{
+      color:#5f13ec;
+    }
+    .status_xp i{
+      color:#5f13ec;
+    }
   
   </style>
   </head>
@@ -517,7 +521,7 @@
                         </div>
                         <div class = "status_xp">
                           <span class="menu-icon">
-                             <i class="mdi mdi-coin"></i>
+                             <i class="mdi mdi-star"></i>
                           </span>
                           
                             <span class="card-title">Nível: <?php echo$_SESSION['lvl']?>
@@ -526,7 +530,7 @@
                           </div>
                         <div class = "status_xp">
                           <span class="menu-icon">
-                             <i class="mdi mdi-coin"></i>
+                             <i class="mdi mdi-arrow-up"></i>
                           </span>
                           
                             <span class="card-title">XP(<?php echo$_SESSION['xp']- 100*$_SESSION['lvl']?>/100)<div class="progress">
